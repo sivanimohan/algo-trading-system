@@ -209,3 +209,21 @@ class TradingVisualizer:
         self.plot_monthly_returns(symbols_results)
         self.plot_drawdowns(symbols_results)
         return self.generate_performance_report(symbols_results)
+def plot_performance(symbols_results):
+     """
+     Simple wrapper to plot equity curves for use in Streamlit.
+     Returns a matplotlib figure.
+    """
+     import matplotlib.pyplot as plt
+     import pandas as pd
+
+     fig, ax = plt.subplots(figsize=(12, 6))
+     for symbol, results in symbols_results.items():
+        equity_data = pd.DataFrame(results['equity_curve'])
+        ax.plot(equity_data['date'], equity_data['equity'], label=symbol)
+        ax.set_title('Portfolio Equity Curves')
+        ax.set_xlabel('Date')
+        ax.set_ylabel('Equity ($)')
+        ax.legend()
+        ax.grid(True)
+        return fig

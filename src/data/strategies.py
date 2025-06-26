@@ -90,3 +90,12 @@ class TradingStrategies:
         elif sell_count >= 2:
             return 'sell'
         return 'hold'
+
+# Add this dictionary to expose strategies for import in app.py
+STRATEGIES = {
+    "rsi": "Relative Strength Index (RSI) Strategy",
+    "macd": "MACD Crossover Strategy",
+    "bollinger": "Bollinger Bands Strategy",
+    "moving_average": "Moving Average Crossover Strategy",
+    "combined": "Combined Multi-indicator Strategy"
+}

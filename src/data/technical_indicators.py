@@ -158,3 +158,19 @@ class TechnicalIndicators:
         
      except Exception as e:
         raise Exception(f"Error generating signal: {str(e)}")
+available_indicators = [
+    "RSI",
+    "MACD",
+    "MACD_Histogram",
+    "Signal_Line",
+    "Upper_Band",
+    "Middle_Band",
+    "Lower_Band",
+    "MA20",
+    "MA50",
+    "MA200",
+    "ATR",
+    "ROC",
+    "MOM",
+    "Volume"
+]
