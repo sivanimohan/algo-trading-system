@@ -1,0 +1,1712 @@
+{
+    "TCS.NS": {
+        "trades": [
+            {
+                "symbol": "TCS.NS",
+                "direction": "short",
+                "entry_date": "2024-09-03 00:00:00+05:30",
+                "entry_price": 4451.10400390625,
+                "shares": 0.4493267284351966,
+                "position_size": 2000.0,
+                "stop_loss": 4540.126083984375,
+                "take_profit": 4273.05984375,
+                "status": "closed",
+                "exit_date": "2024-09-19 00:00:00+05:30",
+                "exit_price": 4237.83837890625,
+                "close_reason": "take_profit",
+                "pnl": 95.82594556893747,
+                "pnl_pct": 4.791297278446874
+            },
+            {
+                "symbol": "TCS.NS",
+                "direction": "long",
+                "entry_date": "2024-09-19 00:00:00+05:30",
+                "entry_price": 4237.83837890625,
+                "shares": 0.47239095499155315,
+                "position_size": 2001.916518911379,
+                "stop_loss": 4153.081611328125,
+                "take_profit": 4407.3519140625,
+                "status": "closed",
+                "exit_date": "2024-10-11 00:00:00+05:30",
+                "exit_price": 4092.883056640625,
+                "close_reason": "stop_loss",
+                "pnl": -68.47558311616694,
+                "pnl_pct": -3.4205014279717942
+            },
+            {
+                "symbol": "TCS.NS",
+                "direction": "long",
+                "entry_date": "2024-10-16 00:00:00+05:30",
+                "entry_price": 4039.369384765625,
+                "shares": 0.49526220968898405,
+                "position_size": 2000.5470072490555,
+                "stop_loss": 3958.5819970703124,
+                "take_profit": 4200.94416015625,
+                "status": "closed",
+                "exit_date": "2024-10-31 00:00:00+05:30",
+                "exit_price": 3924.136474609375,
+                "close_reason": "stop_loss",
+                "pnl": -57.070505712876546,
+                "pnl_pct": -2.8527450495329267
+            },
+            {
+                "symbol": "TCS.NS",
+                "direction": "short",
+                "entry_date": "2024-11-25 00:00:00+05:30",
+                "entry_price": 4266.91552734375,
+                "shares": 0.4685833558977138,
+                "position_size": 1999.4055971347977,
+                "stop_loss": 4352.253837890625,
+                "take_profit": 4096.23890625,
+                "status": "closed",
+                "exit_date": "2024-12-05 00:00:00+05:30",
+                "exit_price": 4414.20166015625,
+                "close_reason": "stop_loss",
+                "pnl": -69.01583039047763,
+                "pnl_pct": -3.4518174046016066
+            },
+            {
+                "symbol": "TCS.NS",
+                "direction": "long",
+                "entry_date": "2025-02-11 00:00:00+05:30",
+                "entry_price": 3928.631103515625,
+                "shares": 0.508580527894057,
+                "position_size": 1998.0252805269886,
+                "stop_loss": 3850.0584814453123,
+                "take_profit": 4085.77634765625,
+                "status": "closed",
+                "exit_date": "2025-02-18 00:00:00+05:30",
+                "exit_price": 3839.076904296875,
+                "close_reason": "stop_loss",
+                "pnl": -45.54552191380143,
+                "pnl_pct": -2.2795268086792464
+            },
+            {
+                "symbol": "TCS.NS",
+                "direction": "long",
+                "entry_date": "2025-02-19 00:00:00+05:30",
+                "entry_price": 3750.761962890625,
+                "shares": 0.5324556423062323,
+                "position_size": 1997.1143700887126,
+                "stop_loss": 3675.7467236328125,
+                "take_profit": 3900.79244140625,
+                "status": "closed",
+                "exit_date": "2025-02-24 00:00:00+05:30",
+                "exit_price": 3643.218017578125,
+                "close_reason": "stop_loss",
+                "pnl": -57.26238047751351,
+                "pnl_pct": -2.867255943632807
+            },
+            {
+                "symbol": "TCS.NS",
+                "direction": "long",
+                "entry_date": "2025-02-24 00:00:00+05:30",
+                "entry_price": 3643.218017578125,
+                "shares": 0.5478588195515149,
+                "position_size": 1995.969122479162,
+                "stop_loss": 3570.3536572265625,
+                "take_profit": 3788.94673828125,
+                "status": "closed",
+                "exit_date": "2025-02-28 00:00:00+05:30",
+                "exit_price": 3452.5625,
+                "close_reason": "stop_loss",
+                "pnl": -104.45230680133467,
+                "pnl_pct": -5.233162458525214
+            },
+            {
+                "symbol": "TCS.NS",
+                "direction": "long",
+                "entry_date": "2025-02-28 00:00:00+05:30",
+                "entry_price": 3452.5625,
+                "shares": 0.5775073083667958,
+                "position_size": 1993.8800763431352,
+                "stop_loss": 3383.51125,
+                "take_profit": 3590.665,
+                "status": "closed",
+                "exit_date": "2025-03-24 00:00:00+05:30",
+                "exit_price": 3596.978759765625,
+                "close_reason": "take_profit",
+                "pnl": 83.40144546164608,
+                "pnl_pct": 4.182871700820043
+            },
+            {
+                "symbol": "TCS.NS",
+                "direction": "long",
+                "entry_date": "2025-04-22 00:00:00+05:30",
+                "entry_price": 3285.199951171875,
+                "shares": 0.6074358136224035,
+                "position_size": 1995.5481052523683,
+                "stop_loss": 3219.4959521484375,
+                "take_profit": 3416.60794921875,
+                "status": "closed",
+                "exit_date": "2025-04-25 00:00:00+05:30",
+                "exit_price": 3417.623046875,
+                "close_reason": "take_profit",
+                "pnl": 80.43853088082514,
+                "pnl_pct": 4.030899113336705
+            },
+            {
+                "symbol": "TCS.NS",
+                "direction": "short",
+                "entry_date": "2025-05-12 00:00:00+05:30",
+                "entry_price": 3588.50390625,
+                "shares": 0.5565430407896702,
+                "position_size": 1997.1568758699846,
+                "stop_loss": 3660.273984375,
+                "take_profit": 3444.96375,
+                "status": "closed",
+                "exit_date": "2025-05-30 00:00:00+05:30",
+                "exit_price": 3432.88720703125,
+                "close_reason": "take_profit",
+                "pnl": 86.60739098085462,
+                "pnl_pct": 4.336534201557273
+            }
+        ],
+        "metrics": {
+            "total_trades": 10,
+            "win_rate": 0.4,
+            "total_pnl": -55.54881551990745,
+            "avg_pnl": -5.554881551990745,
+            "max_drawdown": 401.82212841217074,
+            "sharpe_ratio": -1.0846523835622335,
+            "return_pct": -0.05554881551990745
+        },
+        "equity_curve": [
+            {
+                "date": "2024-09-19 00:00:00+05:30",
+                "equity": 100095.82594556894
+            },
+            {
+                "date": "2024-10-11 00:00:00+05:30",
+                "equity": 100027.35036245278
+            },
+            {
+                "date": "2024-10-31 00:00:00+05:30",
+                "equity": 99970.2798567399
+            },
+            {
+                "date": "2024-12-05 00:00:00+05:30",
+                "equity": 99901.26402634942
+            },
+            {
+                "date": "2025-02-18 00:00:00+05:30",
+                "equity": 99855.71850443563
+            },
+            {
+                "date": "2025-02-24 00:00:00+05:30",
+                "equity": 99798.45612395812
+            },
+            {
+                "date": "2025-02-28 00:00:00+05:30",
+                "equity": 99694.00381715679
+            },
+            {
+                "date": "2025-03-24 00:00:00+05:30",
+                "equity": 99777.40526261843
+            },
+            {
+                "date": "2025-04-25 00:00:00+05:30",
+                "equity": 99857.84379349925
+            },
+            {
+                "date": "2025-05-30 00:00:00+05:30",
+                "equity": 99944.4511844801
+            }
+        ]
+    },
+    "SBIN.NS": {
+        "trades": [
+            {
+                "symbol": "SBIN.NS",
+                "direction": "long",
+                "entry_date": "2024-08-05 00:00:00+05:30",
+                "entry_price": 795.6732788085938,
+                "shares": 2.512198256403244,
+                "position_size": 1998.8890236896016,
+                "stop_loss": 779.7598132324218,
+                "take_profit": 827.5002099609376,
+                "status": "closed",
+                "exit_date": "2024-09-06 00:00:00+05:30",
+                "exit_price": 767.0970458984375,
+                "close_reason": "stop_loss",
+                "pnl": -71.78916249146754,
+                "pnl_pct": -3.5914531342494054
+            },
+            {
+                "symbol": "SBIN.NS",
+                "direction": "long",
+                "entry_date": "2024-09-09 00:00:00+05:30",
+                "entry_price": 768.8125610351562,
+                "shares": 2.598101724236049,
+                "position_size": 1997.4532404397721,
+                "stop_loss": 753.4363098144531,
+                "take_profit": 799.5650634765625,
+                "status": "closed",
+                "exit_date": "2024-10-18 00:00:00+05:30",
+                "exit_price": 804.2510375976562,
+                "close_reason": "take_profit",
+                "pnl": 92.07276706133007,
+                "pnl_pct": 4.609508007359349
+            },
+            {
+                "symbol": "SBIN.NS",
+                "direction": "long",
+                "entry_date": "2024-12-27 00:00:00+05:30",
+                "entry_price": 783.9094848632812,
+                "shares": 2.550415238475764,
+                "position_size": 1999.2946957809988,
+                "stop_loss": 768.2312951660156,
+                "take_profit": 815.2658642578125,
+                "status": "closed",
+                "exit_date": "2025-01-06 00:00:00+05:30",
+                "exit_price": 761.1171264648438,
+                "close_reason": "stop_loss",
+                "pnl": -58.12997818017606,
+                "pnl_pct": -2.907524253570249
+            },
+            {
+                "symbol": "SBIN.NS",
+                "direction": "long",
+                "entry_date": "2025-01-13 00:00:00+05:30",
+                "entry_price": 715.1403198242188,
+                "shares": 2.7940420094178657,
+                "position_size": 1998.1320962173954,
+                "stop_loss": 700.8375134277344,
+                "take_profit": 743.7459326171876,
+                "status": "closed",
+                "exit_date": "2025-01-16 00:00:00+05:30",
+                "exit_price": 751.2158813476562,
+                "close_reason": "take_profit",
+                "pnl": 100.79663440982316,
+                "pnl_pct": 5.044543081042454
+            },
+            {
+                "symbol": "SBIN.NS",
+                "direction": "short",
+                "entry_date": "2025-03-24 00:00:00+05:30",
+                "entry_price": 765.4304809570312,
+                "shares": 2.6131021414312783,
+                "position_size": 2000.1480289055917,
+                "stop_loss": 780.7390905761719,
+                "take_profit": 734.81326171875,
+                "status": "closed",
+                "exit_date": "2025-04-07 00:00:00+05:30",
+                "exit_price": 732.1978149414062,
+                "close_reason": "take_profit",
+                "pnl": 86.84035073090016,
+                "pnl_pct": 4.341696188277426
+            }
+        ],
+        "metrics": {
+            "total_trades": 5,
+            "win_rate": 0.6,
+            "total_pnl": 149.7906115304098,
+            "avg_pnl": 29.958122306081957,
+            "max_drawdown": 71.78916249146754,
+            "sharpe_ratio": 5.47250600265473,
+            "return_pct": 0.1497906115304098
+        },
+        "equity_curve": [
+            {
+                "date": "2024-09-06 00:00:00+05:30",
+                "equity": 99928.21083750854
+            },
+            {
+                "date": "2024-10-18 00:00:00+05:30",
+                "equity": 100020.28360456986
+            },
+            {
+                "date": "2025-01-06 00:00:00+05:30",
+                "equity": 99962.15362638969
+            },
+            {
+                "date": "2025-01-16 00:00:00+05:30",
+                "equity": 100062.95026079951
+            },
+            {
+                "date": "2025-04-07 00:00:00+05:30",
+                "equity": 100149.7906115304
+            }
+        ]
+    },
+    "RELIANCE.NS": {
+        "trades": [
+            {
+                "symbol": "RELIANCE.NS",
+                "direction": "long",
+                "entry_date": "2024-10-07 00:00:00+05:30",
+                "entry_price": 1370.7249755859375,
+                "shares": 1.460456963705993,
+                "position_size": 2001.8848359202098,
+                "stop_loss": 1343.3104760742187,
+                "take_profit": 1425.553974609375,
+                "status": "closed",
+                "exit_date": "2024-10-23 00:00:00+05:30",
+                "exit_price": 1338.5250244140625,
+                "close_reason": "stop_loss",
+                "pnl": -47.026642919957794,
+                "pnl_pct": -2.3491182947265288
+            },
+            {
+                "symbol": "RELIANCE.NS",
+                "direction": "long",
+                "entry_date": "2024-11-08 00:00:00+05:30",
+                "entry_price": 1283.75,
+                "shares": 1.5586713168933286,
+                "position_size": 2000.9443030618106,
+                "stop_loss": 1258.075,
+                "take_profit": 1335.1000000000001,
+                "status": "closed",
+                "exit_date": "2024-11-13 00:00:00+05:30",
+                "exit_price": 1252.050048828125,
+                "close_reason": "stop_loss",
+                "pnl": -49.40980463852062,
+                "pnl_pct": -2.469324336660175
+            },
+            {
+                "symbol": "RELIANCE.NS",
+                "direction": "long",
+                "entry_date": "2024-11-13 00:00:00+05:30",
+                "entry_price": 1252.050048828125,
+                "shares": 1.597345177088511,
+                "position_size": 1999.95610696904,
+                "stop_loss": 1227.0090478515624,
+                "take_profit": 1302.13205078125,
+                "status": "closed",
+                "exit_date": "2024-11-21 00:00:00+05:30",
+                "exit_price": 1223.0,
+                "close_reason": "stop_loss",
+                "pnl": -46.40295538979122,
+                "pnl_pct": -2.3201986897660225
+            },
+            {
+                "symbol": "RELIANCE.NS",
+                "direction": "long",
+                "entry_date": "2024-11-21 00:00:00+05:30",
+                "entry_price": 1223.0,
+                "shares": 1.6345282484556374,
+                "position_size": 1999.0280478612444,
+                "stop_loss": 1198.54,
+                "take_profit": 1271.92,
+                "status": "closed",
+                "exit_date": "2024-11-25 00:00:00+05:30",
+                "exit_price": 1287.0,
+                "close_reason": "take_profit",
+                "pnl": 104.60980790116079,
+                "pnl_pct": 5.233033524121014
+            },
+            {
+                "symbol": "RELIANCE.NS",
+                "direction": "long",
+                "entry_date": "2024-12-20 00:00:00+05:30",
+                "entry_price": 1205.300048828125,
+                "shares": 1.6602672886016172,
+                "position_size": 2001.1202440192678,
+                "stop_loss": 1181.1940478515626,
+                "take_profit": 1253.51205078125,
+                "status": "closed",
+                "exit_date": "2025-01-08 00:00:00+05:30",
+                "exit_price": 1265.5,
+                "close_reason": "take_profit",
+                "pnl": 99.94800970607865,
+                "pnl_pct": 4.994602898291219
+            },
+            {
+                "symbol": "RELIANCE.NS",
+                "direction": "short",
+                "entry_date": "2025-01-17 00:00:00+05:30",
+                "entry_price": 1302.3499755859375,
+                "shares": 1.5380805787723613,
+                "position_size": 2003.1192042133894,
+                "stop_loss": 1328.3969750976562,
+                "take_profit": 1250.2559765624999,
+                "status": "closed",
+                "exit_date": "2025-01-24 00:00:00+05:30",
+                "exit_price": 1246.300048828125,
+                "close_reason": "take_profit",
+                "pnl": 86.20930378780471,
+                "pnl_pct": 4.30375304707133
+            },
+            {
+                "symbol": "RELIANCE.NS",
+                "direction": "long",
+                "entry_date": "2025-03-03 00:00:00+05:30",
+                "entry_price": 1171.25,
+                "shares": 1.711712606436837,
+                "position_size": 2004.8433902891454,
+                "stop_loss": 1147.825,
+                "take_profit": 1218.1000000000001,
+                "status": "closed",
+                "exit_date": "2025-03-07 00:00:00+05:30",
+                "exit_price": 1249.800048828125,
+                "close_reason": "take_profit",
+                "pnl": 134.45510881533068,
+                "pnl_pct": 6.706514307630737
+            },
+            {
+                "symbol": "RELIANCE.NS",
+                "direction": "short",
+                "entry_date": "2025-03-24 00:00:00+05:30",
+                "entry_price": 1302.0999755859375,
+                "shares": 1.5417652485263846,
+                "position_size": 2007.5324924654524,
+                "stop_loss": 1328.1419750976563,
+                "take_profit": 1250.0159765624999,
+                "status": "closed",
+                "exit_date": "2025-04-03 00:00:00+05:30",
+                "exit_price": 1248.699951171875,
+                "close_reason": "take_profit",
+                "pnl": 82.33030191206208,
+                "pnl_pct": 4.101069458205988
+            },
+            {
+                "symbol": "RELIANCE.NS",
+                "direction": "short",
+                "entry_date": "2025-04-28 00:00:00+05:30",
+                "entry_price": 1368.800048828125,
+                "shares": 1.4678397332202158,
+                "position_size": 2009.1790985036932,
+                "stop_loss": 1396.1760498046876,
+                "take_profit": 1314.048046875,
+                "status": "closed",
+                "exit_date": "2025-04-29 00:00:00+05:30",
+                "exit_price": 1399.699951171875,
+                "close_reason": "stop_loss",
+                "pnl": -45.35610441278072,
+                "pnl_pct": -2.257444567612664
+            },
+            {
+                "symbol": "RELIANCE.NS",
+                "direction": "short",
+                "entry_date": "2025-04-29 00:00:00+05:30",
+                "entry_price": 1399.699951171875,
+                "shares": 1.4347874876569413,
+                "position_size": 2008.2719764154378,
+                "stop_loss": 1427.6939501953125,
+                "take_profit": 1343.711953125,
+                "status": "closed",
+                "exit_date": "2025-05-05 00:00:00+05:30",
+                "exit_price": 1431.300048828125,
+                "close_reason": "stop_loss",
+                "pnl": -45.339424725924935,
+                "pnl_pct": -2.2576336899771525
+            }
+        ],
+        "metrics": {
+            "total_trades": 10,
+            "win_rate": 0.5,
+            "total_pnl": 274.01760003546167,
+            "avg_pnl": 27.401760003546165,
+            "max_drawdown": 142.83940294826965,
+            "sharpe_ratio": 5.486130880452917,
+            "return_pct": 0.27401760003546166
+        },
+        "equity_curve": [
+            {
+                "date": "2024-10-23 00:00:00+05:30",
+                "equity": 99952.97335708005
+            },
+            {
+                "date": "2024-11-13 00:00:00+05:30",
+                "equity": 99903.56355244153
+            },
+            {
+                "date": "2024-11-21 00:00:00+05:30",
+                "equity": 99857.16059705174
+            },
+            {
+                "date": "2024-11-25 00:00:00+05:30",
+                "equity": 99961.7704049529
+            },
+            {
+                "date": "2025-01-08 00:00:00+05:30",
+                "equity": 100061.71841465897
+            },
+            {
+                "date": "2025-01-24 00:00:00+05:30",
+                "equity": 100147.92771844678
+            },
+            {
+                "date": "2025-03-07 00:00:00+05:30",
+                "equity": 100282.3828272621
+            },
+            {
+                "date": "2025-04-03 00:00:00+05:30",
+                "equity": 100364.71312917417
+            },
+            {
+                "date": "2025-04-29 00:00:00+05:30",
+                "equity": 100319.35702476138
+            },
+            {
+                "date": "2025-05-05 00:00:00+05:30",
+                "equity": 100274.01760003545
+            }
+        ]
+    },
+    "ICICIBANK.NS": {
+        "trades": [
+            {
+                "symbol": "ICICIBANK.NS",
+                "direction": "long",
+                "entry_date": "2024-08-05 00:00:00+05:30",
+                "entry_price": 1162.5914306640625,
+                "shares": 1.7266299535463885,
+                "position_size": 2007.3651879209197,
+                "stop_loss": 1139.3396020507812,
+                "take_profit": 1209.095087890625,
+                "status": "closed",
+                "exit_date": "2024-08-26 00:00:00+05:30",
+                "exit_price": 1213.300048828125,
+                "close_reason": "take_profit",
+                "pnl": 87.55501902501679,
+                "pnl_pct": 4.3616886230701155
+            },
+            {
+                "symbol": "ICICIBANK.NS",
+                "direction": "short",
+                "entry_date": "2024-08-27 00:00:00+05:30",
+                "entry_price": 1226.3499755859375,
+                "shares": 1.6382894999785724,
+                "position_size": 2009.1162883014201,
+                "stop_loss": 1250.8769750976562,
+                "take_profit": 1177.2959765624998,
+                "status": "closed",
+                "exit_date": "2024-09-12 00:00:00+05:30",
+                "exit_price": 1252.1500244140625,
+                "close_reason": "stop_loss",
+                "pnl": -42.26794909405166,
+                "pnl_pct": -2.1038079945977897
+            },
+            {
+                "symbol": "ICICIBANK.NS",
+                "direction": "short",
+                "entry_date": "2024-09-18 00:00:00+05:30",
+                "entry_price": 1288.3499755859375,
+                "shares": 1.55879300452207,
+                "position_size": 2008.270929319539,
+                "stop_loss": 1314.1169750976562,
+                "take_profit": 1236.8159765625,
+                "status": "closed",
+                "exit_date": "2024-09-20 00:00:00+05:30",
+                "exit_price": 1338.449951171875,
+                "close_reason": "stop_loss",
+                "pnl": -78.09549147008586,
+                "pnl_pct": -3.888693020943489
+            },
+            {
+                "symbol": "ICICIBANK.NS",
+                "direction": "short",
+                "entry_date": "2024-09-20 00:00:00+05:30",
+                "entry_price": 1338.449951171875,
+                "shares": 1.4992783388972972,
+                "position_size": 2006.7090194901373,
+                "stop_loss": 1365.2189501953126,
+                "take_profit": 1284.9119531249999,
+                "status": "closed",
+                "exit_date": "2024-09-30 00:00:00+05:30",
+                "exit_price": 1273.0,
+                "close_reason": "take_profit",
+                "pnl": 98.12769407387796,
+                "pnl_pct": 4.889981214058137
+            },
+            {
+                "symbol": "ICICIBANK.NS",
+                "direction": "short",
+                "entry_date": "2024-12-05 00:00:00+05:30",
+                "entry_price": 1336.5,
+                "shares": 1.5029342112769284,
+                "position_size": 2008.6715733716148,
+                "stop_loss": 1363.23,
+                "take_profit": 1283.04,
+                "status": "closed",
+                "exit_date": "2024-12-31 00:00:00+05:30",
+                "exit_price": 1281.6500244140625,
+                "close_reason": "take_profit",
+                "pnl": 82.43590479580975,
+                "pnl_pct": 4.104001166175645
+            },
+            {
+                "symbol": "ICICIBANK.NS",
+                "direction": "long",
+                "entry_date": "2025-01-13 00:00:00+05:30",
+                "entry_price": 1229.75,
+                "shares": 1.634739005055931,
+                "position_size": 2010.320291467531,
+                "stop_loss": 1205.155,
+                "take_profit": 1278.94,
+                "status": "closed",
+                "exit_date": "2025-01-21 00:00:00+05:30",
+                "exit_price": 1196.1500244140625,
+                "close_reason": "stop_loss",
+                "pnl": -54.92719065925904,
+                "pnl_pct": -2.7322606697245377
+            },
+            {
+                "symbol": "ICICIBANK.NS",
+                "direction": "long",
+                "entry_date": "2025-01-21 00:00:00+05:30",
+                "entry_price": 1196.1500244140625,
+                "shares": 1.6797405899302378,
+                "position_size": 2009.2217476543456,
+                "stop_loss": 1172.2270239257812,
+                "take_profit": 1243.996025390625,
+                "status": "closed",
+                "exit_date": "2025-01-28 00:00:00+05:30",
+                "exit_price": 1246.9000244140625,
+                "close_reason": "take_profit",
+                "pnl": 85.24683493895957,
+                "pnl_pct": 4.242778829090443
+            },
+            {
+                "symbol": "ICICIBANK.NS",
+                "direction": "short",
+                "entry_date": "2025-03-19 00:00:00+05:30",
+                "entry_price": 1313.0999755859375,
+                "shares": 1.5314345607658704,
+                "position_size": 2010.9266843531252,
+                "stop_loss": 1339.3619750976563,
+                "take_profit": 1260.5759765625,
+                "status": "closed",
+                "exit_date": "2025-03-21 00:00:00+05:30",
+                "exit_price": 1343.0999755859375,
+                "close_reason": "stop_loss",
+                "pnl": -45.94303682297611,
+                "pnl_pct": -2.2846699076826398
+            },
+            {
+                "symbol": "ICICIBANK.NS",
+                "direction": "short",
+                "entry_date": "2025-03-21 00:00:00+05:30",
+                "entry_price": 1343.0999755859375,
+                "shares": 1.496543712421545,
+                "position_size": 2010.0078236166655,
+                "stop_loss": 1369.9619750976562,
+                "take_profit": 1289.3759765625,
+                "status": "closed",
+                "exit_date": "2025-04-07 00:00:00+05:30",
+                "exit_price": 1287.550048828125,
+                "close_reason": "take_profit",
+                "pnl": 83.13289361488164,
+                "pnl_pct": 4.135948757915688
+            }
+        ],
+        "metrics": {
+            "total_trades": 9,
+            "win_rate": 0.5555555555555556,
+            "total_pnl": 215.26467840217305,
+            "avg_pnl": 23.91829760024145,
+            "max_drawdown": 120.36344056413752,
+            "sharpe_ratio": 5.003492098792893,
+            "return_pct": 0.21526467840217306
+        },
+        "equity_curve": [
+            {
+                "date": "2024-08-26 00:00:00+05:30",
+                "equity": 100087.55501902502
+            },
+            {
+                "date": "2024-09-12 00:00:00+05:30",
+                "equity": 100045.28706993097
+            },
+            {
+                "date": "2024-09-20 00:00:00+05:30",
+                "equity": 99967.19157846089
+            },
+            {
+                "date": "2024-09-30 00:00:00+05:30",
+                "equity": 100065.31927253476
+            },
+            {
+                "date": "2024-12-31 00:00:00+05:30",
+                "equity": 100147.75517733057
+            },
+            {
+                "date": "2025-01-21 00:00:00+05:30",
+                "equity": 100092.82798667131
+            },
+            {
+                "date": "2025-01-28 00:00:00+05:30",
+                "equity": 100178.07482161027
+            },
+            {
+                "date": "2025-03-21 00:00:00+05:30",
+                "equity": 100132.13178478729
+            },
+            {
+                "date": "2025-04-07 00:00:00+05:30",
+                "equity": 100215.26467840216
+            }
+        ]
+    },
+    "LT.NS": {
+        "trades": [
+            {
+                "symbol": "LT.NS",
+                "direction": "short",
+                "entry_date": "2024-12-09 00:00:00+05:30",
+                "entry_price": 3910.826416015625,
+                "shares": 0.5040973088925017,
+                "position_size": 1971.4370718591838,
+                "stop_loss": 3989.0429443359376,
+                "take_profit": 3754.393359375,
+                "status": "closed",
+                "exit_date": "2024-12-18 00:00:00+05:30",
+                "exit_price": 3723.424072265625,
+                "close_reason": "take_profit",
+                "pnl": 94.46901716452254,
+                "pnl_pct": 4.791886006051036
+            },
+            {
+                "symbol": "LT.NS",
+                "direction": "short",
+                "entry_date": "2025-03-21 00:00:00+05:30",
+                "entry_price": 3384.385986328125,
+                "shares": 0.5830677884183731,
+                "position_size": 1973.3264522024742,
+                "stop_loss": 3452.0737060546876,
+                "take_profit": 3249.010546875,
+                "status": "closed",
+                "exit_date": "2025-03-27 00:00:00+05:30",
+                "exit_price": 3469.244873046875,
+                "close_reason": "stop_loss",
+                "pnl": -49.47848340674682,
+                "pnl_pct": -2.5073643213733217
+            },
+            {
+                "symbol": "LT.NS",
+                "direction": "short",
+                "entry_date": "2025-05-12 00:00:00+05:30",
+                "entry_price": 3554.0537109375,
+                "shares": 0.5549541574075059,
+                "position_size": 1972.3368825343398,
+                "stop_loss": 3625.13478515625,
+                "take_profit": 3411.8915625,
+                "status": "closed",
+                "exit_date": "2025-05-30 00:00:00+05:30",
+                "exit_price": 3641.1416015625,
+                "close_reason": "stop_loss",
+                "pnl": -48.32978696219391,
+                "pnl_pct": -2.450381949968552
+            }
+        ],
+        "metrics": {
+            "total_trades": 3,
+            "win_rate": 0.3333333333333333,
+            "total_pnl": -3.339253204418185,
+            "avg_pnl": -1.1130844014727284,
+            "max_drawdown": 97.80827036894073,
+            "sharpe_ratio": -0.20937037353319551,
+            "return_pct": -0.003339253204418185
+        },
+        "equity_curve": [
+            {
+                "date": "2024-12-18 00:00:00+05:30",
+                "equity": 100094.46901716452
+            },
+            {
+                "date": "2025-03-27 00:00:00+05:30",
+                "equity": 100044.99053375778
+            },
+            {
+                "date": "2025-05-30 00:00:00+05:30",
+                "equity": 99996.66074679559
+            }
+        ]
+    },
+    "BHARTIARTL.NS": {
+        "trades": [
+            {
+                "symbol": "BHARTIARTL.NS",
+                "direction": "short",
+                "entry_date": "2024-07-26 00:00:00+05:30",
+                "entry_price": 1506.00732421875,
+                "shares": 1.3090044484463286,
+                "position_size": 1971.370286795096,
+                "stop_loss": 1536.127470703125,
+                "take_profit": 1445.76703125,
+                "status": "closed",
+                "exit_date": "2024-08-06 00:00:00+05:30",
+                "exit_price": 1435.550048828125,
+                "close_reason": "take_profit",
+                "pnl": 92.22888691173615,
+                "pnl_pct": 4.678415188131646
+            },
+            {
+                "symbol": "BHARTIARTL.NS",
+                "direction": "short",
+                "entry_date": "2024-08-27 00:00:00+05:30",
+                "entry_price": 1522.75,
+                "shares": 1.295823256958352,
+                "position_size": 1973.2148645333307,
+                "stop_loss": 1553.205,
+                "take_profit": 1461.84,
+                "status": "closed",
+                "exit_date": "2024-08-28 00:00:00+05:30",
+                "exit_price": 1556.3499755859375,
+                "close_reason": "stop_loss",
+                "pnl": -43.53962979749065,
+                "pnl_pct": -2.206532627544738
+            },
+            {
+                "symbol": "BHARTIARTL.NS",
+                "direction": "short",
+                "entry_date": "2024-08-28 00:00:00+05:30",
+                "entry_price": 1556.3499755859375,
+                "shares": 1.2672882724817913,
+                "position_size": 1972.344071937381,
+                "stop_loss": 1587.4769750976564,
+                "take_profit": 1494.0959765625,
+                "status": "closed",
+                "exit_date": "2024-08-30 00:00:00+05:30",
+                "exit_price": 1589.050048828125,
+                "close_reason": "stop_loss",
+                "pnl": -41.44041932911985,
+                "pnl_pct": -2.1010745497571337
+            },
+            {
+                "symbol": "BHARTIARTL.NS",
+                "direction": "short",
+                "entry_date": "2024-08-30 00:00:00+05:30",
+                "entry_price": 1589.050048828125,
+                "shares": 1.2406879600832772,
+                "position_size": 1971.5152635507984,
+                "stop_loss": 1620.8310498046876,
+                "take_profit": 1525.488046875,
+                "status": "closed",
+                "exit_date": "2024-09-12 00:00:00+05:30",
+                "exit_price": 1646.75,
+                "close_reason": "stop_loss",
+                "pnl": -71.5876347163383,
+                "pnl_pct": -3.6310971586091276
+            },
+            {
+                "symbol": "BHARTIARTL.NS",
+                "direction": "short",
+                "entry_date": "2024-09-12 00:00:00+05:30",
+                "entry_price": 1646.75,
+                "shares": 1.1963464465501572,
+                "position_size": 1970.0835108564713,
+                "stop_loss": 1679.685,
+                "take_profit": 1580.8799999999999,
+                "status": "closed",
+                "exit_date": "2024-09-20 00:00:00+05:30",
+                "exit_price": 1711.75,
+                "close_reason": "stop_loss",
+                "pnl": -77.76251902576021,
+                "pnl_pct": -3.9471686655533627
+            },
+            {
+                "symbol": "BHARTIARTL.NS",
+                "direction": "short",
+                "entry_date": "2024-09-20 00:00:00+05:30",
+                "entry_price": 1711.75,
+                "shares": 1.1500092072300023,
+                "position_size": 1968.5282604759566,
+                "stop_loss": 1745.9850000000001,
+                "take_profit": 1643.28,
+                "status": "closed",
+                "exit_date": "2024-09-23 00:00:00+05:30",
+                "exit_price": 1750.449951171875,
+                "close_reason": "stop_loss",
+                "pnl": -44.50530016700777,
+                "pnl_pct": -2.260841312801227
+            },
+            {
+                "symbol": "BHARTIARTL.NS",
+                "direction": "short",
+                "entry_date": "2024-09-23 00:00:00+05:30",
+                "entry_price": 1750.449951171875,
+                "shares": 1.1240756430398597,
+                "position_size": 1967.6381544726164,
+                "stop_loss": 1785.4589501953126,
+                "take_profit": 1680.4319531249998,
+                "status": "closed",
+                "exit_date": "2024-10-03 00:00:00+05:30",
+                "exit_price": 1673.449951171875,
+                "close_reason": "take_profit",
+                "pnl": 86.5538245140692,
+                "pnl_pct": 4.398868984997301
+            },
+            {
+                "symbol": "BHARTIARTL.NS",
+                "direction": "long",
+                "entry_date": "2024-10-31 00:00:00+05:30",
+                "entry_price": 1612.5999755859375,
+                "shares": 1.221238534527032,
+                "position_size": 1969.369230962898,
+                "stop_loss": 1580.3479760742186,
+                "take_profit": 1677.103974609375,
+                "status": "closed",
+                "exit_date": "2024-11-05 00:00:00+05:30",
+                "exit_price": 1578.4000244140625,
+                "close_reason": "stop_loss",
+                "pnl": -41.76629825003668,
+                "pnl_pct": -2.1207957143524365
+            },
+            {
+                "symbol": "BHARTIARTL.NS",
+                "direction": "long",
+                "entry_date": "2024-11-05 00:00:00+05:30",
+                "entry_price": 1578.4000244140625,
+                "shares": 1.2471704729785853,
+                "position_size": 1968.5339049978968,
+                "stop_loss": 1546.8320239257812,
+                "take_profit": 1641.5360253906251,
+                "status": "closed",
+                "exit_date": "2024-11-18 00:00:00+05:30",
+                "exit_price": 1537.0,
+                "close_reason": "stop_loss",
+                "pnl": -51.632888029811305,
+                "pnl_pct": -2.6229107814054373
+            },
+            {
+                "symbol": "BHARTIARTL.NS",
+                "direction": "short",
+                "entry_date": "2025-03-21 00:00:00+05:30",
+                "entry_price": 1725.800048828125,
+                "shares": 1.1400516812902508,
+                "position_size": 1967.5012472373007,
+                "stop_loss": 1760.3160498046875,
+                "take_profit": 1656.768046875,
+                "status": "closed",
+                "exit_date": "2025-04-15 00:00:00+05:30",
+                "exit_price": 1798.800048828125,
+                "close_reason": "stop_loss",
+                "pnl": -83.22377273418832,
+                "pnl_pct": -4.229922235172575
+            },
+            {
+                "symbol": "BHARTIARTL.NS",
+                "direction": "short",
+                "entry_date": "2025-04-17 00:00:00+05:30",
+                "entry_price": 1889.0999755859375,
+                "shares": 1.040620823243025,
+                "position_size": 1965.8367717826166,
+                "stop_loss": 1926.8819750976563,
+                "take_profit": 1813.5359765624999,
+                "status": "closed",
+                "exit_date": "2025-05-20 00:00:00+05:30",
+                "exit_price": 1808.9000244140625,
+                "close_reason": "take_profit",
+                "pnl": 83.45773921252697,
+                "pnl_pct": 4.245405336316284
+            },
+            {
+                "symbol": "BHARTIARTL.NS",
+                "direction": "short",
+                "entry_date": "2025-06-20 00:00:00+05:30",
+                "entry_price": 1936.699951171875,
+                "shares": 1.0159064264840572,
+                "position_size": 1967.5059265668674,
+                "stop_loss": 1975.4339501953125,
+                "take_profit": 1859.231953125,
+                "status": "closed",
+                "exit_date": "2025-06-26 00:00:00+05:30",
+                "exit_price": 2014.300048828125,
+                "close_reason": "stop_loss",
+                "pnl": -78.8344379047748,
+                "pnl_pct": -4.006820860882197
+            }
+        ],
+        "metrics": {
+            "total_trades": 12,
+            "win_rate": 0.25,
+            "total_pnl": -272.0524493161955,
+            "avg_pnl": -22.671037443016292,
+            "max_drawdown": 368.90463753568383,
+            "sharpe_ratio": -5.2747365774703745,
+            "return_pct": -0.2720524493161955
+        },
+        "equity_curve": [
+            {
+                "date": "2024-08-06 00:00:00+05:30",
+                "equity": 100092.22888691173
+            },
+            {
+                "date": "2024-08-28 00:00:00+05:30",
+                "equity": 100048.68925711424
+            },
+            {
+                "date": "2024-08-30 00:00:00+05:30",
+                "equity": 100007.24883778511
+            },
+            {
+                "date": "2024-09-12 00:00:00+05:30",
+                "equity": 99935.66120306877
+            },
+            {
+                "date": "2024-09-20 00:00:00+05:30",
+                "equity": 99857.89868404302
+            },
+            {
+                "date": "2024-09-23 00:00:00+05:30",
+                "equity": 99813.39338387601
+            },
+            {
+                "date": "2024-10-03 00:00:00+05:30",
+                "equity": 99899.94720839008
+            },
+            {
+                "date": "2024-11-05 00:00:00+05:30",
+                "equity": 99858.18091014004
+            },
+            {
+                "date": "2024-11-18 00:00:00+05:30",
+                "equity": 99806.54802211023
+            },
+            {
+                "date": "2025-04-15 00:00:00+05:30",
+                "equity": 99723.32424937605
+            },
+            {
+                "date": "2025-05-20 00:00:00+05:30",
+                "equity": 99806.78198858857
+            },
+            {
+                "date": "2025-06-26 00:00:00+05:30",
+                "equity": 99727.94755068379
+            }
+        ]
+    },
+    "HDFCBANK.NS": {
+        "trades": [
+            {
+                "symbol": "HDFCBANK.NS",
+                "direction": "short",
+                "entry_date": "2024-09-12 00:00:00+05:30",
+                "entry_price": 1666.5999755859375,
+                "shares": 1.1560126492713076,
+                "position_size": 1926.6106530525963,
+                "stop_loss": 1699.9319750976563,
+                "take_profit": 1599.9359765625,
+                "status": "closed",
+                "exit_date": "2024-09-19 00:00:00+05:30",
+                "exit_price": 1708.5,
+                "close_reason": "stop_loss",
+                "pnl": -48.43695822743286,
+                "pnl_pct": -2.514102065754047
+            },
+            {
+                "symbol": "HDFCBANK.NS",
+                "direction": "short",
+                "entry_date": "2024-09-19 00:00:00+05:30",
+                "entry_price": 1708.5,
+                "shares": 1.1270950622698552,
+                "position_size": 1925.6419138880476,
+                "stop_loss": 1742.67,
+                "take_profit": 1640.1599999999999,
+                "status": "closed",
+                "exit_date": "2024-09-23 00:00:00+05:30",
+                "exit_price": 1759.800048828125,
+                "close_reason": "stop_loss",
+                "pnl": -57.82003172838216,
+                "pnl_pct": -3.002636747329529
+            },
+            {
+                "symbol": "HDFCBANK.NS",
+                "direction": "short",
+                "entry_date": "2024-09-23 00:00:00+05:30",
+                "entry_price": 1759.800048828125,
+                "shares": 1.0935819183179483,
+                "position_size": 1924.48551325348,
+                "stop_loss": 1794.9960498046876,
+                "take_profit": 1689.4080468749999,
+                "status": "closed",
+                "exit_date": "2024-10-03 00:00:00+05:30",
+                "exit_price": 1682.0,
+                "close_reason": "take_profit",
+                "pnl": 85.08072664269098,
+                "pnl_pct": 4.420959578898359
+            },
+            {
+                "symbol": "HDFCBANK.NS",
+                "direction": "short",
+                "entry_date": "2024-12-04 00:00:00+05:30",
+                "entry_price": 1860.0999755859375,
+                "shares": 1.035528817304338,
+                "position_size": 1926.1871277863338,
+                "stop_loss": 1897.3019750976564,
+                "take_profit": 1785.6959765625,
+                "status": "closed",
+                "exit_date": "2024-12-20 00:00:00+05:30",
+                "exit_price": 1771.5,
+                "close_reason": "take_profit",
+                "pnl": 91.74782793169908,
+                "pnl_pct": 4.76318352501608
+            },
+            {
+                "symbol": "HDFCBANK.NS",
+                "direction": "long",
+                "entry_date": "2025-01-06 00:00:00+05:30",
+                "entry_price": 1710.5,
+                "shares": 1.1271687134434187,
+                "position_size": 1928.0220843449677,
+                "stop_loss": 1676.29,
+                "take_profit": 1778.92,
+                "status": "closed",
+                "exit_date": "2025-01-09 00:00:00+05:30",
+                "exit_price": 1667.800048828125,
+                "close_reason": "stop_loss",
+                "pnl": -48.130049026499144,
+                "pnl_pct": -2.4963432430210464
+            },
+            {
+                "symbol": "HDFCBANK.NS",
+                "direction": "long",
+                "entry_date": "2025-01-09 00:00:00+05:30",
+                "entry_price": 1667.800048828125,
+                "shares": 1.1554499502014528,
+                "position_size": 1927.0594833644375,
+                "stop_loss": 1634.4440478515626,
+                "take_profit": 1734.51205078125,
+                "status": "closed",
+                "exit_date": "2025-01-13 00:00:00+05:30",
+                "exit_price": 1630.8499755859375,
+                "close_reason": "stop_loss",
+                "pnl": -42.69396028762558,
+                "pnl_pct": -2.2154977911261224
+            },
+            {
+                "symbol": "HDFCBANK.NS",
+                "direction": "long",
+                "entry_date": "2025-01-13 00:00:00+05:30",
+                "entry_price": 1630.8499755859375,
+                "shares": 1.1811053334115733,
+                "position_size": 1926.205604158685,
+                "stop_loss": 1598.2329760742186,
+                "take_profit": 1696.083974609375,
+                "status": "closed",
+                "exit_date": "2025-01-31 00:00:00+05:30",
+                "exit_price": 1698.75,
+                "close_reason": "take_profit",
+                "pnl": 80.19708097422526,
+                "pnl_pct": 4.163474594876034
+            },
+            {
+                "symbol": "HDFCBANK.NS",
+                "direction": "short",
+                "entry_date": "2025-02-05 00:00:00+05:30",
+                "entry_price": 1737.800048828125,
+                "shares": 1.1093391020895507,
+                "position_size": 1927.8095457781694,
+                "stop_loss": 1772.5560498046875,
+                "take_profit": 1668.288046875,
+                "status": "closed",
+                "exit_date": "2025-03-24 00:00:00+05:30",
+                "exit_price": 1800.0,
+                "close_reason": "stop_loss",
+                "pnl": -69.00083798302171,
+                "pnl_pct": -3.5792352068248108
+            },
+            {
+                "symbol": "HDFCBANK.NS",
+                "direction": "short",
+                "entry_date": "2025-03-24 00:00:00+05:30",
+                "entry_price": 1800.0,
+                "shares": 1.0702386272325048,
+                "position_size": 1926.4295290185087,
+                "stop_loss": 1836.0,
+                "take_profit": 1728.0,
+                "status": "closed",
+                "exit_date": "2025-04-15 00:00:00+05:30",
+                "exit_price": 1864.9000244140625,
+                "close_reason": "stop_loss",
+                "pnl": -69.4585130362623,
+                "pnl_pct": -3.6055569118923616
+            },
+            {
+                "symbol": "HDFCBANK.NS",
+                "direction": "short",
+                "entry_date": "2025-05-06 00:00:00+05:30",
+                "entry_price": 1931.699951171875,
+                "shares": 0.996552470579061,
+                "position_size": 1925.0403587577837,
+                "stop_loss": 1970.3339501953126,
+                "take_profit": 1854.4319531249998,
+                "status": "closed",
+                "exit_date": "2025-06-06 00:00:00+05:30",
+                "exit_price": 1978.699951171875,
+                "close_reason": "stop_loss",
+                "pnl": -46.83796611721587,
+                "pnl_pct": -2.4330900858328035
+            },
+            {
+                "symbol": "HDFCBANK.NS",
+                "direction": "short",
+                "entry_date": "2025-06-09 00:00:00+05:30",
+                "entry_price": 1978.9000244140625,
+                "shares": 0.972309654705852,
+                "position_size": 1924.103599435439,
+                "stop_loss": 2018.4780249023438,
+                "take_profit": 1899.7440234375,
+                "status": "closed",
+                "exit_date": "2025-06-26 00:00:00+05:30",
+                "exit_price": 2021.800048828125,
+                "close_reason": "stop_loss",
+                "pnl": -41.71210792490973,
+                "pnl_pct": -2.1678722464397806
+            }
+        ],
+        "metrics": {
+            "total_trades": 11,
+            "win_rate": 0.2727272727272727,
+            "total_pnl": -167.06478878273404,
+            "avg_pnl": -15.18770807115764,
+            "max_drawdown": 237.63635340130907,
+            "sharpe_ratio": -3.6782412091205203,
+            "return_pct": -0.16706478878273404
+        },
+        "equity_curve": [
+            {
+                "date": "2024-09-19 00:00:00+05:30",
+                "equity": 99951.56304177256
+            },
+            {
+                "date": "2024-09-23 00:00:00+05:30",
+                "equity": 99893.74301004419
+            },
+            {
+                "date": "2024-10-03 00:00:00+05:30",
+                "equity": 99978.82373668687
+            },
+            {
+                "date": "2024-12-20 00:00:00+05:30",
+                "equity": 100070.57156461857
+            },
+            {
+                "date": "2025-01-09 00:00:00+05:30",
+                "equity": 100022.44151559207
+            },
+            {
+                "date": "2025-01-13 00:00:00+05:30",
+                "equity": 99979.74755530445
+            },
+            {
+                "date": "2025-01-31 00:00:00+05:30",
+                "equity": 100059.94463627867
+            },
+            {
+                "date": "2025-03-24 00:00:00+05:30",
+                "equity": 99990.94379829564
+            },
+            {
+                "date": "2025-04-15 00:00:00+05:30",
+                "equity": 99921.48528525938
+            },
+            {
+                "date": "2025-06-06 00:00:00+05:30",
+                "equity": 99874.64731914215
+            },
+            {
+                "date": "2025-06-26 00:00:00+05:30",
+                "equity": 99832.93521121725
+            }
+        ]
+    },
+    "ITC.NS": {
+        "trades": [
+            {
+                "symbol": "ITC.NS",
+                "direction": "short",
+                "entry_date": "2024-09-26 00:00:00+05:30",
+                "entry_price": 505.31646728515625,
+                "shares": 3.8060690315710937,
+                "position_size": 1923.2693572769408,
+                "stop_loss": 515.4227966308594,
+                "take_profit": 485.10380859375,
+                "status": "closed",
+                "exit_date": "2024-10-09 00:00:00+05:30",
+                "exit_price": 475.30194091796875,
+                "close_reason": "take_profit",
+                "pnl": 114.23735930342639,
+                "pnl_pct": 5.939748318205893
+            },
+            {
+                "symbol": "ITC.NS",
+                "direction": "long",
+                "entry_date": "2024-10-11 00:00:00+05:30",
+                "entry_price": 471.918701171875,
+                "shares": 4.080266579140532,
+                "position_size": 1925.5541044630093,
+                "stop_loss": 462.4803271484375,
+                "take_profit": 490.79544921875004,
+                "status": "closed",
+                "exit_date": "2024-10-24 00:00:00+05:30",
+                "exit_price": 455.96893310546875,
+                "close_reason": "stop_loss",
+                "pnl": -65.07930558640032,
+                "pnl_pct": -3.379770292382897
+            },
+            {
+                "symbol": "ITC.NS",
+                "direction": "long",
+                "entry_date": "2024-11-14 00:00:00+05:30",
+                "entry_price": 450.41070556640625,
+                "shares": 4.272217544055643,
+                "position_size": 1924.2525183512812,
+                "stop_loss": 441.4024914550781,
+                "take_profit": 468.4271337890625,
+                "status": "closed",
+                "exit_date": "2025-01-02 00:00:00+05:30",
+                "exit_price": 472.7403259277344,
+                "close_reason": "take_profit",
+                "pnl": 95.39699585976811,
+                "pnl_pct": 4.957613148481427
+            },
+            {
+                "symbol": "ITC.NS",
+                "direction": "short",
+                "entry_date": "2025-01-02 00:00:00+05:30",
+                "entry_price": 472.7403259277344,
+                "shares": 4.07445769405955,
+                "position_size": 1926.1604582684768,
+                "stop_loss": 482.19513244628905,
+                "take_profit": 453.83071289062497,
+                "status": "closed",
+                "exit_date": "2025-01-06 00:00:00+05:30",
+                "exit_price": 427.8877258300781,
+                "close_reason": "take_profit",
+                "pnl": 182.75002156647164,
+                "pnl_pct": 9.487788038736653
+            },
+            {
+                "symbol": "ITC.NS",
+                "direction": "short",
+                "entry_date": "2025-02-01 00:00:00+05:30",
+                "entry_price": 447.1240539550781,
+                "shares": 4.316062715994455,
+                "position_size": 1929.815458699806,
+                "stop_loss": 456.0665350341797,
+                "take_profit": 429.23909179687496,
+                "status": "closed",
+                "exit_date": "2025-02-06 00:00:00+05:30",
+                "exit_price": 426.3894348144531,
+                "close_reason": "take_profit",
+                "pnl": 89.49191660319656,
+                "pnl_pct": 4.637330279419093
+            },
+            {
+                "symbol": "ITC.NS",
+                "direction": "short",
+                "entry_date": "2025-04-11 00:00:00+05:30",
+                "entry_price": 413.92340087890625,
+                "shares": 4.6665766973560485,
+                "position_size": 1931.6052970318701,
+                "stop_loss": 422.20186889648437,
+                "take_profit": 397.36646484375,
+                "status": "closed",
+                "exit_date": "2025-04-22 00:00:00+05:30",
+                "exit_price": 425.75543212890625,
+                "close_reason": "stop_loss",
+                "pnl": -55.21508131363856,
+                "pnl_pct": -2.85850744965769
+            },
+            {
+                "symbol": "ITC.NS",
+                "direction": "short",
+                "entry_date": "2025-04-22 00:00:00+05:30",
+                "entry_price": 425.75543212890625,
+                "shares": 4.534295630128562,
+                "position_size": 1930.5009954055972,
+                "stop_loss": 434.2705407714844,
+                "take_profit": 408.72521484375,
+                "status": "closed",
+                "exit_date": "2025-05-26 00:00:00+05:30",
+                "exit_price": 434.8871765136719,
+                "close_reason": "stop_loss",
+                "pnl": -41.40602865929381,
+                "pnl_pct": -2.1448333234655714
+            }
+        ],
+        "metrics": {
+            "total_trades": 7,
+            "win_rate": 0.5714285714285714,
+            "total_pnl": 320.17587777353003,
+            "avg_pnl": 45.73941111050429,
+            "max_drawdown": 96.62110997293235,
+            "sharpe_ratio": 7.399558488806418,
+            "return_pct": 0.32017587777353007
+        },
+        "equity_curve": [
+            {
+                "date": "2024-10-09 00:00:00+05:30",
+                "equity": 100114.23735930343
+            },
+            {
+                "date": "2024-10-24 00:00:00+05:30",
+                "equity": 100049.15805371702
+            },
+            {
+                "date": "2025-01-02 00:00:00+05:30",
+                "equity": 100144.5550495768
+            },
+            {
+                "date": "2025-01-06 00:00:00+05:30",
+                "equity": 100327.30507114327
+            },
+            {
+                "date": "2025-02-06 00:00:00+05:30",
+                "equity": 100416.79698774646
+            },
+            {
+                "date": "2025-04-22 00:00:00+05:30",
+                "equity": 100361.58190643282
+            },
+            {
+                "date": "2025-05-26 00:00:00+05:30",
+                "equity": 100320.17587777354
+            }
+        ]
+    },
+    "KOTAKBANK.NS": {
+        "trades": [
+            {
+                "symbol": "KOTAKBANK.NS",
+                "direction": "short",
+                "entry_date": "2024-09-19 00:00:00+05:30",
+                "entry_price": 1871.949951171875,
+                "shares": 1.030835719525728,
+                "position_size": 1929.6728748324113,
+                "stop_loss": 1909.3889501953126,
+                "take_profit": 1797.071953125,
+                "status": "closed",
+                "exit_date": "2024-09-23 00:00:00+05:30",
+                "exit_price": 1934.699951171875,
+                "close_reason": "stop_loss",
+                "pnl": -64.68494140023944,
+                "pnl_pct": -3.35211953507183
+            },
+            {
+                "symbol": "KOTAKBANK.NS",
+                "direction": "short",
+                "entry_date": "2024-09-23 00:00:00+05:30",
+                "entry_price": 1934.699951171875,
+                "shares": 0.9967329429229375,
+                "position_size": 1928.3791760044064,
+                "stop_loss": 1973.3939501953125,
+                "take_profit": 1857.311953125,
+                "status": "closed",
+                "exit_date": "2024-09-30 00:00:00+05:30",
+                "exit_price": 1853.949951171875,
+                "close_reason": "take_profit",
+                "pnl": 80.4861851410272,
+                "pnl_pct": 4.173773817024629
+            },
+            {
+                "symbol": "KOTAKBANK.NS",
+                "direction": "short",
+                "entry_date": "2025-03-21 00:00:00+05:30",
+                "entry_price": 2079.0,
+                "shares": 0.9283255890847653,
+                "position_size": 1929.988899707227,
+                "stop_loss": 2120.58,
+                "take_profit": 1995.84,
+                "status": "closed",
+                "exit_date": "2025-03-24 00:00:00+05:30",
+                "exit_price": 2176.14990234375,
+                "close_reason": "stop_loss",
+                "pnl": -90.18674032278913,
+                "pnl_pct": -4.67291497564935
+            },
+            {
+                "symbol": "KOTAKBANK.NS",
+                "direction": "short",
+                "entry_date": "2025-03-24 00:00:00+05:30",
+                "entry_price": 2176.14990234375,
+                "shares": 0.8860534666403648,
+                "position_size": 1928.185164900771,
+                "stop_loss": 2219.672900390625,
+                "take_profit": 2089.10390625,
+                "status": "closed",
+                "exit_date": "2025-04-07 00:00:00+05:30",
+                "exit_price": 2037.8499755859375,
+                "close_reason": "take_profit",
+                "pnl": 122.54112953986831,
+                "pnl_pct": 6.355257356529583
+            },
+            {
+                "symbol": "KOTAKBANK.NS",
+                "direction": "short",
+                "entry_date": "2025-04-30 00:00:00+05:30",
+                "entry_price": 2208.10009765625,
+                "shares": 0.874342603191227,
+                "position_size": 1930.6359874915684,
+                "stop_loss": 2252.262099609375,
+                "take_profit": 2119.7760937499997,
+                "status": "closed",
+                "exit_date": "2025-05-05 00:00:00+05:30",
+                "exit_price": 2084.89990234375,
+                "close_reason": "take_profit",
+                "pnl": 107.71917948319886,
+                "pnl_pct": 5.579466050622829
+            }
+        ],
+        "metrics": {
+            "total_trades": 5,
+            "win_rate": 0.6,
+            "total_pnl": 155.87481244106579,
+            "avg_pnl": 31.174962488213158,
+            "max_drawdown": 90.18674032278913,
+            "sharpe_ratio": 4.91737968973561,
+            "return_pct": 0.15587481244106577
+        },
+        "equity_curve": [
+            {
+                "date": "2024-09-23 00:00:00+05:30",
+                "equity": 99935.31505859976
+            },
+            {
+                "date": "2024-09-30 00:00:00+05:30",
+                "equity": 100015.80124374079
+            },
+            {
+                "date": "2025-03-24 00:00:00+05:30",
+                "equity": 99925.614503418
+            },
+            {
+                "date": "2025-04-07 00:00:00+05:30",
+                "equity": 100048.15563295786
+            },
+            {
+                "date": "2025-05-05 00:00:00+05:30",
+                "equity": 100155.87481244106
+            }
+        ]
+    },
+    "INFY.NS": {
+        "trades": [
+            {
+                "symbol": "INFY.NS",
+                "direction": "long",
+                "entry_date": "2024-10-31 00:00:00+05:30",
+                "entry_price": 1732.868408203125,
+                "shares": 1.093063128563643,
+                "position_size": 1894.1345636596077,
+                "stop_loss": 1698.2110400390625,
+                "take_profit": 1802.18314453125,
+                "status": "closed",
+                "exit_date": "2024-11-08 00:00:00+05:30",
+                "exit_price": 1804.5595703125,
+                "close_reason": "take_profit",
+                "pnl": 78.36296594563673,
+                "pnl_pct": 4.137138271434829
+            },
+            {
+                "symbol": "INFY.NS",
+                "direction": "long",
+                "entry_date": "2025-02-24 00:00:00+05:30",
+                "entry_price": 1739.623291015625,
+                "shares": 1.089719729994977,
+                "position_size": 1895.70182297852,
+                "stop_loss": 1704.8308251953124,
+                "take_profit": 1809.20822265625,
+                "status": "closed",
+                "exit_date": "2025-02-28 00:00:00+05:30",
+                "exit_price": 1664.2833251953125,
+                "close_reason": "stop_loss",
+                "pnl": -82.09944721154173,
+                "pnl_pct": -4.330820713277965
+            },
+            {
+                "symbol": "INFY.NS",
+                "direction": "long",
+                "entry_date": "2025-02-28 00:00:00+05:30",
+                "entry_price": 1664.2833251953125,
+                "shares": 1.1380633365487882,
+                "position_size": 1894.0598340342892,
+                "stop_loss": 1630.9976586914063,
+                "take_profit": 1730.8546582031252,
+                "status": "closed",
+                "exit_date": "2025-03-12 00:00:00+05:30",
+                "exit_price": 1568.777099609375,
+                "close_reason": "stop_loss",
+                "pnl": -108.69213375151328,
+                "pnl_pct": -5.738579732193696
+            },
+            {
+                "symbol": "INFY.NS",
+                "direction": "long",
+                "entry_date": "2025-03-12 00:00:00+05:30",
+                "entry_price": 1568.777099609375,
+                "shares": 1.2059622694838792,
+                "position_size": 1891.8859913592594,
+                "stop_loss": 1537.4015576171876,
+                "take_profit": 1631.52818359375,
+                "status": "closed",
+                "exit_date": "2025-04-01 00:00:00+05:30",
+                "exit_price": 1505.3199462890625,
+                "close_reason": "stop_loss",
+                "pnl": -76.52693263315054,
+                "pnl_pct": -4.0450076263934065
+            },
+            {
+                "symbol": "INFY.NS",
+                "direction": "long",
+                "entry_date": "2025-04-07 00:00:00+05:30",
+                "entry_price": 1377.3702392578125,
+                "shares": 1.3724381425035022,
+                "position_size": 1890.3554527065965,
+                "stop_loss": 1349.8228344726563,
+                "take_profit": 1432.465048828125,
+                "status": "closed",
+                "exit_date": "2025-04-23 00:00:00+05:30",
+                "exit_price": 1454.4359130859375,
+                "close_reason": "take_profit",
+                "pnl": 105.76787023945263,
+                "pnl_pct": 5.5951313329995696
+            },
+            {
+                "symbol": "INFY.NS",
+                "direction": "short",
+                "entry_date": "2025-05-12 00:00:00+05:30",
+                "entry_price": 1604.3270263671875,
+                "shares": 1.179604144920918,
+                "position_size": 1892.4708101113854,
+                "stop_loss": 1636.4135668945312,
+                "take_profit": 1540.1539453125,
+                "status": "closed",
+                "exit_date": "2025-05-19 00:00:00+05:30",
+                "exit_price": 1538.157958984375,
+                "close_reason": "take_profit",
+                "pnl": 78.05330615031714,
+                "pnl_pct": 4.12441268490282
+            }
+        ],
+        "metrics": {
+            "total_trades": 6,
+            "win_rate": 0.5,
+            "total_pnl": -5.134371260799028,
+            "avg_pnl": -0.8557285434665047,
+            "max_drawdown": 267.31851359620555,
+            "sharpe_ratio": -0.1322211468405402,
+            "return_pct": -0.005134371260799029
+        },
+        "equity_curve": [
+            {
+                "date": "2024-11-08 00:00:00+05:30",
+                "equity": 100078.36296594563
+            },
+            {
+                "date": "2025-02-28 00:00:00+05:30",
+                "equity": 99996.2635187341
+            },
+            {
+                "date": "2025-03-12 00:00:00+05:30",
+                "equity": 99887.57138498258
+            },
+            {
+                "date": "2025-04-01 00:00:00+05:30",
+                "equity": 99811.04445234944
+            },
+            {
+                "date": "2025-04-23 00:00:00+05:30",
+                "equity": 99916.81232258888
+            },
+            {
+                "date": "2025-05-19 00:00:00+05:30",
+                "equity": 99994.86562873921
+            }
+        ]
+    }
+}

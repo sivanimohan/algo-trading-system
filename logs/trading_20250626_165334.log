@@ -1,0 +1,14 @@
+2025-06-26 16:53:34,797 - __main__ - INFO - Starting trading system in backtest mode
+2025-06-26 16:53:34,798 - __main__ - INFO - Initial capital: $100,000.00
+2025-06-26 16:53:36,621 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-26 16:53:36,624 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-26 16:53:36,626 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-26 16:53:36,626 - src.data.trading_system - INFO - ✅ Google Sheets logging enabled
+2025-06-26 16:53:36,627 - src.data.trading_system - INFO - Connected to: https://docs.google.com/spreadsheets/d/1yhmCMKFpMsjvsEfRzzXZWXCaU7Mao8bYt1MSK7r-12A
+2025-06-26 16:53:36,627 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-26 16:53:36,627 - src.data.trading_system - INFO - Period: 2024-06-26 to 2025-06-26
+2025-06-26 16:53:37,262 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-26 16:53:37,264 - src.data.trading_system - ERROR - Error in backtest: single positional indexer is out-of-bounds
+2025-06-26 16:53:37,264 - root - ERROR - Error in backtest: single positional indexer is out-of-bounds

@@ -1,0 +1,73 @@
+Trading System Results Summary
+=============================
+
+
+Results for TCS.NS:
+Total Trades: 10
+Win Rate: 40.00%
+Total P&L: $-55.55
+Return: -0.06%
+-----------------------------
+
+Results for SBIN.NS:
+Total Trades: 5
+Win Rate: 60.00%
+Total P&L: $149.79
+Return: 0.15%
+-----------------------------
+
+Results for RELIANCE.NS:
+Total Trades: 10
+Win Rate: 50.00%
+Total P&L: $274.02
+Return: 0.27%
+-----------------------------
+
+Results for ICICIBANK.NS:
+Total Trades: 9
+Win Rate: 55.56%
+Total P&L: $215.26
+Return: 0.22%
+-----------------------------
+
+Results for LT.NS:
+Total Trades: 3
+Win Rate: 33.33%
+Total P&L: $-3.34
+Return: -0.00%
+-----------------------------
+
+Results for BHARTIARTL.NS:
+Total Trades: 12
+Win Rate: 25.00%
+Total P&L: $-272.05
+Return: -0.27%
+-----------------------------
+
+Results for HDFCBANK.NS:
+Total Trades: 11
+Win Rate: 27.27%
+Total P&L: $-167.06
+Return: -0.17%
+-----------------------------
+
+Results for ITC.NS:
+Total Trades: 7
+Win Rate: 57.14%
+Total P&L: $320.18
+Return: 0.32%
+-----------------------------
+
+Results for KOTAKBANK.NS:
+Total Trades: 5
+Win Rate: 60.00%
+Total P&L: $155.87
+Return: 0.16%
+-----------------------------
+
+Results for INFY.NS:
+Total Trades: 6
+Win Rate: 50.00%
+Total P&L: $-5.13
+Return: -0.01%
+-----------------------------

@@ -1,0 +1,363 @@
+2025-06-26 17:13:03,266 - __main__ - INFO - Starting trading system in backtest mode
+2025-06-26 17:13:03,266 - __main__ - INFO - Initial capital: $100,000.00
+2025-06-26 17:13:05,183 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-26 17:13:05,185 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-26 17:13:05,188 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-26 17:13:05,188 - src.data.trading_system - INFO - ✅ Google Sheets logging enabled
+2025-06-26 17:13:05,188 - src.data.trading_system - INFO - Connected to: https://docs.google.com/spreadsheets/d/1yhmCMKFpMsjvsEfRzzXZWXCaU7Mao8bYt1MSK7r-12A
+2025-06-26 17:13:05,188 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-26 17:13:05,188 - src.data.trading_system - INFO - Period: 2024-06-26 to 2025-06-26
+2025-06-26 17:13:05,788 - src.data.trading_system - INFO - 
+Processing KOTAKBANK.NS...
+2025-06-26 17:13:05,821 - src.data.trading_system - INFO - Opened short position in KOTAKBANK.NS at $1871.95, Shares: 1.07, Size: $2000.00
+2025-06-26 17:13:05,822 - src.data.trading_system - INFO - Opened short position in KOTAKBANK.NS at 1871.949951171875
+2025-06-26 17:13:05,822 - src.data.trading_system - INFO - Closed short position in KOTAKBANK.NS at $1934.70, P&L: $-67.04 (-3.35%)
+2025-06-26 17:13:05,823 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:05,824 - src.data.trading_system - INFO - Opened short position in KOTAKBANK.NS at $1934.70, Shares: 1.03, Size: $1998.66
+2025-06-26 17:13:05,824 - src.data.trading_system - INFO - Opened short position in KOTAKBANK.NS at 1934.699951171875
+2025-06-26 17:13:05,826 - src.data.trading_system - INFO - Closed short position in KOTAKBANK.NS at $1853.95, P&L: $83.42 (4.17%)
+2025-06-26 17:13:05,827 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:05,908 - src.data.trading_system - INFO - Opened short position in KOTAKBANK.NS at $2079.00, Shares: 0.96, Size: $2000.33
+2025-06-26 17:13:05,909 - src.data.trading_system - INFO - Opened short position in KOTAKBANK.NS at 2079.0
+2025-06-26 17:13:05,909 - src.data.trading_system - INFO - Closed short position in KOTAKBANK.NS at $2176.15, P&L: $-93.47 (-4.67%)
+2025-06-26 17:13:05,910 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:05,911 - src.data.trading_system - INFO - Opened short position in KOTAKBANK.NS at $2176.15, Shares: 0.92, Size: $1998.46
+2025-06-26 17:13:05,911 - src.data.trading_system - INFO - Opened short position in KOTAKBANK.NS at 2176.14990234375
+2025-06-26 17:13:05,919 - src.data.trading_system - INFO - Closed short position in KOTAKBANK.NS at $2037.85, P&L: $127.01 (6.36%)
+2025-06-26 17:13:05,920 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:05,932 - src.data.trading_system - INFO - Opened short position in KOTAKBANK.NS at $2208.10, Shares: 0.91, Size: $2001.00
+2025-06-26 17:13:05,932 - src.data.trading_system - INFO - Opened short position in KOTAKBANK.NS at 2208.10009765625
+2025-06-26 17:13:05,933 - src.data.trading_system - INFO - Closed short position in KOTAKBANK.NS at $2084.90, P&L: $111.65 (5.58%)
+2025-06-26 17:13:05,934 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:05,954 - src.data.trading_system - INFO - Opened short position in KOTAKBANK.NS at $2223.60, Shares: 0.90, Size: $2003.23
+2025-06-26 17:13:05,954 - src.data.trading_system - INFO - Opened short position in KOTAKBANK.NS at 2223.60009765625
+2025-06-26 17:13:05,956 - src.data.trading_system - INFO - Completed KOTAKBANK.NS: Trades: 5, P&L: $161.56
+2025-06-26 17:13:05,956 - src.data.trading_system - INFO - 
+Processing TCS.NS...
+2025-06-26 17:13:05,985 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4451.10, Shares: 0.44, Size: $1963.17
+2025-06-26 17:13:05,986 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4451.10400390625
+2025-06-26 17:13:05,992 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4237.84, P&L: $94.06 (4.79%)
+2025-06-26 17:13:05,992 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:05,993 - src.data.trading_system - INFO - Opened long position in TCS.NS at $4237.84, Shares: 0.46, Size: $1965.05
+2025-06-26 17:13:05,993 - src.data.trading_system - INFO - Opened long position in TCS.NS at 4237.83837890625
+2025-06-26 17:13:06,005 - src.data.trading_system - INFO - Closed long position in TCS.NS at $4092.88, P&L: $-67.21 (-3.42%)
+2025-06-26 17:13:06,005 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,008 - src.data.trading_system - INFO - Opened long position in TCS.NS at $4039.37, Shares: 0.49, Size: $1963.70
+2025-06-26 17:13:06,008 - src.data.trading_system - INFO - Opened long position in TCS.NS at 4039.369384765625
+2025-06-26 17:13:06,015 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3924.14, P&L: $-56.02 (-2.85%)
+2025-06-26 17:13:06,015 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,027 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4266.92, Shares: 0.46, Size: $1962.58
+2025-06-26 17:13:06,027 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4266.91552734375
+2025-06-26 17:13:06,034 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4414.20, P&L: $-67.74 (-3.45%)
+2025-06-26 17:13:06,035 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,070 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3928.63, Shares: 0.50, Size: $1961.23
+2025-06-26 17:13:06,070 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3928.631103515625
+2025-06-26 17:13:06,072 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3839.08, P&L: $-44.71 (-2.28%)
+2025-06-26 17:13:06,073 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,074 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3750.76, Shares: 0.52, Size: $1960.33
+2025-06-26 17:13:06,074 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3750.761962890625
+2025-06-26 17:13:06,076 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3643.22, P&L: $-56.21 (-2.87%)
+2025-06-26 17:13:06,076 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,077 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3643.22, Shares: 0.54, Size: $1959.21
+2025-06-26 17:13:06,077 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3643.218017578125
+2025-06-26 17:13:06,079 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3452.56, P&L: $-102.53 (-5.23%)
+2025-06-26 17:13:06,079 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,080 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3452.56, Shares: 0.57, Size: $1957.16
+2025-06-26 17:13:06,080 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3452.5625
+2025-06-26 17:13:06,090 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3596.98, P&L: $81.87 (4.18%)
+2025-06-26 17:13:06,091 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,104 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3285.20, Shares: 0.60, Size: $1958.80
+2025-06-26 17:13:06,104 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3285.199951171875
+2025-06-26 17:13:06,105 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3417.62, P&L: $78.96 (4.03%)
+2025-06-26 17:13:06,106 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,113 - src.data.trading_system - INFO - Opened short position in TCS.NS at $3588.50, Shares: 0.55, Size: $1960.38
+2025-06-26 17:13:06,113 - src.data.trading_system - INFO - Opened short position in TCS.NS at 3588.50390625
+2025-06-26 17:13:06,120 - src.data.trading_system - INFO - Closed short position in TCS.NS at $3432.89, P&L: $85.01 (4.34%)
+2025-06-26 17:13:06,121 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,133 - src.data.trading_system - INFO - Completed TCS.NS: Trades: 10, P&L: $-54.53
+2025-06-26 17:13:06,133 - src.data.trading_system - INFO - 
+Processing ICICIBANK.NS...
+2025-06-26 17:13:06,152 - src.data.trading_system - INFO - Opened long position in ICICIBANK.NS at $1162.59, Shares: 1.69, Size: $1962.08
+2025-06-26 17:13:06,152 - src.data.trading_system - INFO - Opened long position in ICICIBANK.NS at 1162.5914306640625
+2025-06-26 17:13:06,160 - src.data.trading_system - INFO - Closed long position in ICICIBANK.NS at $1213.30, P&L: $85.58 (4.36%)
+2025-06-26 17:13:06,160 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,162 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at $1226.35, Shares: 1.60, Size: $1963.79
+2025-06-26 17:13:06,162 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at 1226.3499755859375
+2025-06-26 17:13:06,169 - src.data.trading_system - INFO - Closed short position in ICICIBANK.NS at $1252.15, P&L: $-41.31 (-2.10%)
+2025-06-26 17:13:06,170 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,172 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at $1288.35, Shares: 1.52, Size: $1962.96
+2025-06-26 17:13:06,173 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at 1288.3499755859375
+2025-06-26 17:13:06,173 - src.data.trading_system - INFO - Closed short position in ICICIBANK.NS at $1338.45, P&L: $-76.33 (-3.89%)
+2025-06-26 17:13:06,174 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,175 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at $1338.45, Shares: 1.47, Size: $1961.43
+2025-06-26 17:13:06,175 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at 1338.449951171875
+2025-06-26 17:13:06,179 - src.data.trading_system - INFO - Closed short position in ICICIBANK.NS at $1273.00, P&L: $95.91 (4.89%)
+2025-06-26 17:13:06,179 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,206 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at $1336.50, Shares: 1.47, Size: $1963.35
+2025-06-26 17:13:06,206 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at 1336.5
+2025-06-26 17:13:06,216 - src.data.trading_system - INFO - Closed short position in ICICIBANK.NS at $1281.65, P&L: $80.58 (4.10%)
+2025-06-26 17:13:06,216 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,223 - src.data.trading_system - INFO - Opened long position in ICICIBANK.NS at $1229.75, Shares: 1.60, Size: $1964.96
+2025-06-26 17:13:06,223 - src.data.trading_system - INFO - Opened long position in ICICIBANK.NS at 1229.75
+2025-06-26 17:13:06,228 - src.data.trading_system - INFO - Closed long position in ICICIBANK.NS at $1196.15, P&L: $-53.69 (-2.73%)
+2025-06-26 17:13:06,228 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,229 - src.data.trading_system - INFO - Opened long position in ICICIBANK.NS at $1196.15, Shares: 1.64, Size: $1963.89
+2025-06-26 17:13:06,230 - src.data.trading_system - INFO - Opened long position in ICICIBANK.NS at 1196.1500244140625
+2025-06-26 17:13:06,233 - src.data.trading_system - INFO - Closed long position in ICICIBANK.NS at $1246.90, P&L: $83.32 (4.24%)
+2025-06-26 17:13:06,233 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,254 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at $1313.10, Shares: 1.50, Size: $1965.56
+2025-06-26 17:13:06,255 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at 1313.0999755859375
+2025-06-26 17:13:06,255 - src.data.trading_system - INFO - Closed short position in ICICIBANK.NS at $1343.10, P&L: $-44.91 (-2.28%)
+2025-06-26 17:13:06,256 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,257 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at $1343.10, Shares: 1.46, Size: $1964.66
+2025-06-26 17:13:06,257 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at 1343.0999755859375
+2025-06-26 17:13:06,262 - src.data.trading_system - INFO - Closed short position in ICICIBANK.NS at $1287.55, P&L: $81.26 (4.14%)
+2025-06-26 17:13:06,263 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,275 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at $1435.50, Shares: 1.37, Size: $1966.28
+2025-06-26 17:13:06,275 - src.data.trading_system - INFO - Opened short position in ICICIBANK.NS at 1435.5
+2025-06-26 17:13:06,298 - src.data.trading_system - INFO - Completed ICICIBANK.NS: Trades: 9, P&L: $210.41
+2025-06-26 17:13:06,298 - src.data.trading_system - INFO - 
+Processing HDFCBANK.NS...
+2025-06-26 17:13:06,327 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at $1666.60, Shares: 1.16, Size: $1926.96
+2025-06-26 17:13:06,327 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at 1666.5999755859375
+2025-06-26 17:13:06,329 - src.data.trading_system - INFO - Closed short position in HDFCBANK.NS at $1708.50, P&L: $-48.45 (-2.51%)
+2025-06-26 17:13:06,329 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,330 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at $1708.50, Shares: 1.13, Size: $1925.99
+2025-06-26 17:13:06,330 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at 1708.5
+2025-06-26 17:13:06,331 - src.data.trading_system - INFO - Closed short position in HDFCBANK.NS at $1759.80, P&L: $-57.83 (-3.00%)
+2025-06-26 17:13:06,331 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,332 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at $1759.80, Shares: 1.09, Size: $1924.83
+2025-06-26 17:13:06,332 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at 1759.800048828125
+2025-06-26 17:13:06,337 - src.data.trading_system - INFO - Closed short position in HDFCBANK.NS at $1682.00, P&L: $85.10 (4.42%)
+2025-06-26 17:13:06,338 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,362 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at $1860.10, Shares: 1.04, Size: $1926.53
+2025-06-26 17:13:06,363 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at 1860.0999755859375
+2025-06-26 17:13:06,372 - src.data.trading_system - INFO - Closed short position in HDFCBANK.NS at $1771.50, P&L: $91.76 (4.76%)
+2025-06-26 17:13:06,372 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,383 - src.data.trading_system - INFO - Opened long position in HDFCBANK.NS at $1710.50, Shares: 1.13, Size: $1928.37
+2025-06-26 17:13:06,383 - src.data.trading_system - INFO - Opened long position in HDFCBANK.NS at 1710.5
+2025-06-26 17:13:06,385 - src.data.trading_system - INFO - Closed long position in HDFCBANK.NS at $1667.80, P&L: $-48.14 (-2.50%)
+2025-06-26 17:13:06,385 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,386 - src.data.trading_system - INFO - Opened long position in HDFCBANK.NS at $1667.80, Shares: 1.16, Size: $1927.41
+2025-06-26 17:13:06,386 - src.data.trading_system - INFO - Opened long position in HDFCBANK.NS at 1667.800048828125
+2025-06-26 17:13:06,387 - src.data.trading_system - INFO - Closed long position in HDFCBANK.NS at $1630.85, P&L: $-42.70 (-2.22%)
+2025-06-26 17:13:06,387 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,388 - src.data.trading_system - INFO - Opened long position in HDFCBANK.NS at $1630.85, Shares: 1.18, Size: $1926.55
+2025-06-26 17:13:06,388 - src.data.trading_system - INFO - Opened long position in HDFCBANK.NS at 1630.8499755859375
+2025-06-26 17:13:06,400 - src.data.trading_system - INFO - Closed long position in HDFCBANK.NS at $1698.75, P&L: $80.21 (4.16%)
+2025-06-26 17:13:06,401 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,405 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at $1737.80, Shares: 1.11, Size: $1928.16
+2025-06-26 17:13:06,405 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at 1737.800048828125
+2025-06-26 17:13:06,424 - src.data.trading_system - INFO - Closed short position in HDFCBANK.NS at $1800.00, P&L: $-69.01 (-3.58%)
+2025-06-26 17:13:06,424 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,425 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at $1800.00, Shares: 1.07, Size: $1926.78
+2025-06-26 17:13:06,425 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at 1800.0
+2025-06-26 17:13:06,433 - src.data.trading_system - INFO - Closed short position in HDFCBANK.NS at $1864.90, P&L: $-69.47 (-3.61%)
+2025-06-26 17:13:06,433 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,442 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at $1931.70, Shares: 1.00, Size: $1925.39
+2025-06-26 17:13:06,443 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at 1931.699951171875
+2025-06-26 17:13:06,458 - src.data.trading_system - INFO - Closed short position in HDFCBANK.NS at $1978.70, P&L: $-46.85 (-2.43%)
+2025-06-26 17:13:06,458 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,460 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at $1978.90, Shares: 0.97, Size: $1924.45
+2025-06-26 17:13:06,460 - src.data.trading_system - INFO - Opened short position in HDFCBANK.NS at 1978.9000244140625
+2025-06-26 17:13:06,469 - src.data.trading_system - INFO - Closed short position in HDFCBANK.NS at $2021.80, P&L: $-41.72 (-2.17%)
+2025-06-26 17:13:06,469 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,470 - src.data.trading_system - INFO - Completed HDFCBANK.NS: Trades: 11, P&L: $-167.09
+2025-06-26 17:13:06,470 - src.data.trading_system - INFO - 
+Processing BHARTIARTL.NS...
+2025-06-26 17:13:06,484 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1506.01, Shares: 1.28, Size: $1923.62
+2025-06-26 17:13:06,484 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1506.00732421875
+2025-06-26 17:13:06,487 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1435.55, P&L: $89.99 (4.68%)
+2025-06-26 17:13:06,487 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,498 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1522.75, Shares: 1.26, Size: $1925.42
+2025-06-26 17:13:06,498 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1522.75
+2025-06-26 17:13:06,499 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1556.35, P&L: $-42.48 (-2.21%)
+2025-06-26 17:13:06,499 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,500 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1556.35, Shares: 1.24, Size: $1924.57
+2025-06-26 17:13:06,500 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1556.3499755859375
+2025-06-26 17:13:06,501 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1589.05, P&L: $-40.44 (-2.10%)
+2025-06-26 17:13:06,501 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,502 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1589.05, Shares: 1.21, Size: $1923.76
+2025-06-26 17:13:06,502 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1589.050048828125
+2025-06-26 17:13:06,508 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1646.75, P&L: $-69.85 (-3.63%)
+2025-06-26 17:13:06,508 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,509 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1646.75, Shares: 1.17, Size: $1922.36
+2025-06-26 17:13:06,509 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1646.75
+2025-06-26 17:13:06,512 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1711.75, P&L: $-75.88 (-3.95%)
+2025-06-26 17:13:06,513 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,513 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1711.75, Shares: 1.12, Size: $1920.84
+2025-06-26 17:13:06,514 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1711.75
+2025-06-26 17:13:06,514 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1750.45, P&L: $-43.43 (-2.26%)
+2025-06-26 17:13:06,514 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,515 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1750.45, Shares: 1.10, Size: $1919.97
+2025-06-26 17:13:06,515 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1750.449951171875
+2025-06-26 17:13:06,519 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1673.45, P&L: $84.46 (4.40%)
+2025-06-26 17:13:06,520 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,534 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1612.60, Shares: 1.19, Size: $1921.66
+2025-06-26 17:13:06,534 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1612.5999755859375
+2025-06-26 17:13:06,535 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1578.40, P&L: $-40.75 (-2.12%)
+2025-06-26 17:13:06,536 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,536 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1578.40, Shares: 1.22, Size: $1920.85
+2025-06-26 17:13:06,536 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1578.4000244140625
+2025-06-26 17:13:06,541 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1537.00, P&L: $-50.38 (-2.62%)
+2025-06-26 17:13:06,541 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,587 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1725.80, Shares: 1.11, Size: $1919.84
+2025-06-26 17:13:06,587 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1725.800048828125
+2025-06-26 17:13:06,595 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1798.80, P&L: $-81.21 (-4.23%)
+2025-06-26 17:13:06,597 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,600 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1889.10, Shares: 1.02, Size: $1918.22
+2025-06-26 17:13:06,600 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1889.0999755859375
+2025-06-26 17:13:06,619 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1808.90, P&L: $81.44 (4.25%)
+2025-06-26 17:13:06,619 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,645 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1936.70, Shares: 0.99, Size: $1919.85
+2025-06-26 17:13:06,645 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1936.699951171875
+2025-06-26 17:13:06,648 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $2014.30, P&L: $-76.92 (-4.01%)
+2025-06-26 17:13:06,649 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,650 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $2014.30, Shares: 0.95, Size: $1918.31
+2025-06-26 17:13:06,650 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 2014.300048828125
+2025-06-26 17:13:06,650 - src.data.trading_system - INFO - Completed BHARTIARTL.NS: Trades: 12, P&L: $-265.46
+2025-06-26 17:13:06,650 - src.data.trading_system - INFO - 
+Processing INFY.NS...
+2025-06-26 17:13:06,698 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1732.87, Shares: 1.08, Size: $1879.94
+2025-06-26 17:13:06,698 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1732.868408203125
+2025-06-26 17:13:06,701 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1804.56, P&L: $77.78 (4.14%)
+2025-06-26 17:13:06,702 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,741 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1739.62, Shares: 1.08, Size: $1881.50
+2025-06-26 17:13:06,741 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1739.623291015625
+2025-06-26 17:13:06,742 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1664.28, P&L: $-81.48 (-4.33%)
+2025-06-26 17:13:06,743 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,744 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1664.28, Shares: 1.13, Size: $1879.87
+2025-06-26 17:13:06,744 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1664.2833251953125
+2025-06-26 17:13:06,748 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1568.78, P&L: $-107.88 (-5.74%)
+2025-06-26 17:13:06,749 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,750 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1568.78, Shares: 1.20, Size: $1877.71
+2025-06-26 17:13:06,750 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1568.777099609375
+2025-06-26 17:13:06,758 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1505.32, P&L: $-75.95 (-4.05%)
+2025-06-26 17:13:06,758 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,761 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1377.37, Shares: 1.36, Size: $1876.19
+2025-06-26 17:13:06,761 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1377.3702392578125
+2025-06-26 17:13:06,767 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1454.44, P&L: $104.98 (5.60%)
+2025-06-26 17:13:06,767 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,775 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1604.33, Shares: 1.17, Size: $1878.29
+2025-06-26 17:13:06,775 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1604.3270263671875
+2025-06-26 17:13:06,778 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1538.16, P&L: $77.47 (4.12%)
+2025-06-26 17:13:06,778 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,789 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1631.10, Shares: 1.15, Size: $1879.84
+2025-06-26 17:13:06,789 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1631.0999755859375
+2025-06-26 17:13:06,796 - src.data.trading_system - INFO - Completed INFY.NS: Trades: 6, P&L: $-5.10
+2025-06-26 17:13:06,796 - src.data.trading_system - INFO - 
+Processing SBIN.NS...
+2025-06-26 17:13:06,813 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $795.67, Shares: 2.32, Size: $1842.24
+2025-06-26 17:13:06,813 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 795.6732788085938
+2025-06-26 17:13:06,825 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $767.10, P&L: $-66.16 (-3.59%)
+2025-06-26 17:13:06,826 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,827 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $768.81, Shares: 2.39, Size: $1840.92
+2025-06-26 17:13:06,827 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 768.8125610351562
+2025-06-26 17:13:06,843 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $804.25, P&L: $84.86 (4.61%)
+2025-06-26 17:13:06,843 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,869 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $783.91, Shares: 2.35, Size: $1842.62
+2025-06-26 17:13:06,869 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 783.9094848632812
+2025-06-26 17:13:06,872 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $761.12, P&L: $-53.57 (-2.91%)
+2025-06-26 17:13:06,872 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,877 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $715.14, Shares: 2.58, Size: $1841.54
+2025-06-26 17:13:06,877 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 715.1403198242188
+2025-06-26 17:13:06,878 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $751.22, P&L: $92.90 (5.04%)
+2025-06-26 17:13:06,879 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,905 - src.data.trading_system - INFO - Opened short position in SBIN.NS at $765.43, Shares: 2.41, Size: $1843.40
+2025-06-26 17:13:06,905 - src.data.trading_system - INFO - Opened short position in SBIN.NS at 765.4304809570312
+2025-06-26 17:13:06,910 - src.data.trading_system - INFO - Closed short position in SBIN.NS at $732.20, P&L: $80.03 (4.34%)
+2025-06-26 17:13:06,910 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:06,941 - src.data.trading_system - INFO - Completed SBIN.NS: Trades: 5, P&L: $138.05
+2025-06-26 17:13:06,941 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-26 17:13:07,026 - src.data.trading_system - INFO - Opened short position in LT.NS at $3910.83, Shares: 0.47, Size: $1845.00
+2025-06-26 17:13:07,027 - src.data.trading_system - INFO - Opened short position in LT.NS at 3910.826416015625
+2025-06-26 17:13:07,033 - src.data.trading_system - INFO - Closed short position in LT.NS at $3723.42, P&L: $88.41 (4.79%)
+2025-06-26 17:13:07,034 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,078 - src.data.trading_system - INFO - Opened short position in LT.NS at $3384.39, Shares: 0.55, Size: $1846.77
+2025-06-26 17:13:07,078 - src.data.trading_system - INFO - Opened short position in LT.NS at 3384.385986328125
+2025-06-26 17:13:07,080 - src.data.trading_system - INFO - Closed short position in LT.NS at $3469.24, P&L: $-46.31 (-2.51%)
+2025-06-26 17:13:07,080 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,096 - src.data.trading_system - INFO - Opened short position in LT.NS at $3554.05, Shares: 0.52, Size: $1845.85
+2025-06-26 17:13:07,096 - src.data.trading_system - INFO - Opened short position in LT.NS at 3554.0537109375
+2025-06-26 17:13:07,104 - src.data.trading_system - INFO - Closed short position in LT.NS at $3641.14, P&L: $-45.23 (-2.45%)
+2025-06-26 17:13:07,104 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,117 - src.data.trading_system - INFO - Completed LT.NS: Trades: 3, P&L: $-3.13
+2025-06-26 17:13:07,117 - src.data.trading_system - INFO - 
+Processing RELIANCE.NS...
+2025-06-26 17:13:07,156 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1370.72, Shares: 1.35, Size: $1844.94
+2025-06-26 17:13:07,156 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1370.7249755859375
+2025-06-26 17:13:07,162 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1338.53, P&L: $-43.34 (-2.35%)
+2025-06-26 17:13:07,162 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,172 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1283.75, Shares: 1.44, Size: $1844.07
+2025-06-26 17:13:07,172 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1283.75
+2025-06-26 17:13:07,173 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1252.05, P&L: $-45.54 (-2.47%)
+2025-06-26 17:13:07,174 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,175 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1252.05, Shares: 1.47, Size: $1843.16
+2025-06-26 17:13:07,175 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1252.050048828125
+2025-06-26 17:13:07,177 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1223.00, P&L: $-42.77 (-2.32%)
+2025-06-26 17:13:07,177 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,178 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1223.00, Shares: 1.51, Size: $1842.31
+2025-06-26 17:13:07,178 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1223.0
+2025-06-26 17:13:07,179 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1287.00, P&L: $96.41 (5.23%)
+2025-06-26 17:13:07,179 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,192 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1205.30, Shares: 1.53, Size: $1844.24
+2025-06-26 17:13:07,192 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1205.300048828125
+2025-06-26 17:13:07,199 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1265.50, P&L: $92.11 (4.99%)
+2025-06-26 17:13:07,199 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,204 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.35, Shares: 1.42, Size: $1846.08
+2025-06-26 17:13:07,204 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.3499755859375
+2025-06-26 17:13:07,208 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1246.30, P&L: $79.45 (4.30%)
+2025-06-26 17:13:07,208 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,224 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1171.25, Shares: 1.58, Size: $1847.67
+2025-06-26 17:13:07,224 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1171.25
+2025-06-26 17:13:07,226 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1249.80, P&L: $123.91 (6.71%)
+2025-06-26 17:13:07,226 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,233 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.10, Shares: 1.42, Size: $1850.15
+2025-06-26 17:13:07,233 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.0999755859375
+2025-06-26 17:13:07,237 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1248.70, P&L: $75.88 (4.10%)
+2025-06-26 17:13:07,237 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,246 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1368.80, Shares: 1.35, Size: $1851.66
+2025-06-26 17:13:07,246 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1368.800048828125
+2025-06-26 17:13:07,247 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1399.70, P&L: $-41.80 (-2.26%)
+2025-06-26 17:13:07,247 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,248 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1399.70, Shares: 1.32, Size: $1850.83
+2025-06-26 17:13:07,248 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1399.699951171875
+2025-06-26 17:13:07,249 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1431.30, P&L: $-41.78 (-2.26%)
+2025-06-26 17:13:07,250 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,285 - src.data.trading_system - INFO - Completed RELIANCE.NS: Trades: 10, P&L: $252.54
+2025-06-26 17:13:07,285 - src.data.trading_system - INFO - 
+Processing ITC.NS...
+2025-06-26 17:13:07,319 - src.data.trading_system - INFO - Opened short position in ITC.NS at $505.32, Shares: 3.66, Size: $1849.99
+2025-06-26 17:13:07,319 - src.data.trading_system - INFO - Opened short position in ITC.NS at 505.31646728515625
+2025-06-26 17:13:07,323 - src.data.trading_system - INFO - Closed short position in ITC.NS at $475.30, P&L: $109.88 (5.94%)
+2025-06-26 17:13:07,323 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,325 - src.data.trading_system - INFO - Opened long position in ITC.NS at $471.92, Shares: 3.92, Size: $1852.19
+2025-06-26 17:13:07,325 - src.data.trading_system - INFO - Opened long position in ITC.NS at 471.918701171875
+2025-06-26 17:13:07,331 - src.data.trading_system - INFO - Closed long position in ITC.NS at $455.97, P&L: $-62.60 (-3.38%)
+2025-06-26 17:13:07,332 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,342 - src.data.trading_system - INFO - Opened long position in ITC.NS at $450.41, Shares: 4.11, Size: $1850.94
+2025-06-26 17:13:07,343 - src.data.trading_system - INFO - Opened long position in ITC.NS at 450.41070556640625
+2025-06-26 17:13:07,360 - src.data.trading_system - INFO - Closed long position in ITC.NS at $472.74, P&L: $91.76 (4.96%)
+2025-06-26 17:13:07,360 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,361 - src.data.trading_system - INFO - Opened short position in ITC.NS at $472.74, Shares: 3.92, Size: $1852.77
+2025-06-26 17:13:07,361 - src.data.trading_system - INFO - Opened short position in ITC.NS at 472.7403259277344
+2025-06-26 17:13:07,362 - src.data.trading_system - INFO - Closed short position in ITC.NS at $427.89, P&L: $175.79 (9.49%)
+2025-06-26 17:13:07,362 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,374 - src.data.trading_system - INFO - Opened short position in ITC.NS at $447.12, Shares: 4.15, Size: $1856.29
+2025-06-26 17:13:07,375 - src.data.trading_system - INFO - Opened short position in ITC.NS at 447.1240539550781
+2025-06-26 17:13:07,376 - src.data.trading_system - INFO - Closed short position in ITC.NS at $426.39, P&L: $86.08 (4.64%)
+2025-06-26 17:13:07,377 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,406 - src.data.trading_system - INFO - Opened short position in ITC.NS at $413.92, Shares: 4.49, Size: $1858.01
+2025-06-26 17:13:07,406 - src.data.trading_system - INFO - Opened short position in ITC.NS at 413.92340087890625
+2025-06-26 17:13:07,408 - src.data.trading_system - INFO - Closed short position in ITC.NS at $425.76, P&L: $-53.11 (-2.86%)
+2025-06-26 17:13:07,409 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,409 - src.data.trading_system - INFO - Opened short position in ITC.NS at $425.76, Shares: 4.36, Size: $1856.95
+2025-06-26 17:13:07,410 - src.data.trading_system - INFO - Opened short position in ITC.NS at 425.75543212890625
+2025-06-26 17:13:07,422 - src.data.trading_system - INFO - Closed short position in ITC.NS at $434.89, P&L: $-39.83 (-2.14%)
+2025-06-26 17:13:07,423 - src.data.trading_system - WARNING - Failed to log to Google Sheets: Object of type Timestamp is not JSON serializable
+2025-06-26 17:13:07,439 - src.data.trading_system - INFO - Completed ITC.NS: Trades: 7, P&L: $307.98
+2025-06-26 17:13:08,926 - src.data.trading_system - INFO - 
+Performance report generated: /workspaces/algoTradingSystem/trading_results/figures/performance_report_20250626_171308.html
+2025-06-26 17:13:08,931 - root - INFO - Results saved to trading_results
