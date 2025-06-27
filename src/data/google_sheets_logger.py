@@ -11,7 +11,7 @@ import gspread
 import traceback
 
 class GoogleSheetsLogger:
-    def __init__(self, credentials_path: str, spreadsheet_name: str = "TradingSystemLog", worksheet_name: str = "Log"):
+    def __init__(self, credentials_path: str, spreadsheet_name: str = "TradingSystemLog", worksheet_name: str = "Trade Log"):
         self.logger = logging.getLogger(__name__)
         self.credentials_path = self._find_credentials(credentials_path)
         self.spreadsheet_name = spreadsheet_name
@@ -88,6 +88,7 @@ class GoogleSheetsLogger:
             return x
 
         row = [
+            datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S'),
             safe_str(trade.get('symbol', '')),
             safe_str(trade.get('direction', '')),
             safe_str(trade.get('entry_date', '')),
@@ -98,8 +99,8 @@ class GoogleSheetsLogger:
             safe_str(trade.get('position_size', '')),
             safe_str(trade.get('pnl', '')),
             safe_str(trade.get('pnl_pct', '')),
-            safe_str(trade.get('close_reason', '')),
-            datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')
+            safe_str(trade.get('close_reason', ''))
+            
         ]
         self.sheet.append_row(row, value_input_option="USER_ENTERED")
 if __name__ == "__main__":

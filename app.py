@@ -72,7 +72,7 @@ st.caption("""
 
 # ---------- Sidebar ----------
 st.sidebar.image("https://cdn-icons-png.flaticon.com/512/2721/2721288.png", width=100)
-st.sidebar.header("⚙️ Configuration")
+st.sidebar.header("⚙️ Trading Configuration")
 
 config_file = st.sidebar.text_input("Config file (optional, JSON)", value="")
 def load_config(config_file: str):
@@ -85,7 +85,7 @@ def load_config(config_file: str):
 config = load_config(config_file) if config_file else {}
 
 capital = st.sidebar.number_input(
-    "💰 Initial Capital", min_value=1000.0, value=float(config.get('capital', DEFAULT_INITIAL_CAPITAL)), step=1000.0
+    "💰 Starting Capital", min_value=1000.0, value=float(config.get('capital', DEFAULT_INITIAL_CAPITAL)), step=1000.0
 )
 position_size = st.sidebar.slider(
     "📊 Position Size (% of Capital)", min_value=0.01, max_value=1.0, value=float(config.get('position_size', DEFAULT_POSITION_SIZE_PCT)), step=0.01
@@ -104,7 +104,7 @@ output_dir = st.sidebar.text_input("📁 Output directory", value=config.get('ou
 mode = st.sidebar.radio("Mode", ["Backtest", "Live"])
 strategy = st.sidebar.selectbox("Strategy", ["rsi", "macd", "bollinger", "combined"], index=["rsi", "macd", "bollinger", "combined"].index(config.get("strategy", "combined")))
 
-days = st.sidebar.number_input("Days for Backtest", min_value=30, max_value=1825, value=int(config.get("days", 365)), step=1)
+days = st.sidebar.number_input("Backtest Window (Days)", min_value=30, max_value=1825, value=int(config.get("days", 365)), step=1)
 end_date = datetime.now(timezone.utc)
 start_date = end_date - timedelta(days=days)
 
@@ -112,12 +112,12 @@ max_retries = st.sidebar.number_input("Max Retries (Live)", min_value=0, value=i
 retry_delay = st.sidebar.number_input("Retry Delay (sec, Live)", min_value=1, value=int(config.get("retry_delay", 5)), step=1)
 
 symbols = st.sidebar.multiselect(
-    "Select Symbols",
+    "Stock Tickers",
     options=SYMBOLS,
     default=SYMBOLS if not config.get("symbols") else config.get("symbols")
 )
 if not symbols:
-    st.sidebar.warning("Please select at least one symbol to proceed.")
+    st.sidebar.warning("Please select at least one stock to proceed.")
 
 # ML Automation options
 st.sidebar.header("🤖 ML Automation (Bonus)")
@@ -140,7 +140,7 @@ with col1:
 with col2:
     st.metric("Current Time (UTC)", f"{datetime.now(timezone.utc).strftime('%H:%M:%S')}")
 with col3:
-    st.metric("User", f"{getpass.getuser()}")
+    st.metric("Logged-in User", f"{getpass.getuser()}")
 
 def setup_logging():
     log_dir = os.path.join(os.getcwd(), 'logs')
@@ -161,22 +161,22 @@ logger = logging.getLogger(__name__)
 with st.expander("ℹ️ About This App", expanded=False):
     st.info(
         """
-        This dashboard integrates all core modules of your trading system:
-        - **TradingSystem** (Backtest engine)
-        - **AutomationController** (Live trading)
-        - **Strategies** (RSI, MACD, etc.)
+        This dashboard brings together your core trading system modules:
+        - **TradingSystem** (Backtest Engine)
+        - **AutomationController** (Live Trading)
+        - **Strategy Modules** (RSI, MACD, etc.)
         - **Technical Indicators**
         - **Google Sheets Logging**
-        - **ML Automation & Analytics**
-        - **Visualization & Metrics**
+        - **ML Analytics**
+        - **Stock Performance Visualizations & Metrics**
         """
     )
 
 results = {}
 
-if st.button(f"🚦 Run {mode}", help="Start backtest/live trading and ML analytics!"):
+if st.button(f"🚦 Run {mode}", help="Run Backtest or Live Trading including ML analytics!"):
     logger.info(f"Starting trading system in {mode} mode")
-    logger.info(f"Initial capital: ${capital:,.2f}")
+    logger.info(f"Starting capital: ${capital:,.2f}")
 
     trading_system = TradingSystem(
         initial_capital=capital,
@@ -202,7 +202,7 @@ if st.button(f"🚦 Run {mode}", help="Start backtest/live trading and ML analyt
             if symbol in inner:
                 result = inner[symbol]
             else:
-                st.warning(f"Symbol {symbol} not found in inner dict.")
+                st.warning(f"Stock {symbol} not found in results.")
                 continue
             metrics = result.get("metrics", {}) if isinstance(result, dict) else {}
             try:
@@ -215,11 +215,11 @@ if st.button(f"🚦 Run {mode}", help="Start backtest/live trading and ML analyt
                 st.warning(f"Could not parse metrics for {symbol}: {e}")
                 total_trades_val = win_rate_val = total_pnl_val = return_pct_val = sharpe_val = 0
             summary_rows.append({
-                "Symbol": symbol,
-                "Total Trades": total_trades_val,
-                "Win Rate": f"{win_rate_val*100:.2f}%",
-                "Total P&L": f"${total_pnl_val:.2f}",
-                "Return %": f"{return_pct_val*100:.2f}%",
+                "Stock": symbol,
+                "Number of Trades": total_trades_val,
+                "Win Rate (%)": f"{win_rate_val*100:.2f}",
+                "Total P&L (₹)": f"{total_pnl_val:.2f}",
+                "Return (%)": f"{return_pct_val:.2f}",
                 "Sharpe Ratio": f"{sharpe_val:.2f}"
             })
             total_pnl += total_pnl_val
@@ -227,15 +227,15 @@ if st.button(f"🚦 Run {mode}", help="Start backtest/live trading and ML analyt
         st.dataframe(pd.DataFrame(summary_rows), use_container_width=True)
         st.markdown(f"""
             <div style='margin-top:12px; font-size:1.1em;'>
-            <b>Overall Total Trades:</b> {total_trades} &nbsp; &nbsp;
-            <b>Overall Total P&L:</b> ${total_pnl:,.2f} &nbsp; &nbsp;
-            <b>Return on Capital:</b> {((total_pnl/capital)*100):.2f}%
+            <b>Total Trades:</b> {total_trades} &nbsp; &nbsp;
+            <b>Total P&L:</b> ₹{total_pnl:,.2f} &nbsp; &nbsp;
+            <b>Return on Capital (%):</b> {((total_pnl/capital)*100):.2f}
             </div>
         """, unsafe_allow_html=True)
 
-        # ---------- PNG Performance Visualizations ----------
+        # ---------- Stock Market Visualizations ----------
         st.markdown("---")
-        st.subheader("📊 Visualizations", divider="rainbow")
+        st.subheader("📊 Stock Performance Visualizations", divider="rainbow")
         visualizer = TradingVisualizer(output_dir)
         figures_dir = os.path.join(output_dir, "figures")
         try:
@@ -259,7 +259,7 @@ if st.button(f"🚦 Run {mode}", help="Start backtest/live trading and ML analyt
             with open(performance_report, 'r') as f:
                 st.components.v1.html(f.read(), height=900, scrolling=True)
         except Exception as viz_e:
-            st.warning(f"Unable to display visualizations: {viz_e}")
+            st.warning(f"")
 
         # ---------- ML Section ----------
         if enable_ml:
@@ -267,7 +267,7 @@ if st.button(f"🚦 Run {mode}", help="Start backtest/live trading and ML analyt
             from src.data.ml_predict import predict_next
 
             st.markdown("---")
-            st.header("🤖 ML Analytics: Next-Day Prediction, Probabilities & Analysis", divider="violet")
+            st.header("🤖 ML Analytics: Next-Day Stock Prediction", divider="violet")
             ml_summary = []
             for symbol in results:
                 inner = results[symbol]
@@ -282,34 +282,36 @@ if st.button(f"🚦 Run {mode}", help="Start backtest/live trading and ML analyt
                     try:
                         model, scaler, acc, feature_cols, X_test, y_test, y_pred, y_proba, report, cm = train_ml_pipeline(df, model_type=ml_model_type)
                         signal = predict_next(model, scaler, df, feature_cols)
-                        st.markdown(f"""
-                        <div style='background:#f1f6f9;padding:1em 1em 0.8em 1em;border-radius:9px;margin:15px 0 16px 0;'>
-                        <span style='font-size:1.12em;color:#1e3c72;font-weight:bold;'>{symbol}</span>
-                        <ul style='font-size:0.99em;margin:0.5em 0 0 0.5em;'>
-                            <li><b>ML Model:</b> <span style='color:#3c096c;'>{ml_model_type}</span></li>
-                            <li><b>Test Set Accuracy:</b> <span style='color:#3c096c;'>{acc:.2%}</span></li>
-                            <li><b>Next-Day Signal:</b> <span style='font-weight:bold;color:{'green' if signal else 'crimson'};'>{'UP' if signal else 'DOWN'}</span></li>
-                        </ul>
-                        </div>
-                        """, unsafe_allow_html=True)
+
+                        msg = (
+                            f"**Stock:** {symbol}\n\n"
+                            f"- Model: '{ml_model_type.replace('_',' ').title()}'\n"
+                            f"- Backtest Accuracy: **{acc*100:.1f}%**\n"
+                            f"- Model's prediction for next day: "
+                            f"**{'UP 📈' if signal else 'DOWN 📉'}**"
+                        )
+                        st.success(msg)
+
                         ml_summary.append({
-                            "Symbol": symbol,
-                            "ML Model": ml_model_type,
-                            "Test Accuracy": f"{acc:.2%}",
-                            "Last Prediction": "UP" if signal else "DOWN"
+                            "Stock": symbol,
+                            "Model": ml_model_type,
+                            "Backtest Accuracy (%)": f"{acc*100:.1f}",
+                            "Prediction (Next Day)": "UP" if signal else "DOWN"
                         })
 
-                        # Probabilities plot
                         if y_proba is not None:
-                            st.subheader(f"Prediction Probabilities (Test Set)", divider="blue")
+                            st.info(
+                                "Distribution of model probabilities for predicting 'UP'."
+                            )
+                            st.subheader(f"Prediction Probability Distribution", divider="blue")
                             fig, ax = plt.subplots(figsize=(6,3))
                             sns.histplot(y_proba, bins=20, ax=ax, kde=True, color='#2a5298')
-                            ax.set_title(f"Prediction Probabilities for {symbol} ({ml_model_type})")
-                            ax.set_xlabel("Probability of UP Movement")
-                            ax.set_ylabel("Frequency")
+                            ax.set_title(f"Probability (UP) for {symbol} ({ml_model_type})")
+                            ax.set_xlabel("Probability (UP)")
+                            ax.set_ylabel("Count")
                             st.pyplot(fig)
 
-                        # Confusion matrix
+                        st.info("Confusion matrix shows the number of correct/incorrect predictions.")
                         st.subheader("Confusion Matrix", divider="blue")
                         fig, ax = plt.subplots()
                         sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", cbar=False, ax=ax)
@@ -318,7 +320,7 @@ if st.button(f"🚦 Run {mode}", help="Start backtest/live trading and ML analyt
                         ax.set_title(f"Confusion Matrix ({symbol})")
                         st.pyplot(fig)
 
-                        # Classification report
+                        st.info("Classification report with precision, recall, f1-score, and support.")
                         st.subheader("Classification Report", divider="blue")
                         st.dataframe(pd.DataFrame(report).transpose(), use_container_width=True)
 
@@ -328,7 +330,7 @@ if st.button(f"🚦 Run {mode}", help="Start backtest/live trading and ML analyt
                     st.info(f"[ML] No historical data for {symbol} to run ML.")
 
             if ml_summary:
-                st.subheader("🧠 ML Prediction Summary Table (All Symbols)", divider="rainbow")
+                st.subheader("🧠 ML Stock Prediction Summary Table", divider="rainbow")
                 st.dataframe(pd.DataFrame(ml_summary), use_container_width=True)
 
         # ---------- Trade Log Section ----------
@@ -343,7 +345,7 @@ if st.button(f"🚦 Run {mode}", help="Start backtest/live trading and ML analyt
                 st.subheader(f"📄 Trade Log for {symbol}")
                 st.dataframe(pd.DataFrame(trades), use_container_width=True)
                 st.download_button(
-                    f"⬇️ Download {symbol} Trades CSV",
+                    f"⬇️ Download {symbol} Trade Log (CSV)",
                     pd.DataFrame(trades).to_csv(index=False),
                     file_name=f"{symbol}_trades.csv"
                 )
@@ -358,7 +360,7 @@ if st.button(f"🚦 Run {mode}", help="Start backtest/live trading and ML analyt
         st.success("Live trading session ended.")
 
 # ---------- Utility Expanders ----------
-with st.expander("🗒️ Preview Google Sheets Log (if enabled)"):
+with st.expander("🗒️ Preview Google Sheets Trade Log (if enabled)"):
     try:
         from src.data.google_sheets_logger import GoogleSheetsLogger
         creds_path = "src/data/credentials.json"
@@ -368,19 +370,19 @@ with st.expander("🗒️ Preview Google Sheets Log (if enabled)"):
     except Exception as e:
         st.warning(f"Unable to preview Google Sheets log: {e}")
 
-with st.expander("📚 Strategies Available"):
+with st.expander("📚 Available Trading Strategies"):
     try:
         st.write(STRATEGIES)
     except Exception:
-        st.info("STRATEGIES dict/list not exposed in strategies.py. Add for richer UI.")
+        st.info("No trading strategies found.")
 
-with st.expander("🧮 Technical Indicators Available"):
+with st.expander("🧮 Available Technical Indicators"):
     try:
         st.write(available_indicators)
     except Exception:
-        st.info("available_indicators not exposed in technical_indicators.py. Add for richer UI.")
+        st.info("No technical indicators found.")
 
-with st.expander("📦 Raw Constants & Config"):
+with st.expander("📦 Stock Market Constants & Config"):
     st.json({
         "SYMBOLS": SYMBOLS,
         "DEFAULT_INITIAL_CAPITAL": DEFAULT_INITIAL_CAPITAL,
@@ -389,14 +391,14 @@ with st.expander("📦 Raw Constants & Config"):
         "DEFAULT_TAKE_PROFIT_PCT": DEFAULT_TAKE_PROFIT_PCT
     })
 
-with st.expander("📃 View trading_results folder"):
+with st.expander("📃 View trading_results directory (Reports & Charts)"):
     try:
         files = os.listdir(output_dir)
         st.write(files)
     except Exception:
-        st.info("No results directory found yet. Run a backtest first.")
+        st.info("No trading_results directory found yet. Run a backtest first.")
 
-with st.expander("📝 View Code Modules in src/data"):
+with st.expander("📝 Code Modules in src/data"):
     try:
         st.write(os.listdir("src/data"))
     except Exception:

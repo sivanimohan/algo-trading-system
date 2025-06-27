@@ -87,6 +87,13 @@ class TechnicalIndicators:
         except Exception as e:
             raise Exception(f"Error adding indicators: {str(e)}")
 
+    def add_all_indicators(self, data: pd.DataFrame) -> pd.DataFrame:
+        """
+        Add all technical indicators needed for ML and trading strategies.
+        This is an alias to add_indicators for compatibility with TradingSystem.
+        """
+        return self.add_indicators(data)
+
     def get_signal(self, data: pd.DataFrame) -> str:
         """
         Generate trading signals based on technical indicators

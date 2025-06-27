@@ -1,0 +1,1167 @@
+2025-06-27 16:00:52,343 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 16:00:52,346 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 16:00:52,348 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 16:00:59,627 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 16:00:59,630 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 16:00:59,632 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 16:01:03,026 - __main__ - INFO - Starting trading system in Backtest mode
+2025-06-27 16:01:03,027 - __main__ - INFO - Starting capital: $100,000.00
+2025-06-27 16:01:04,813 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 16:01:04,816 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 16:01:04,818 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 16:01:04,818 - src.data.trading_system - INFO - ✅ Google Sheets logging enabled
+2025-06-27 16:01:04,818 - src.data.trading_system - INFO - Connected to: https://docs.google.com/spreadsheets/d/1yhmCMKFpMsjvsEfRzzXZWXCaU7Mao8bYt1MSK7r-12A
+2025-06-27 16:01:04,897 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 16:01:04,899 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 16:01:04,901 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 16:01:12,647 - __main__ - INFO - Starting trading system in Backtest mode
+2025-06-27 16:01:12,647 - __main__ - INFO - Starting capital: $100,000.00
+2025-06-27 16:01:14,485 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 16:01:14,489 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 16:01:14,493 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 16:01:14,493 - src.data.trading_system - INFO - ✅ Google Sheets logging enabled
+2025-06-27 16:01:14,494 - src.data.trading_system - INFO - Connected to: https://docs.google.com/spreadsheets/d/1yhmCMKFpMsjvsEfRzzXZWXCaU7Mao8bYt1MSK7r-12A
+2025-06-27 16:01:14,495 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-27 16:01:14,496 - src.data.trading_system - INFO - Period: 2024-06-27 to 2025-06-27
+2025-06-27 16:01:14,989 - src.data.trading_system - INFO - 
+Processing RELIANCE.NS...
+2025-06-27 16:01:15,037 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1370.72, Shares: 1.46, Size: $2000.00
+2025-06-27 16:01:15,038 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1370.7249755859375
+2025-06-27 16:01:15,045 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1338.53, P&L: $-46.98 (-2.35%)
+2025-06-27 16:01:15,649 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1283.75, Shares: 1.56, Size: $1999.06
+2025-06-27 16:01:15,649 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1283.75
+2025-06-27 16:01:15,651 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1252.05, P&L: $-49.36 (-2.47%)
+2025-06-27 16:01:16,852 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1252.05, Shares: 1.60, Size: $1998.07
+2025-06-27 16:01:16,852 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1252.050048828125
+2025-06-27 16:01:16,854 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1223.00, P&L: $-46.36 (-2.32%)
+2025-06-27 16:01:17,287 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1223.00, Shares: 1.63, Size: $1997.15
+2025-06-27 16:01:17,287 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1223.0
+2025-06-27 16:01:17,288 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1287.00, P&L: $104.51 (5.23%)
+2025-06-27 16:01:18,010 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1205.30, Shares: 1.66, Size: $1999.24
+2025-06-27 16:01:18,010 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1205.300048828125
+2025-06-27 16:01:18,022 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1265.50, P&L: $99.85 (4.99%)
+2025-06-27 16:01:18,540 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.35, Shares: 1.54, Size: $2001.23
+2025-06-27 16:01:18,541 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.3499755859375
+2025-06-27 16:01:18,547 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1246.30, P&L: $86.13 (4.30%)
+2025-06-27 16:01:18,993 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1171.25, Shares: 1.71, Size: $2002.96
+2025-06-27 16:01:18,993 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1171.25
+2025-06-27 16:01:18,995 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1249.80, P&L: $134.33 (6.71%)
+2025-06-27 16:01:19,422 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.10, Shares: 1.54, Size: $2005.64
+2025-06-27 16:01:19,422 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.0999755859375
+2025-06-27 16:01:19,426 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1248.70, P&L: $82.25 (4.10%)
+2025-06-27 16:01:19,867 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1368.80, Shares: 1.47, Size: $2007.29
+2025-06-27 16:01:19,868 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1368.800048828125
+2025-06-27 16:01:19,868 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1399.70, P&L: $-45.31 (-2.26%)
+2025-06-27 16:01:20,301 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1399.70, Shares: 1.43, Size: $2006.38
+2025-06-27 16:01:20,301 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1399.699951171875
+2025-06-27 16:01:20,302 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1431.30, P&L: $-45.30 (-2.26%)
+2025-06-27 16:01:20,736 - src.data.trading_system - INFO - Completed RELIANCE.NS: Trades: 10, P&L: $273.76
+2025-06-27 16:01:20,736 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-27 16:01:20,801 - src.data.trading_system - INFO - Opened short position in LT.NS at $3910.83, Shares: 0.51, Size: $2005.48
+2025-06-27 16:01:20,801 - src.data.trading_system - INFO - Opened short position in LT.NS at 3910.826416015625
+2025-06-27 16:01:20,805 - src.data.trading_system - INFO - Closed short position in LT.NS at $3723.42, P&L: $96.10 (4.79%)
+2025-06-27 16:01:21,278 - src.data.trading_system - INFO - Opened short position in LT.NS at $3384.39, Shares: 0.59, Size: $2007.40
+2025-06-27 16:01:21,278 - src.data.trading_system - INFO - Opened short position in LT.NS at 3384.385986328125
+2025-06-27 16:01:21,280 - src.data.trading_system - INFO - Closed short position in LT.NS at $3469.24, P&L: $-50.33 (-2.51%)
+2025-06-27 16:01:21,717 - src.data.trading_system - INFO - Opened short position in LT.NS at $3554.05, Shares: 0.56, Size: $2006.39
+2025-06-27 16:01:21,717 - src.data.trading_system - INFO - Opened short position in LT.NS at 3554.0537109375
+2025-06-27 16:01:21,727 - src.data.trading_system - INFO - Closed short position in LT.NS at $3641.14, P&L: $-49.16 (-2.45%)
+2025-06-27 16:01:22,175 - src.data.trading_system - INFO - Completed LT.NS: Trades: 3, P&L: $-3.40
+2025-06-27 16:01:22,175 - src.data.trading_system - INFO - 
+Processing TCS.NS...
+2025-06-27 16:01:22,204 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4391.70, Shares: 0.46, Size: $2005.41
+2025-06-27 16:01:22,204 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4391.70361328125
+2025-06-27 16:01:22,212 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4181.28, P&L: $96.09 (4.79%)
+2025-06-27 16:01:22,676 - src.data.trading_system - INFO - Opened long position in TCS.NS at $4181.28, Shares: 0.48, Size: $2007.33
+2025-06-27 16:01:22,676 - src.data.trading_system - INFO - Opened long position in TCS.NS at 4181.28369140625
+2025-06-27 16:01:22,687 - src.data.trading_system - INFO - Closed long position in TCS.NS at $4038.26, P&L: $-68.66 (-3.42%)
+2025-06-27 16:01:23,152 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3985.46, Shares: 0.50, Size: $2005.96
+2025-06-27 16:01:23,152 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3985.463623046875
+2025-06-27 16:01:23,158 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3871.77, P&L: $-57.22 (-2.85%)
+2025-06-27 16:01:23,605 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4209.97, Shares: 0.48, Size: $2004.81
+2025-06-27 16:01:23,605 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4209.97314453125
+2025-06-27 16:01:23,615 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4355.29, P&L: $-69.20 (-3.45%)
+2025-06-27 16:01:24,075 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3928.63, Shares: 0.51, Size: $2003.43
+2025-06-27 16:01:24,075 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3928.631103515625
+2025-06-27 16:01:24,078 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3839.08, P&L: $-45.67 (-2.28%)
+2025-06-27 16:01:24,510 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3750.76, Shares: 0.53, Size: $2002.51
+2025-06-27 16:01:24,510 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3750.761962890625
+2025-06-27 16:01:24,511 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3643.22, P&L: $-57.42 (-2.87%)
+2025-06-27 16:01:24,945 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3643.22, Shares: 0.55, Size: $2001.37
+2025-06-27 16:01:24,946 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3643.218017578125
+2025-06-27 16:01:24,948 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3452.56, P&L: $-104.73 (-5.23%)
+2025-06-27 16:01:25,365 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3452.56, Shares: 0.58, Size: $1999.27
+2025-06-27 16:01:25,365 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3452.5625
+2025-06-27 16:01:25,376 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3596.98, P&L: $83.63 (4.18%)
+2025-06-27 16:01:25,824 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3285.20, Shares: 0.61, Size: $2000.94
+2025-06-27 16:01:25,824 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3285.199951171875
+2025-06-27 16:01:25,825 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3417.62, P&L: $80.66 (4.03%)
+2025-06-27 16:01:26,255 - src.data.trading_system - INFO - Opened short position in TCS.NS at $3588.50, Shares: 0.56, Size: $2002.56
+2025-06-27 16:01:26,255 - src.data.trading_system - INFO - Opened short position in TCS.NS at 3588.50390625
+2025-06-27 16:01:26,265 - src.data.trading_system - INFO - Closed short position in TCS.NS at $3432.89, P&L: $86.84 (4.34%)
+2025-06-27 16:01:26,735 - src.data.trading_system - INFO - Completed TCS.NS: Trades: 10, P&L: $-55.70
+2025-06-27 16:01:26,735 - src.data.trading_system - INFO - 
+Processing SBIN.NS...
+2025-06-27 16:01:26,753 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $795.67, Shares: 2.52, Size: $2004.29
+2025-06-27 16:01:26,753 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 795.6732788085938
+2025-06-27 16:01:26,768 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $767.10, P&L: $-71.98 (-3.59%)
+2025-06-27 16:01:27,204 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $768.81, Shares: 2.61, Size: $2002.85
+2025-06-27 16:01:27,204 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 768.8125610351562
+2025-06-27 16:01:27,223 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $804.25, P&L: $92.32 (4.61%)
+2025-06-27 16:01:27,709 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $783.91, Shares: 2.56, Size: $2004.70
+2025-06-27 16:01:27,709 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 783.9094848632812
+2025-06-27 16:01:27,713 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $761.12, P&L: $-58.29 (-2.91%)
+2025-06-27 16:01:28,161 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $715.14, Shares: 2.80, Size: $2003.53
+2025-06-27 16:01:28,161 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 715.1403198242188
+2025-06-27 16:01:28,163 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $751.22, P&L: $101.07 (5.04%)
+2025-06-27 16:01:28,632 - src.data.trading_system - INFO - Opened short position in SBIN.NS at $765.43, Shares: 2.62, Size: $2005.56
+2025-06-27 16:01:28,632 - src.data.trading_system - INFO - Opened short position in SBIN.NS at 765.4304809570312
+2025-06-27 16:01:28,637 - src.data.trading_system - INFO - Closed short position in SBIN.NS at $732.20, P&L: $87.08 (4.34%)
+2025-06-27 16:01:29,208 - src.data.trading_system - INFO - Completed SBIN.NS: Trades: 5, P&L: $150.20
+2025-06-27 16:01:29,208 - src.data.trading_system - INFO - 
+Processing INFY.NS...
+2025-06-27 16:01:29,259 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1732.87, Shares: 1.16, Size: $2007.30
+2025-06-27 16:01:29,259 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1732.868408203125
+2025-06-27 16:01:29,262 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1804.56, P&L: $83.04 (4.14%)
+2025-06-27 16:01:29,758 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1739.62, Shares: 1.15, Size: $2008.96
+2025-06-27 16:01:29,758 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1739.623291015625
+2025-06-27 16:01:29,760 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1664.28, P&L: $-87.00 (-4.33%)
+2025-06-27 16:01:30,218 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1664.28, Shares: 1.21, Size: $2007.22
+2025-06-27 16:01:30,218 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1664.2833251953125
+2025-06-27 16:01:30,222 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1568.78, P&L: $-115.19 (-5.74%)
+2025-06-27 16:01:30,661 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1568.78, Shares: 1.28, Size: $2004.91
+2025-06-27 16:01:30,661 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1568.777099609375
+2025-06-27 16:01:30,669 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1505.32, P&L: $-81.10 (-4.05%)
+2025-06-27 16:01:31,147 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1377.37, Shares: 1.45, Size: $2003.29
+2025-06-27 16:01:31,148 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1377.3702392578125
+2025-06-27 16:01:31,152 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1454.44, P&L: $112.09 (5.60%)
+2025-06-27 16:01:31,604 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1604.33, Shares: 1.25, Size: $2005.53
+2025-06-27 16:01:31,604 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1604.3270263671875
+2025-06-27 16:01:31,607 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1538.16, P&L: $82.72 (4.12%)
+2025-06-27 16:01:32,057 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1631.10, Shares: 1.23, Size: $2007.19
+2025-06-27 16:01:32,057 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1631.0999755859375
+2025-06-27 16:01:32,066 - src.data.trading_system - INFO - Completed INFY.NS: Trades: 6, P&L: $-5.44
+2025-06-27 16:01:32,067 - src.data.trading_system - INFO - 
+Processing BHARTIARTL.NS...
+2025-06-27 16:01:32,082 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1506.01, Shares: 1.31, Size: $1967.04
+2025-06-27 16:01:32,082 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1506.00732421875
+2025-06-27 16:01:32,086 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1435.55, P&L: $92.03 (4.68%)
+2025-06-27 16:01:32,551 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1522.75, Shares: 1.29, Size: $1968.89
+2025-06-27 16:01:32,552 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1522.75
+2025-06-27 16:01:32,552 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1556.35, P&L: $-43.44 (-2.21%)
+2025-06-27 16:01:33,001 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1556.35, Shares: 1.26, Size: $1968.02
+2025-06-27 16:01:33,001 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1556.3499755859375
+2025-06-27 16:01:33,002 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1589.05, P&L: $-41.35 (-2.10%)
+2025-06-27 16:01:33,437 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1589.05, Shares: 1.24, Size: $1967.19
+2025-06-27 16:01:33,437 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1589.050048828125
+2025-06-27 16:01:33,442 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1646.75, P&L: $-71.43 (-3.63%)
+2025-06-27 16:01:33,871 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1646.75, Shares: 1.19, Size: $1965.76
+2025-06-27 16:01:33,871 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1646.75
+2025-06-27 16:01:33,875 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1711.75, P&L: $-77.59 (-3.95%)
+2025-06-27 16:01:34,279 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1711.75, Shares: 1.15, Size: $1964.21
+2025-06-27 16:01:34,280 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1711.75
+2025-06-27 16:01:34,280 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1750.45, P&L: $-44.41 (-2.26%)
+2025-06-27 16:01:34,717 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1750.45, Shares: 1.12, Size: $1963.32
+2025-06-27 16:01:34,718 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1750.449951171875
+2025-06-27 16:01:34,722 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1673.45, P&L: $86.36 (4.40%)
+2025-06-27 16:01:35,153 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1612.60, Shares: 1.22, Size: $1965.05
+2025-06-27 16:01:35,153 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1612.5999755859375
+2025-06-27 16:01:35,155 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1578.40, P&L: $-41.67 (-2.12%)
+2025-06-27 16:01:35,579 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1578.40, Shares: 1.24, Size: $1964.21
+2025-06-27 16:01:35,579 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1578.4000244140625
+2025-06-27 16:01:35,583 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1537.00, P&L: $-51.52 (-2.62%)
+2025-06-27 16:01:36,080 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1725.80, Shares: 1.14, Size: $1963.18
+2025-06-27 16:01:36,080 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1725.800048828125
+2025-06-27 16:01:36,096 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1798.80, P&L: $-83.04 (-4.23%)
+2025-06-27 16:01:36,544 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1889.10, Shares: 1.04, Size: $1961.52
+2025-06-27 16:01:36,544 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1889.0999755859375
+2025-06-27 16:01:36,558 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1808.90, P&L: $83.27 (4.25%)
+2025-06-27 16:01:37,003 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1936.70, Shares: 1.01, Size: $1963.19
+2025-06-27 16:01:37,003 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1936.699951171875
+2025-06-27 16:01:37,005 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $2014.30, P&L: $-78.66 (-4.01%)
+2025-06-27 16:01:37,443 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $2014.30, Shares: 0.97, Size: $1961.62
+2025-06-27 16:01:37,444 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 2014.300048828125
+2025-06-27 16:01:37,445 - src.data.trading_system - INFO - Completed BHARTIARTL.NS: Trades: 12, P&L: $-271.46
+2025-06-27 16:01:38,468 - src.data.trading_system - INFO - 
+Performance report generated: None
+2025-06-27 16:01:38,468 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-27 16:01:38,468 - src.data.trading_system - INFO - Period: 2024-06-27 to 2025-06-27
+2025-06-27 16:01:38,470 - src.data.trading_system - INFO - 
+Processing TCS.NS...
+2025-06-27 16:01:38,524 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4391.70, Shares: 0.44, Size: $1922.38
+2025-06-27 16:01:38,525 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4391.70361328125
+2025-06-27 16:01:38,538 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4181.28, P&L: $92.11 (4.79%)
+2025-06-27 16:01:38,976 - src.data.trading_system - INFO - Opened long position in TCS.NS at $4181.28, Shares: 0.46, Size: $1924.23
+2025-06-27 16:01:38,977 - src.data.trading_system - INFO - Opened long position in TCS.NS at 4181.28369140625
+2025-06-27 16:01:39,001 - src.data.trading_system - INFO - Closed long position in TCS.NS at $4038.26, P&L: $-65.82 (-3.42%)
+2025-06-27 16:01:39,414 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3985.46, Shares: 0.48, Size: $1922.91
+2025-06-27 16:01:39,415 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3985.463623046875
+2025-06-27 16:01:39,421 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3871.77, P&L: $-54.86 (-2.85%)
+2025-06-27 16:01:39,864 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4209.97, Shares: 0.46, Size: $1921.81
+2025-06-27 16:01:39,865 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4209.97314453125
+2025-06-27 16:01:39,869 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4355.29, P&L: $-66.34 (-3.45%)
+2025-06-27 16:01:40,324 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3928.63, Shares: 0.49, Size: $1920.49
+2025-06-27 16:01:40,324 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3928.631103515625
+2025-06-27 16:01:40,327 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3839.08, P&L: $-43.78 (-2.28%)
+2025-06-27 16:01:40,759 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3750.76, Shares: 0.51, Size: $1919.61
+2025-06-27 16:01:40,759 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3750.761962890625
+2025-06-27 16:01:40,761 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3643.22, P&L: $-55.04 (-2.87%)
+2025-06-27 16:01:41,195 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3643.22, Shares: 0.53, Size: $1918.51
+2025-06-27 16:01:41,195 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3643.218017578125
+2025-06-27 16:01:41,197 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3452.56, P&L: $-100.40 (-5.23%)
+2025-06-27 16:01:41,662 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3452.56, Shares: 0.56, Size: $1916.50
+2025-06-27 16:01:41,663 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3452.5625
+2025-06-27 16:01:41,672 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3596.98, P&L: $80.16 (4.18%)
+2025-06-27 16:01:42,117 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3285.20, Shares: 0.58, Size: $1918.10
+2025-06-27 16:01:42,117 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3285.199951171875
+2025-06-27 16:01:42,119 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3417.62, P&L: $77.32 (4.03%)
+2025-06-27 16:01:42,552 - src.data.trading_system - INFO - Opened short position in TCS.NS at $3588.50, Shares: 0.53, Size: $1919.65
+2025-06-27 16:01:42,553 - src.data.trading_system - INFO - Opened short position in TCS.NS at 3588.50390625
+2025-06-27 16:01:42,562 - src.data.trading_system - INFO - Closed short position in TCS.NS at $3432.89, P&L: $83.25 (4.34%)
+2025-06-27 16:01:43,016 - src.data.trading_system - INFO - Completed TCS.NS: Trades: 10, P&L: $-53.39
+2025-06-27 16:01:43,016 - src.data.trading_system - INFO - 
+Processing SBIN.NS...
+2025-06-27 16:01:43,034 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $795.67, Shares: 2.41, Size: $1921.32
+2025-06-27 16:01:43,034 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 795.6732788085938
+2025-06-27 16:01:43,049 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $767.10, P&L: $-69.00 (-3.59%)
+2025-06-27 16:01:43,480 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $768.81, Shares: 2.50, Size: $1919.94
+2025-06-27 16:01:43,480 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 768.8125610351562
+2025-06-27 16:01:43,498 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $804.25, P&L: $88.50 (4.61%)
+2025-06-27 16:01:43,939 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $783.91, Shares: 2.45, Size: $1921.71
+2025-06-27 16:01:43,940 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 783.9094848632812
+2025-06-27 16:01:43,943 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $761.12, P&L: $-55.87 (-2.91%)
+2025-06-27 16:01:44,383 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $715.14, Shares: 2.69, Size: $1920.59
+2025-06-27 16:01:44,384 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 715.1403198242188
+2025-06-27 16:01:44,385 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $751.22, P&L: $96.88 (5.04%)
+2025-06-27 16:01:44,836 - src.data.trading_system - INFO - Opened short position in SBIN.NS at $765.43, Shares: 2.51, Size: $1922.53
+2025-06-27 16:01:44,836 - src.data.trading_system - INFO - Opened short position in SBIN.NS at 765.4304809570312
+2025-06-27 16:01:44,841 - src.data.trading_system - INFO - Closed short position in SBIN.NS at $732.20, P&L: $83.47 (4.34%)
+2025-06-27 16:01:45,310 - src.data.trading_system - INFO - Completed SBIN.NS: Trades: 5, P&L: $143.98
+2025-06-27 16:01:45,311 - src.data.trading_system - INFO - 
+Processing RELIANCE.NS...
+2025-06-27 16:01:45,353 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1370.72, Shares: 1.40, Size: $1924.19
+2025-06-27 16:01:45,353 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1370.7249755859375
+2025-06-27 16:01:45,361 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1338.53, P&L: $-45.20 (-2.35%)
+2025-06-27 16:01:45,821 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1283.75, Shares: 1.50, Size: $1923.29
+2025-06-27 16:01:45,821 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1283.75
+2025-06-27 16:01:45,823 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1252.05, P&L: $-47.49 (-2.47%)
+2025-06-27 16:01:46,264 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1252.05, Shares: 1.54, Size: $1922.34
+2025-06-27 16:01:46,265 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1252.050048828125
+2025-06-27 16:01:46,267 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1223.00, P&L: $-44.60 (-2.32%)
+2025-06-27 16:01:46,697 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1223.00, Shares: 1.57, Size: $1921.45
+2025-06-27 16:01:46,697 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1223.0
+2025-06-27 16:01:46,698 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1287.00, P&L: $100.55 (5.23%)
+2025-06-27 16:01:47,137 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1205.30, Shares: 1.60, Size: $1923.46
+2025-06-27 16:01:47,137 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1205.300048828125
+2025-06-27 16:01:47,144 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1265.50, P&L: $96.07 (4.99%)
+2025-06-27 16:01:47,590 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.35, Shares: 1.48, Size: $1925.38
+2025-06-27 16:01:47,590 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.3499755859375
+2025-06-27 16:01:47,592 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1246.30, P&L: $82.86 (4.30%)
+2025-06-27 16:01:48,039 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1171.25, Shares: 1.65, Size: $1927.04
+2025-06-27 16:01:48,040 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1171.25
+2025-06-27 16:01:48,042 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1249.80, P&L: $129.24 (6.71%)
+2025-06-27 16:01:48,457 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.10, Shares: 1.48, Size: $1929.62
+2025-06-27 16:01:48,457 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.0999755859375
+2025-06-27 16:01:48,461 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1248.70, P&L: $79.14 (4.10%)
+2025-06-27 16:01:48,793 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:48,806 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1368.80, Shares: 1.41, Size: $1931.21
+2025-06-27 16:01:48,806 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1368.800048828125
+2025-06-27 16:01:48,806 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1399.70, P&L: $-43.60 (-2.26%)
+2025-06-27 16:01:49,123 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:49,125 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1399.70, Shares: 1.38, Size: $1930.33
+2025-06-27 16:01:49,125 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1399.699951171875
+2025-06-27 16:01:49,128 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1431.30, P&L: $-43.58 (-2.26%)
+2025-06-27 16:01:49,461 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:49,488 - src.data.trading_system - INFO - Completed RELIANCE.NS: Trades: 10, P&L: $263.38
+2025-06-27 16:01:49,488 - src.data.trading_system - INFO - 
+Processing INFY.NS...
+2025-06-27 16:01:49,489 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1534.05, P&L: $119.42 (5.95%)
+2025-06-27 16:01:49,818 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:49,868 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1732.87, Shares: 1.14, Size: $1971.99
+2025-06-27 16:01:49,869 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1732.868408203125
+2025-06-27 16:01:49,872 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1804.56, P&L: $81.58 (4.14%)
+2025-06-27 16:01:50,198 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:50,243 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1739.62, Shares: 1.13, Size: $1973.63
+2025-06-27 16:01:50,243 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1739.623291015625
+2025-06-27 16:01:50,245 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1664.28, P&L: $-85.47 (-4.33%)
+2025-06-27 16:01:50,581 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:50,582 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1664.28, Shares: 1.18, Size: $1971.92
+2025-06-27 16:01:50,582 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1664.2833251953125
+2025-06-27 16:01:50,586 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1568.78, P&L: $-113.16 (-5.74%)
+2025-06-27 16:01:50,912 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:50,913 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1568.78, Shares: 1.26, Size: $1969.65
+2025-06-27 16:01:50,913 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1568.777099609375
+2025-06-27 16:01:50,922 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1505.32, P&L: $-79.67 (-4.05%)
+2025-06-27 16:01:51,254 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:51,258 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1377.37, Shares: 1.43, Size: $1968.06
+2025-06-27 16:01:51,258 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1377.3702392578125
+2025-06-27 16:01:51,265 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1454.44, P&L: $110.12 (5.60%)
+2025-06-27 16:01:51,592 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:51,602 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1604.33, Shares: 1.23, Size: $1970.26
+2025-06-27 16:01:51,602 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1604.3270263671875
+2025-06-27 16:01:51,605 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1538.16, P&L: $81.26 (4.12%)
+2025-06-27 16:01:51,908 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:51,921 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1631.10, Shares: 1.21, Size: $1971.89
+2025-06-27 16:01:51,921 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1631.0999755859375
+2025-06-27 16:01:51,931 - src.data.trading_system - INFO - Completed INFY.NS: Trades: 7, P&L: $114.08
+2025-06-27 16:01:51,931 - src.data.trading_system - INFO - 
+Processing BHARTIARTL.NS...
+2025-06-27 16:01:51,932 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1467.62, P&L: $532.38 (27.14%)
+2025-06-27 16:01:52,265 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:52,280 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1506.01, Shares: 1.32, Size: $1982.33
+2025-06-27 16:01:52,280 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1506.00732421875
+2025-06-27 16:01:52,284 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1435.55, P&L: $92.74 (4.68%)
+2025-06-27 16:01:52,601 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:52,628 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1522.75, Shares: 1.30, Size: $1984.18
+2025-06-27 16:01:52,628 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1522.75
+2025-06-27 16:01:52,630 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1556.35, P&L: $-43.78 (-2.21%)
+2025-06-27 16:01:52,962 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:52,963 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1556.35, Shares: 1.27, Size: $1983.31
+2025-06-27 16:01:52,964 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1556.3499755859375
+2025-06-27 16:01:52,965 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1589.05, P&L: $-41.67 (-2.10%)
+2025-06-27 16:01:53,302 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:53,304 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1589.05, Shares: 1.25, Size: $1982.48
+2025-06-27 16:01:53,304 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1589.050048828125
+2025-06-27 16:01:53,311 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1646.75, P&L: $-71.99 (-3.63%)
+2025-06-27 16:01:53,644 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:53,645 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1646.75, Shares: 1.20, Size: $1981.04
+2025-06-27 16:01:53,645 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1646.75
+2025-06-27 16:01:53,649 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1711.75, P&L: $-78.19 (-3.95%)
+2025-06-27 16:01:54,005 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:54,007 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1711.75, Shares: 1.16, Size: $1979.47
+2025-06-27 16:01:54,007 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1711.75
+2025-06-27 16:01:54,008 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1750.45, P&L: $-44.75 (-2.26%)
+2025-06-27 16:01:54,329 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:54,330 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1750.45, Shares: 1.13, Size: $1978.58
+2025-06-27 16:01:54,330 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1750.449951171875
+2025-06-27 16:01:54,335 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1673.45, P&L: $87.04 (4.40%)
+2025-06-27 16:01:54,670 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:54,688 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1612.60, Shares: 1.23, Size: $1980.32
+2025-06-27 16:01:54,688 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1612.5999755859375
+2025-06-27 16:01:54,690 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1578.40, P&L: $-42.00 (-2.12%)
+2025-06-27 16:01:55,014 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:55,015 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1578.40, Shares: 1.25, Size: $1979.48
+2025-06-27 16:01:55,016 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1578.4000244140625
+2025-06-27 16:01:55,020 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1537.00, P&L: $-51.92 (-2.62%)
+2025-06-27 16:01:55,341 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:55,391 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1725.80, Shares: 1.15, Size: $1978.44
+2025-06-27 16:01:55,391 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1725.800048828125
+2025-06-27 16:01:55,400 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1798.80, P&L: $-83.69 (-4.23%)
+2025-06-27 16:01:55,733 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:55,735 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1889.10, Shares: 1.05, Size: $1976.77
+2025-06-27 16:01:55,735 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1889.0999755859375
+2025-06-27 16:01:55,750 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1808.90, P&L: $83.92 (4.25%)
+2025-06-27 16:01:56,067 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:56,085 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1936.70, Shares: 1.02, Size: $1978.44
+2025-06-27 16:01:56,085 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1936.699951171875
+2025-06-27 16:01:56,087 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $2014.30, P&L: $-79.27 (-4.01%)
+2025-06-27 16:01:56,420 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:56,421 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $2014.30, Shares: 0.98, Size: $1976.86
+2025-06-27 16:01:56,421 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 2014.300048828125
+2025-06-27 16:01:56,423 - src.data.trading_system - INFO - Completed BHARTIARTL.NS: Trades: 13, P&L: $258.82
+2025-06-27 16:01:56,423 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-27 16:01:56,489 - src.data.trading_system - INFO - Opened short position in LT.NS at $3910.83, Shares: 0.50, Size: $1937.32
+2025-06-27 16:01:56,489 - src.data.trading_system - INFO - Opened short position in LT.NS at 3910.826416015625
+2025-06-27 16:01:56,493 - src.data.trading_system - INFO - Closed short position in LT.NS at $3723.42, P&L: $92.83 (4.79%)
+2025-06-27 16:01:56,831 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:56,876 - src.data.trading_system - INFO - Opened short position in LT.NS at $3384.39, Shares: 0.57, Size: $1939.18
+2025-06-27 16:01:56,876 - src.data.trading_system - INFO - Opened short position in LT.NS at 3384.385986328125
+2025-06-27 16:01:56,879 - src.data.trading_system - INFO - Closed short position in LT.NS at $3469.24, P&L: $-48.62 (-2.51%)
+2025-06-27 16:01:57,210 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:57,324 - src.data.trading_system - INFO - Opened short position in LT.NS at $3554.05, Shares: 0.55, Size: $1938.21
+2025-06-27 16:01:57,325 - src.data.trading_system - INFO - Opened short position in LT.NS at 3554.0537109375
+2025-06-27 16:01:57,334 - src.data.trading_system - INFO - Closed short position in LT.NS at $3641.14, P&L: $-47.49 (-2.45%)
+2025-06-27 16:01:57,673 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:57,693 - src.data.trading_system - INFO - Completed LT.NS: Trades: 3, P&L: $-3.28
+2025-06-27 16:01:58,764 - src.data.trading_system - INFO - 
+Performance report generated: None
+2025-06-27 16:01:58,765 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-27 16:01:58,765 - src.data.trading_system - INFO - Period: 2024-06-27 to 2025-06-27
+2025-06-27 16:01:58,766 - src.data.trading_system - INFO - 
+Processing RELIANCE.NS...
+2025-06-27 16:01:58,810 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1370.72, Shares: 1.41, Size: $1937.26
+2025-06-27 16:01:58,810 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1370.7249755859375
+2025-06-27 16:01:58,818 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1338.53, P&L: $-45.51 (-2.35%)
+2025-06-27 16:01:59,146 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:59,164 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1283.75, Shares: 1.51, Size: $1936.35
+2025-06-27 16:01:59,164 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1283.75
+2025-06-27 16:01:59,166 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1252.05, P&L: $-47.81 (-2.47%)
+2025-06-27 16:01:59,495 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:59,497 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1252.05, Shares: 1.55, Size: $1935.39
+2025-06-27 16:01:59,497 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1252.050048828125
+2025-06-27 16:01:59,499 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1223.00, P&L: $-44.90 (-2.32%)
+2025-06-27 16:01:59,825 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:01:59,826 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1223.00, Shares: 1.58, Size: $1934.49
+2025-06-27 16:01:59,826 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1223.0
+2025-06-27 16:01:59,828 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1287.00, P&L: $101.23 (5.23%)
+2025-06-27 16:02:00,134 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:00,148 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1205.30, Shares: 1.61, Size: $1936.52
+2025-06-27 16:02:00,148 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1205.300048828125
+2025-06-27 16:02:00,156 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1265.50, P&L: $96.72 (4.99%)
+2025-06-27 16:02:00,495 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:00,500 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.35, Shares: 1.49, Size: $1938.45
+2025-06-27 16:02:00,500 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.3499755859375
+2025-06-27 16:02:00,504 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1246.30, P&L: $83.43 (4.30%)
+2025-06-27 16:02:00,822 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:00,841 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1171.25, Shares: 1.66, Size: $1940.12
+2025-06-27 16:02:00,841 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1171.25
+2025-06-27 16:02:00,843 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1249.80, P&L: $130.11 (6.71%)
+2025-06-27 16:02:01,179 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:01,186 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.10, Shares: 1.49, Size: $1942.72
+2025-06-27 16:02:01,187 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.0999755859375
+2025-06-27 16:02:01,192 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1248.70, P&L: $79.67 (4.10%)
+2025-06-27 16:02:01,535 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:01,547 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1368.80, Shares: 1.42, Size: $1944.31
+2025-06-27 16:02:01,547 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1368.800048828125
+2025-06-27 16:02:01,547 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1399.70, P&L: $-43.89 (-2.26%)
+2025-06-27 16:02:01,884 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:01,885 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1399.70, Shares: 1.39, Size: $1943.44
+2025-06-27 16:02:01,885 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1399.699951171875
+2025-06-27 16:02:01,887 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1431.30, P&L: $-43.88 (-2.26%)
+2025-06-27 16:02:02,220 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:02,246 - src.data.trading_system - INFO - Completed RELIANCE.NS: Trades: 10, P&L: $265.17
+2025-06-27 16:02:02,246 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-27 16:02:02,311 - src.data.trading_system - INFO - Opened short position in LT.NS at $3910.83, Shares: 0.50, Size: $1942.56
+2025-06-27 16:02:02,312 - src.data.trading_system - INFO - Opened short position in LT.NS at 3910.826416015625
+2025-06-27 16:02:02,316 - src.data.trading_system - INFO - Closed short position in LT.NS at $3723.42, P&L: $93.09 (4.79%)
+2025-06-27 16:02:02,649 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:02,688 - src.data.trading_system - INFO - Opened short position in LT.NS at $3384.39, Shares: 0.57, Size: $1944.42
+2025-06-27 16:02:02,688 - src.data.trading_system - INFO - Opened short position in LT.NS at 3384.385986328125
+2025-06-27 16:02:02,690 - src.data.trading_system - INFO - Closed short position in LT.NS at $3469.24, P&L: $-48.75 (-2.51%)
+2025-06-27 16:02:03,019 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:03,037 - src.data.trading_system - INFO - Opened short position in LT.NS at $3554.05, Shares: 0.55, Size: $1943.45
+2025-06-27 16:02:03,038 - src.data.trading_system - INFO - Opened short position in LT.NS at 3554.0537109375
+2025-06-27 16:02:03,047 - src.data.trading_system - INFO - Closed short position in LT.NS at $3641.14, P&L: $-47.62 (-2.45%)
+2025-06-27 16:02:03,350 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:03,375 - src.data.trading_system - INFO - Completed LT.NS: Trades: 3, P&L: $-3.29
+2025-06-27 16:02:03,375 - src.data.trading_system - INFO - 
+Processing TCS.NS...
+2025-06-27 16:02:03,412 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4391.70, Shares: 0.44, Size: $1942.49
+2025-06-27 16:02:03,412 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4391.70361328125
+2025-06-27 16:02:03,420 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4181.28, P&L: $93.07 (4.79%)
+2025-06-27 16:02:03,754 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:03,756 - src.data.trading_system - INFO - Opened long position in TCS.NS at $4181.28, Shares: 0.47, Size: $1944.35
+2025-06-27 16:02:03,756 - src.data.trading_system - INFO - Opened long position in TCS.NS at 4181.28369140625
+2025-06-27 16:02:03,767 - src.data.trading_system - INFO - Closed long position in TCS.NS at $4038.26, P&L: $-66.51 (-3.42%)
+2025-06-27 16:02:04,089 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:04,092 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3985.46, Shares: 0.49, Size: $1943.02
+2025-06-27 16:02:04,092 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3985.463623046875
+2025-06-27 16:02:04,101 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3871.77, P&L: $-55.43 (-2.85%)
+2025-06-27 16:02:04,434 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:04,447 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4209.97, Shares: 0.46, Size: $1941.92
+2025-06-27 16:02:04,447 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4209.97314453125
+2025-06-27 16:02:04,451 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4355.29, P&L: $-67.03 (-3.45%)
+2025-06-27 16:02:04,784 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:04,813 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3928.63, Shares: 0.49, Size: $1940.58
+2025-06-27 16:02:04,814 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3928.631103515625
+2025-06-27 16:02:04,816 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3839.08, P&L: $-44.24 (-2.28%)
+2025-06-27 16:02:05,151 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:05,152 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3750.76, Shares: 0.52, Size: $1939.69
+2025-06-27 16:02:05,152 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3750.761962890625
+2025-06-27 16:02:05,154 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3643.22, P&L: $-55.62 (-2.87%)
+2025-06-27 16:02:05,485 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:05,486 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3643.22, Shares: 0.53, Size: $1938.58
+2025-06-27 16:02:05,486 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3643.218017578125
+2025-06-27 16:02:05,488 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3452.56, P&L: $-101.45 (-5.23%)
+2025-06-27 16:02:05,816 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:05,817 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3452.56, Shares: 0.56, Size: $1936.55
+2025-06-27 16:02:05,817 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3452.5625
+2025-06-27 16:02:05,828 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3596.98, P&L: $81.00 (4.18%)
+2025-06-27 16:02:06,166 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:06,179 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3285.20, Shares: 0.59, Size: $1938.17
+2025-06-27 16:02:06,179 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3285.199951171875
+2025-06-27 16:02:06,181 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3417.62, P&L: $78.13 (4.03%)
+2025-06-27 16:02:06,504 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:06,512 - src.data.trading_system - INFO - Opened short position in TCS.NS at $3588.50, Shares: 0.54, Size: $1939.73
+2025-06-27 16:02:06,512 - src.data.trading_system - INFO - Opened short position in TCS.NS at 3588.50390625
+2025-06-27 16:02:06,523 - src.data.trading_system - INFO - Closed short position in TCS.NS at $3432.89, P&L: $84.12 (4.34%)
+2025-06-27 16:02:06,826 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:06,841 - src.data.trading_system - INFO - Completed TCS.NS: Trades: 10, P&L: $-53.95
+2025-06-27 16:02:06,841 - src.data.trading_system - INFO - 
+Processing SBIN.NS...
+2025-06-27 16:02:06,859 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $795.67, Shares: 2.44, Size: $1941.41
+2025-06-27 16:02:06,860 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 795.6732788085938
+2025-06-27 16:02:06,875 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $767.10, P&L: $-69.72 (-3.59%)
+2025-06-27 16:02:07,206 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:07,207 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $768.81, Shares: 2.52, Size: $1940.02
+2025-06-27 16:02:07,208 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 768.8125610351562
+2025-06-27 16:02:07,226 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $804.25, P&L: $89.43 (4.61%)
+2025-06-27 16:02:07,546 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:07,576 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $783.91, Shares: 2.48, Size: $1941.81
+2025-06-27 16:02:07,576 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 783.9094848632812
+2025-06-27 16:02:07,579 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $761.12, P&L: $-56.46 (-2.91%)
+2025-06-27 16:02:07,923 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:07,927 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $715.14, Shares: 2.71, Size: $1940.68
+2025-06-27 16:02:07,927 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 715.1403198242188
+2025-06-27 16:02:07,929 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $751.22, P&L: $97.90 (5.04%)
+2025-06-27 16:02:08,267 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:08,295 - src.data.trading_system - INFO - Opened short position in SBIN.NS at $765.43, Shares: 2.54, Size: $1942.64
+2025-06-27 16:02:08,296 - src.data.trading_system - INFO - Opened short position in SBIN.NS at 765.4304809570312
+2025-06-27 16:02:08,300 - src.data.trading_system - INFO - Closed short position in SBIN.NS at $732.20, P&L: $84.34 (4.34%)
+2025-06-27 16:02:08,631 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:08,679 - src.data.trading_system - INFO - Completed SBIN.NS: Trades: 5, P&L: $145.48
+2025-06-27 16:02:08,679 - src.data.trading_system - INFO - 
+Processing INFY.NS...
+2025-06-27 16:02:08,680 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1534.05, P&L: $117.32 (5.95%)
+2025-06-27 16:02:09,001 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:09,097 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1732.87, Shares: 1.15, Size: $1986.11
+2025-06-27 16:02:09,098 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1732.868408203125
+2025-06-27 16:02:09,104 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1804.56, P&L: $82.17 (4.14%)
+2025-06-27 16:02:09,445 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:09,534 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1739.62, Shares: 1.14, Size: $1987.75
+2025-06-27 16:02:09,535 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1739.623291015625
+2025-06-27 16:02:09,537 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1664.28, P&L: $-86.09 (-4.33%)
+2025-06-27 16:02:09,861 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:09,862 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1664.28, Shares: 1.19, Size: $1986.03
+2025-06-27 16:02:09,862 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1664.2833251953125
+2025-06-27 16:02:09,867 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1568.78, P&L: $-113.97 (-5.74%)
+2025-06-27 16:02:10,172 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:10,174 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1568.78, Shares: 1.26, Size: $1983.75
+2025-06-27 16:02:10,174 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1568.777099609375
+2025-06-27 16:02:10,182 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1505.32, P&L: $-80.24 (-4.05%)
+2025-06-27 16:02:10,513 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:10,517 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1377.37, Shares: 1.44, Size: $1982.15
+2025-06-27 16:02:10,517 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1377.3702392578125
+2025-06-27 16:02:10,525 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1454.44, P&L: $110.90 (5.60%)
+2025-06-27 16:02:10,842 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:10,851 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1604.33, Shares: 1.24, Size: $1984.36
+2025-06-27 16:02:10,852 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1604.3270263671875
+2025-06-27 16:02:10,855 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1538.16, P&L: $81.84 (4.12%)
+2025-06-27 16:02:11,183 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:11,197 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1631.10, Shares: 1.22, Size: $1986.00
+2025-06-27 16:02:11,197 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1631.0999755859375
+2025-06-27 16:02:11,206 - src.data.trading_system - INFO - Completed INFY.NS: Trades: 7, P&L: $111.94
+2025-06-27 16:02:11,206 - src.data.trading_system - INFO - 
+Processing BHARTIARTL.NS...
+2025-06-27 16:02:11,207 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1467.62, P&L: $536.52 (27.14%)
+2025-06-27 16:02:11,556 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:11,570 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1506.01, Shares: 1.33, Size: $1996.55
+2025-06-27 16:02:11,570 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1506.00732421875
+2025-06-27 16:02:11,574 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1435.55, P&L: $93.41 (4.68%)
+2025-06-27 16:02:11,907 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:11,918 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1522.75, Shares: 1.31, Size: $1998.42
+2025-06-27 16:02:11,918 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1522.75
+2025-06-27 16:02:11,919 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1556.35, P&L: $-44.10 (-2.21%)
+2025-06-27 16:02:12,254 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:12,255 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1556.35, Shares: 1.28, Size: $1997.53
+2025-06-27 16:02:12,255 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1556.3499755859375
+2025-06-27 16:02:12,256 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1589.05, P&L: $-41.97 (-2.10%)
+2025-06-27 16:02:12,578 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:12,579 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1589.05, Shares: 1.26, Size: $1996.70
+2025-06-27 16:02:12,579 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1589.050048828125
+2025-06-27 16:02:12,585 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1646.75, P&L: $-72.50 (-3.63%)
+2025-06-27 16:02:12,914 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:12,916 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1646.75, Shares: 1.21, Size: $1995.25
+2025-06-27 16:02:12,916 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1646.75
+2025-06-27 16:02:12,919 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1711.75, P&L: $-78.76 (-3.95%)
+2025-06-27 16:02:13,250 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:13,252 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1711.75, Shares: 1.16, Size: $1993.67
+2025-06-27 16:02:13,252 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1711.75
+2025-06-27 16:02:13,252 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1750.45, P&L: $-45.07 (-2.26%)
+2025-06-27 16:02:13,555 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:13,556 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1750.45, Shares: 1.14, Size: $1992.77
+2025-06-27 16:02:13,557 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1750.449951171875
+2025-06-27 16:02:13,560 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1673.45, P&L: $87.66 (4.40%)
+2025-06-27 16:02:13,894 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:13,910 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1612.60, Shares: 1.24, Size: $1994.52
+2025-06-27 16:02:13,910 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1612.5999755859375
+2025-06-27 16:02:13,912 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1578.40, P&L: $-42.30 (-2.12%)
+2025-06-27 16:02:14,254 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:14,256 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1578.40, Shares: 1.26, Size: $1993.68
+2025-06-27 16:02:14,256 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1578.4000244140625
+2025-06-27 16:02:14,261 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1537.00, P&L: $-52.29 (-2.62%)
+2025-06-27 16:02:14,587 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:14,639 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1725.80, Shares: 1.15, Size: $1992.63
+2025-06-27 16:02:14,639 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1725.800048828125
+2025-06-27 16:02:14,649 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1798.80, P&L: $-84.29 (-4.23%)
+2025-06-27 16:02:14,981 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:14,984 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1889.10, Shares: 1.05, Size: $1990.94
+2025-06-27 16:02:14,984 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1889.0999755859375
+2025-06-27 16:02:14,998 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1808.90, P&L: $84.52 (4.25%)
+2025-06-27 16:02:15,364 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:15,380 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1936.70, Shares: 1.03, Size: $1992.63
+2025-06-27 16:02:15,380 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1936.699951171875
+2025-06-27 16:02:15,382 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $2014.30, P&L: $-79.84 (-4.01%)
+2025-06-27 16:02:15,738 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:15,739 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $2014.30, Shares: 0.99, Size: $1991.04
+2025-06-27 16:02:15,739 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 2014.300048828125
+2025-06-27 16:02:15,741 - src.data.trading_system - INFO - Completed BHARTIARTL.NS: Trades: 13, P&L: $260.99
+2025-06-27 16:02:16,736 - src.data.trading_system - INFO - 
+Performance report generated: None
+2025-06-27 16:02:16,736 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-27 16:02:16,737 - src.data.trading_system - INFO - Period: 2024-06-27 to 2025-06-27
+2025-06-27 16:02:16,738 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-27 16:02:16,805 - src.data.trading_system - INFO - Opened short position in LT.NS at $3910.83, Shares: 0.50, Size: $1951.22
+2025-06-27 16:02:16,805 - src.data.trading_system - INFO - Opened short position in LT.NS at 3910.826416015625
+2025-06-27 16:02:16,810 - src.data.trading_system - INFO - Closed short position in LT.NS at $3723.42, P&L: $93.50 (4.79%)
+2025-06-27 16:02:17,143 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:17,184 - src.data.trading_system - INFO - Opened short position in LT.NS at $3384.39, Shares: 0.58, Size: $1953.09
+2025-06-27 16:02:17,184 - src.data.trading_system - INFO - Opened short position in LT.NS at 3384.385986328125
+2025-06-27 16:02:17,186 - src.data.trading_system - INFO - Closed short position in LT.NS at $3469.24, P&L: $-48.97 (-2.51%)
+2025-06-27 16:02:17,697 - src.data.trading_system - INFO - Opened short position in LT.NS at $3554.05, Shares: 0.55, Size: $1952.11
+2025-06-27 16:02:17,697 - src.data.trading_system - INFO - Opened short position in LT.NS at 3554.0537109375
+2025-06-27 16:02:17,707 - src.data.trading_system - INFO - Closed short position in LT.NS at $3641.14, P&L: $-47.83 (-2.45%)
+2025-06-27 16:02:18,129 - src.data.trading_system - INFO - Completed LT.NS: Trades: 3, P&L: $-3.31
+2025-06-27 16:02:18,129 - src.data.trading_system - INFO - 
+Processing SBIN.NS...
+2025-06-27 16:02:18,147 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $795.67, Shares: 2.45, Size: $1951.15
+2025-06-27 16:02:18,148 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 795.6732788085938
+2025-06-27 16:02:18,163 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $767.10, P&L: $-70.07 (-3.59%)
+2025-06-27 16:02:18,597 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $768.81, Shares: 2.54, Size: $1949.75
+2025-06-27 16:02:18,598 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 768.8125610351562
+2025-06-27 16:02:18,616 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $804.25, P&L: $89.87 (4.61%)
+2025-06-27 16:02:19,069 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $783.91, Shares: 2.49, Size: $1951.55
+2025-06-27 16:02:19,069 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 783.9094848632812
+2025-06-27 16:02:19,073 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $761.12, P&L: $-56.74 (-2.91%)
+2025-06-27 16:02:19,533 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $715.14, Shares: 2.73, Size: $1950.41
+2025-06-27 16:02:19,534 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 715.1403198242188
+2025-06-27 16:02:19,535 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $751.22, P&L: $98.39 (5.04%)
+2025-06-27 16:02:20,001 - src.data.trading_system - INFO - Opened short position in SBIN.NS at $765.43, Shares: 2.55, Size: $1952.38
+2025-06-27 16:02:20,001 - src.data.trading_system - INFO - Opened short position in SBIN.NS at 765.4304809570312
+2025-06-27 16:02:20,006 - src.data.trading_system - INFO - Closed short position in SBIN.NS at $732.20, P&L: $84.77 (4.34%)
+2025-06-27 16:02:20,468 - src.data.trading_system - INFO - Completed SBIN.NS: Trades: 5, P&L: $146.21
+2025-06-27 16:02:20,468 - src.data.trading_system - INFO - 
+Processing RELIANCE.NS...
+2025-06-27 16:02:20,510 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1370.72, Shares: 1.43, Size: $1954.08
+2025-06-27 16:02:20,510 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1370.7249755859375
+2025-06-27 16:02:20,519 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1338.53, P&L: $-45.90 (-2.35%)
+2025-06-27 16:02:20,963 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1283.75, Shares: 1.52, Size: $1953.16
+2025-06-27 16:02:20,963 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1283.75
+2025-06-27 16:02:20,965 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1252.05, P&L: $-48.23 (-2.47%)
+2025-06-27 16:02:21,404 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1252.05, Shares: 1.56, Size: $1952.19
+2025-06-27 16:02:21,404 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1252.050048828125
+2025-06-27 16:02:21,406 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1223.00, P&L: $-45.29 (-2.32%)
+2025-06-27 16:02:21,849 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1223.00, Shares: 1.60, Size: $1951.29
+2025-06-27 16:02:21,849 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1223.0
+2025-06-27 16:02:21,850 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1287.00, P&L: $102.11 (5.23%)
+2025-06-27 16:02:22,274 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1205.30, Shares: 1.62, Size: $1953.33
+2025-06-27 16:02:22,274 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1205.300048828125
+2025-06-27 16:02:22,282 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1265.50, P&L: $97.56 (4.99%)
+2025-06-27 16:02:22,722 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.35, Shares: 1.50, Size: $1955.28
+2025-06-27 16:02:22,723 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.3499755859375
+2025-06-27 16:02:22,725 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1246.30, P&L: $84.15 (4.30%)
+2025-06-27 16:02:23,282 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1171.25, Shares: 1.67, Size: $1956.96
+2025-06-27 16:02:23,282 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1171.25
+2025-06-27 16:02:23,285 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1249.80, P&L: $131.24 (6.71%)
+2025-06-27 16:02:23,725 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.10, Shares: 1.50, Size: $1959.59
+2025-06-27 16:02:23,725 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.0999755859375
+2025-06-27 16:02:23,729 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1248.70, P&L: $80.36 (4.10%)
+2025-06-27 16:02:24,148 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1368.80, Shares: 1.43, Size: $1961.20
+2025-06-27 16:02:24,148 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1368.800048828125
+2025-06-27 16:02:24,148 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1399.70, P&L: $-44.27 (-2.26%)
+2025-06-27 16:02:24,593 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1399.70, Shares: 1.40, Size: $1960.31
+2025-06-27 16:02:24,593 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1399.699951171875
+2025-06-27 16:02:24,595 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1431.30, P&L: $-44.26 (-2.26%)
+2025-06-27 16:02:25,069 - src.data.trading_system - INFO - Completed RELIANCE.NS: Trades: 10, P&L: $267.47
+2025-06-27 16:02:25,070 - src.data.trading_system - INFO - 
+Processing TCS.NS...
+2025-06-27 16:02:25,102 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4391.70, Shares: 0.45, Size: $1959.42
+2025-06-27 16:02:25,103 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4391.70361328125
+2025-06-27 16:02:25,114 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4181.28, P&L: $93.88 (4.79%)
+2025-06-27 16:02:25,531 - src.data.trading_system - INFO - Opened long position in TCS.NS at $4181.28, Shares: 0.47, Size: $1961.30
+2025-06-27 16:02:25,532 - src.data.trading_system - INFO - Opened long position in TCS.NS at 4181.28369140625
+2025-06-27 16:02:25,542 - src.data.trading_system - INFO - Closed long position in TCS.NS at $4038.26, P&L: $-67.09 (-3.42%)
+2025-06-27 16:02:25,971 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3985.46, Shares: 0.49, Size: $1959.96
+2025-06-27 16:02:25,971 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3985.463623046875
+2025-06-27 16:02:25,978 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3871.77, P&L: $-55.91 (-2.85%)
+2025-06-27 16:02:26,484 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4209.97, Shares: 0.47, Size: $1958.84
+2025-06-27 16:02:26,484 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4209.97314453125
+2025-06-27 16:02:26,488 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4355.29, P&L: $-67.62 (-3.45%)
+2025-06-27 16:02:26,929 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3928.63, Shares: 0.50, Size: $1957.49
+2025-06-27 16:02:26,929 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3928.631103515625
+2025-06-27 16:02:26,932 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3839.08, P&L: $-44.62 (-2.28%)
+2025-06-27 16:02:27,383 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3750.76, Shares: 0.52, Size: $1956.60
+2025-06-27 16:02:27,383 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3750.761962890625
+2025-06-27 16:02:27,384 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3643.22, P&L: $-56.10 (-2.87%)
+2025-06-27 16:02:27,808 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3643.22, Shares: 0.54, Size: $1955.48
+2025-06-27 16:02:27,808 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3643.218017578125
+2025-06-27 16:02:27,810 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3452.56, P&L: $-102.33 (-5.23%)
+2025-06-27 16:02:28,241 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3452.56, Shares: 0.57, Size: $1953.43
+2025-06-27 16:02:28,241 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3452.5625
+2025-06-27 16:02:28,252 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3596.98, P&L: $81.71 (4.18%)
+2025-06-27 16:02:28,674 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3285.20, Shares: 0.60, Size: $1955.06
+2025-06-27 16:02:28,674 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3285.199951171875
+2025-06-27 16:02:28,676 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3417.62, P&L: $78.81 (4.03%)
+2025-06-27 16:02:29,093 - src.data.trading_system - INFO - Opened short position in TCS.NS at $3588.50, Shares: 0.55, Size: $1956.64
+2025-06-27 16:02:29,093 - src.data.trading_system - INFO - Opened short position in TCS.NS at 3588.50390625
+2025-06-27 16:02:29,102 - src.data.trading_system - INFO - Closed short position in TCS.NS at $3432.89, P&L: $84.85 (4.34%)
+2025-06-27 16:02:29,553 - src.data.trading_system - INFO - Completed TCS.NS: Trades: 10, P&L: $-54.42
+2025-06-27 16:02:29,553 - src.data.trading_system - INFO - 
+Processing INFY.NS...
+2025-06-27 16:02:29,554 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1534.05, P&L: $118.16 (5.95%)
+2025-06-27 16:02:30,095 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1732.87, Shares: 1.15, Size: $2000.42
+2025-06-27 16:02:30,096 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1732.868408203125
+2025-06-27 16:02:30,099 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1804.56, P&L: $82.76 (4.14%)
+2025-06-27 16:02:30,558 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1739.62, Shares: 1.15, Size: $2002.07
+2025-06-27 16:02:30,559 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1739.623291015625
+2025-06-27 16:02:30,560 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1664.28, P&L: $-86.71 (-4.33%)
+2025-06-27 16:02:30,982 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1664.28, Shares: 1.20, Size: $2000.34
+2025-06-27 16:02:30,982 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1664.2833251953125
+2025-06-27 16:02:30,986 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1568.78, P&L: $-114.79 (-5.74%)
+2025-06-27 16:02:31,408 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1568.78, Shares: 1.27, Size: $1998.04
+2025-06-27 16:02:31,409 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1568.777099609375
+2025-06-27 16:02:31,416 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1505.32, P&L: $-80.82 (-4.05%)
+2025-06-27 16:02:31,909 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1377.37, Shares: 1.45, Size: $1996.43
+2025-06-27 16:02:31,909 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1377.3702392578125
+2025-06-27 16:02:31,914 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1454.44, P&L: $111.70 (5.60%)
+2025-06-27 16:02:32,334 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1604.33, Shares: 1.25, Size: $1998.66
+2025-06-27 16:02:32,334 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1604.3270263671875
+2025-06-27 16:02:32,337 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1538.16, P&L: $82.43 (4.12%)
+2025-06-27 16:02:32,748 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1631.10, Shares: 1.23, Size: $2000.31
+2025-06-27 16:02:32,748 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1631.0999755859375
+2025-06-27 16:02:32,757 - src.data.trading_system - INFO - Completed INFY.NS: Trades: 7, P&L: $112.74
+2025-06-27 16:02:32,757 - src.data.trading_system - INFO - 
+Processing BHARTIARTL.NS...
+2025-06-27 16:02:32,759 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1467.62, P&L: $540.37 (27.14%)
+2025-06-27 16:02:33,182 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1506.01, Shares: 1.34, Size: $2010.93
+2025-06-27 16:02:33,182 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1506.00732421875
+2025-06-27 16:02:33,187 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1435.55, P&L: $94.08 (4.68%)
+2025-06-27 16:02:33,606 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1522.75, Shares: 1.32, Size: $2012.81
+2025-06-27 16:02:33,606 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1522.75
+2025-06-27 16:02:33,606 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1556.35, P&L: $-44.41 (-2.21%)
+2025-06-27 16:02:34,049 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1556.35, Shares: 1.29, Size: $2011.93
+2025-06-27 16:02:34,049 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1556.3499755859375
+2025-06-27 16:02:34,050 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1589.05, P&L: $-42.27 (-2.10%)
+2025-06-27 16:02:34,459 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1589.05, Shares: 1.27, Size: $2011.08
+2025-06-27 16:02:34,459 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1589.050048828125
+2025-06-27 16:02:34,465 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1646.75, P&L: $-73.02 (-3.63%)
+2025-06-27 16:02:34,874 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1646.75, Shares: 1.22, Size: $2009.62
+2025-06-27 16:02:34,874 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1646.75
+2025-06-27 16:02:34,877 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1711.75, P&L: $-79.32 (-3.95%)
+2025-06-27 16:02:35,295 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1711.75, Shares: 1.17, Size: $2008.03
+2025-06-27 16:02:35,295 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1711.75
+2025-06-27 16:02:35,296 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1750.45, P&L: $-45.40 (-2.26%)
+2025-06-27 16:02:35,709 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1750.45, Shares: 1.15, Size: $2007.13
+2025-06-27 16:02:35,709 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1750.449951171875
+2025-06-27 16:02:35,713 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1673.45, P&L: $88.29 (4.40%)
+2025-06-27 16:02:36,165 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1612.60, Shares: 1.25, Size: $2008.89
+2025-06-27 16:02:36,166 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1612.5999755859375
+2025-06-27 16:02:36,167 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1578.40, P&L: $-42.60 (-2.12%)
+2025-06-27 16:02:36,576 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1578.40, Shares: 1.27, Size: $2008.04
+2025-06-27 16:02:36,577 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1578.4000244140625
+2025-06-27 16:02:36,581 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1537.00, P&L: $-52.67 (-2.62%)
+2025-06-27 16:02:37,048 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1725.80, Shares: 1.16, Size: $2006.99
+2025-06-27 16:02:37,048 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1725.800048828125
+2025-06-27 16:02:37,057 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1798.80, P&L: $-84.89 (-4.23%)
+2025-06-27 16:02:37,473 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1889.10, Shares: 1.06, Size: $2005.29
+2025-06-27 16:02:37,473 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1889.0999755859375
+2025-06-27 16:02:37,487 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1808.90, P&L: $85.13 (4.25%)
+2025-06-27 16:02:37,908 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1936.70, Shares: 1.04, Size: $2006.99
+2025-06-27 16:02:37,908 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1936.699951171875
+2025-06-27 16:02:37,910 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $2014.30, P&L: $-80.42 (-4.01%)
+2025-06-27 16:02:38,340 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $2014.30, Shares: 1.00, Size: $2005.38
+2025-06-27 16:02:38,340 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 2014.300048828125
+2025-06-27 16:02:38,342 - src.data.trading_system - INFO - Completed BHARTIARTL.NS: Trades: 13, P&L: $262.85
+2025-06-27 16:02:39,439 - src.data.trading_system - INFO - 
+Performance report generated: None
+2025-06-27 16:02:39,439 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-27 16:02:39,440 - src.data.trading_system - INFO - Period: 2024-06-27 to 2025-06-27
+2025-06-27 16:02:39,443 - src.data.trading_system - INFO - 
+Processing RELIANCE.NS...
+2025-06-27 16:02:39,512 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1370.72, Shares: 1.43, Size: $1965.27
+2025-06-27 16:02:39,513 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1370.7249755859375
+2025-06-27 16:02:39,524 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1338.53, P&L: $-46.17 (-2.35%)
+2025-06-27 16:02:39,943 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1283.75, Shares: 1.53, Size: $1964.35
+2025-06-27 16:02:39,944 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1283.75
+2025-06-27 16:02:39,946 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1252.05, P&L: $-48.51 (-2.47%)
+2025-06-27 16:02:40,363 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1252.05, Shares: 1.57, Size: $1963.38
+2025-06-27 16:02:40,364 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1252.050048828125
+2025-06-27 16:02:40,366 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1223.00, P&L: $-45.55 (-2.32%)
+2025-06-27 16:02:40,777 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1223.00, Shares: 1.60, Size: $1962.47
+2025-06-27 16:02:40,777 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1223.0
+2025-06-27 16:02:40,778 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1287.00, P&L: $102.70 (5.23%)
+2025-06-27 16:02:41,198 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1205.30, Shares: 1.63, Size: $1964.52
+2025-06-27 16:02:41,199 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1205.300048828125
+2025-06-27 16:02:41,206 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1265.50, P&L: $98.12 (4.99%)
+2025-06-27 16:02:41,627 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.35, Shares: 1.51, Size: $1966.49
+2025-06-27 16:02:41,627 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.3499755859375
+2025-06-27 16:02:41,630 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1246.30, P&L: $84.63 (4.30%)
+2025-06-27 16:02:42,051 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1171.25, Shares: 1.68, Size: $1968.18
+2025-06-27 16:02:42,051 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1171.25
+2025-06-27 16:02:42,053 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1249.80, P&L: $132.00 (6.71%)
+2025-06-27 16:02:42,476 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.10, Shares: 1.51, Size: $1970.82
+2025-06-27 16:02:42,476 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.0999755859375
+2025-06-27 16:02:42,480 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1248.70, P&L: $80.82 (4.10%)
+2025-06-27 16:02:42,911 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1368.80, Shares: 1.44, Size: $1972.44
+2025-06-27 16:02:42,911 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1368.800048828125
+2025-06-27 16:02:42,912 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1399.70, P&L: $-44.53 (-2.26%)
+2025-06-27 16:02:43,365 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1399.70, Shares: 1.41, Size: $1971.55
+2025-06-27 16:02:43,366 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1399.699951171875
+2025-06-27 16:02:43,368 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1431.30, P&L: $-44.51 (-2.26%)
+2025-06-27 16:02:43,835 - src.data.trading_system - INFO - Completed RELIANCE.NS: Trades: 10, P&L: $269.01
+2025-06-27 16:02:43,835 - src.data.trading_system - INFO - 
+Processing SBIN.NS...
+2025-06-27 16:02:43,853 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $795.67, Shares: 2.48, Size: $1970.66
+2025-06-27 16:02:43,854 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 795.6732788085938
+2025-06-27 16:02:43,869 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $767.10, P&L: $-70.78 (-3.59%)
+2025-06-27 16:02:44,278 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $768.81, Shares: 2.56, Size: $1969.24
+2025-06-27 16:02:44,279 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 768.8125610351562
+2025-06-27 16:02:44,298 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $804.25, P&L: $90.77 (4.61%)
+2025-06-27 16:02:44,749 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $783.91, Shares: 2.51, Size: $1971.05
+2025-06-27 16:02:44,749 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 783.9094848632812
+2025-06-27 16:02:44,753 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $761.12, P&L: $-57.31 (-2.91%)
+2025-06-27 16:02:45,085 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:45,090 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $715.14, Shares: 2.75, Size: $1969.91
+2025-06-27 16:02:45,090 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 715.1403198242188
+2025-06-27 16:02:45,091 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $751.22, P&L: $99.37 (5.04%)
+2025-06-27 16:02:45,405 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:45,435 - src.data.trading_system - INFO - Opened short position in SBIN.NS at $765.43, Shares: 2.58, Size: $1971.90
+2025-06-27 16:02:45,435 - src.data.trading_system - INFO - Opened short position in SBIN.NS at 765.4304809570312
+2025-06-27 16:02:45,440 - src.data.trading_system - INFO - Closed short position in SBIN.NS at $732.20, P&L: $85.61 (4.34%)
+2025-06-27 16:02:45,746 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:45,781 - src.data.trading_system - INFO - Completed SBIN.NS: Trades: 5, P&L: $147.67
+2025-06-27 16:02:45,781 - src.data.trading_system - INFO - 
+Processing INFY.NS...
+2025-06-27 16:02:45,783 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1534.05, P&L: $119.01 (5.95%)
+2025-06-27 16:02:46,094 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:46,145 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1732.87, Shares: 1.16, Size: $2016.00
+2025-06-27 16:02:46,145 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1732.868408203125
+2025-06-27 16:02:46,149 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1804.56, P&L: $83.40 (4.14%)
+2025-06-27 16:02:46,456 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:46,502 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1739.62, Shares: 1.16, Size: $2017.66
+2025-06-27 16:02:46,502 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1739.623291015625
+2025-06-27 16:02:46,504 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1664.28, P&L: $-87.38 (-4.33%)
+2025-06-27 16:02:46,810 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:46,811 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1664.28, Shares: 1.21, Size: $2015.92
+2025-06-27 16:02:46,811 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1664.2833251953125
+2025-06-27 16:02:46,816 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1568.78, P&L: $-115.68 (-5.74%)
+2025-06-27 16:02:47,124 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:47,125 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1568.78, Shares: 1.28, Size: $2013.60
+2025-06-27 16:02:47,125 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1568.777099609375
+2025-06-27 16:02:47,134 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1505.32, P&L: $-81.45 (-4.05%)
+2025-06-27 16:02:47,470 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:47,473 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1377.37, Shares: 1.46, Size: $2011.97
+2025-06-27 16:02:47,474 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1377.3702392578125
+2025-06-27 16:02:47,480 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1454.44, P&L: $112.57 (5.60%)
+2025-06-27 16:02:47,789 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:47,800 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1604.33, Shares: 1.26, Size: $2014.22
+2025-06-27 16:02:47,800 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1604.3270263671875
+2025-06-27 16:02:47,803 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1538.16, P&L: $83.07 (4.12%)
+2025-06-27 16:02:48,112 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:48,125 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1631.10, Shares: 1.24, Size: $2015.89
+2025-06-27 16:02:48,125 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1631.0999755859375
+2025-06-27 16:02:48,135 - src.data.trading_system - INFO - Completed INFY.NS: Trades: 7, P&L: $113.55
+2025-06-27 16:02:48,135 - src.data.trading_system - INFO - 
+Processing TCS.NS...
+2025-06-27 16:02:48,165 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4391.70, Shares: 0.45, Size: $1975.57
+2025-06-27 16:02:48,166 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4391.70361328125
+2025-06-27 16:02:48,173 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4181.28, P&L: $94.66 (4.79%)
+2025-06-27 16:02:48,494 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:48,495 - src.data.trading_system - INFO - Opened long position in TCS.NS at $4181.28, Shares: 0.47, Size: $1977.46
+2025-06-27 16:02:48,495 - src.data.trading_system - INFO - Opened long position in TCS.NS at 4181.28369140625
+2025-06-27 16:02:48,506 - src.data.trading_system - INFO - Closed long position in TCS.NS at $4038.26, P&L: $-67.64 (-3.42%)
+2025-06-27 16:02:48,818 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:48,821 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3985.46, Shares: 0.50, Size: $1976.11
+2025-06-27 16:02:48,821 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3985.463623046875
+2025-06-27 16:02:48,830 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3871.77, P&L: $-56.37 (-2.85%)
+2025-06-27 16:02:49,141 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:49,157 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4209.97, Shares: 0.47, Size: $1974.98
+2025-06-27 16:02:49,157 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4209.97314453125
+2025-06-27 16:02:49,162 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4355.29, P&L: $-68.17 (-3.45%)
+2025-06-27 16:02:49,676 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3928.63, Shares: 0.50, Size: $1973.62
+2025-06-27 16:02:49,676 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3928.631103515625
+2025-06-27 16:02:49,680 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3839.08, P&L: $-44.99 (-2.28%)
+2025-06-27 16:02:50,178 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3750.76, Shares: 0.53, Size: $1972.72
+2025-06-27 16:02:50,179 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3750.761962890625
+2025-06-27 16:02:50,181 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3643.22, P&L: $-56.56 (-2.87%)
+2025-06-27 16:02:50,598 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3643.22, Shares: 0.54, Size: $1971.59
+2025-06-27 16:02:50,598 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3643.218017578125
+2025-06-27 16:02:50,600 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3452.56, P&L: $-103.18 (-5.23%)
+2025-06-27 16:02:51,017 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3452.56, Shares: 0.57, Size: $1969.52
+2025-06-27 16:02:51,018 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3452.5625
+2025-06-27 16:02:51,028 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3596.98, P&L: $82.38 (4.18%)
+2025-06-27 16:02:51,469 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3285.20, Shares: 0.60, Size: $1971.17
+2025-06-27 16:02:51,469 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3285.199951171875
+2025-06-27 16:02:51,471 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3417.62, P&L: $79.46 (4.03%)
+2025-06-27 16:02:51,780 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:51,788 - src.data.trading_system - INFO - Opened short position in TCS.NS at $3588.50, Shares: 0.55, Size: $1972.76
+2025-06-27 16:02:51,788 - src.data.trading_system - INFO - Opened short position in TCS.NS at 3588.50390625
+2025-06-27 16:02:51,799 - src.data.trading_system - INFO - Closed short position in TCS.NS at $3432.89, P&L: $85.55 (4.34%)
+2025-06-27 16:02:52,112 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:52,128 - src.data.trading_system - INFO - Completed TCS.NS: Trades: 10, P&L: $-54.87
+2025-06-27 16:02:52,128 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-27 16:02:52,214 - src.data.trading_system - INFO - Opened short position in LT.NS at $3910.83, Shares: 0.50, Size: $1974.47
+2025-06-27 16:02:52,215 - src.data.trading_system - INFO - Opened short position in LT.NS at 3910.826416015625
+2025-06-27 16:02:52,221 - src.data.trading_system - INFO - Closed short position in LT.NS at $3723.42, P&L: $94.61 (4.79%)
+2025-06-27 16:02:52,538 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:52,578 - src.data.trading_system - INFO - Opened short position in LT.NS at $3384.39, Shares: 0.58, Size: $1976.36
+2025-06-27 16:02:52,578 - src.data.trading_system - INFO - Opened short position in LT.NS at 3384.385986328125
+2025-06-27 16:02:52,580 - src.data.trading_system - INFO - Closed short position in LT.NS at $3469.24, P&L: $-49.55 (-2.51%)
+2025-06-27 16:02:52,888 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:52,908 - src.data.trading_system - INFO - Opened short position in LT.NS at $3554.05, Shares: 0.56, Size: $1975.37
+2025-06-27 16:02:52,908 - src.data.trading_system - INFO - Opened short position in LT.NS at 3554.0537109375
+2025-06-27 16:02:52,917 - src.data.trading_system - INFO - Closed short position in LT.NS at $3641.14, P&L: $-48.40 (-2.45%)
+2025-06-27 16:02:53,232 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:53,249 - src.data.trading_system - INFO - Completed LT.NS: Trades: 3, P&L: $-3.34
+2025-06-27 16:02:53,249 - src.data.trading_system - INFO - 
+Processing BHARTIARTL.NS...
+2025-06-27 16:02:53,250 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1467.62, P&L: $544.26 (27.14%)
+2025-06-27 16:02:53,563 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:53,577 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1506.01, Shares: 1.34, Size: $2025.40
+2025-06-27 16:02:53,578 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1506.00732421875
+2025-06-27 16:02:53,582 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1435.55, P&L: $94.76 (4.68%)
+2025-06-27 16:02:53,892 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:53,904 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1522.75, Shares: 1.33, Size: $2027.29
+2025-06-27 16:02:53,904 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1522.75
+2025-06-27 16:02:53,905 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1556.35, P&L: $-44.73 (-2.21%)
+2025-06-27 16:02:54,215 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:54,216 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1556.35, Shares: 1.30, Size: $2026.40
+2025-06-27 16:02:54,216 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1556.3499755859375
+2025-06-27 16:02:54,218 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1589.05, P&L: $-42.58 (-2.10%)
+2025-06-27 16:02:54,525 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:54,526 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1589.05, Shares: 1.27, Size: $2025.55
+2025-06-27 16:02:54,526 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1589.050048828125
+2025-06-27 16:02:54,532 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1646.75, P&L: $-73.55 (-3.63%)
+2025-06-27 16:02:54,877 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:54,878 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1646.75, Shares: 1.23, Size: $2024.07
+2025-06-27 16:02:54,878 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1646.75
+2025-06-27 16:02:54,882 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1711.75, P&L: $-79.89 (-3.95%)
+2025-06-27 16:02:55,187 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:55,188 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1711.75, Shares: 1.18, Size: $2022.48
+2025-06-27 16:02:55,188 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1711.75
+2025-06-27 16:02:55,188 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1750.45, P&L: $-45.72 (-2.26%)
+2025-06-27 16:02:55,496 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:55,498 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1750.45, Shares: 1.15, Size: $2021.56
+2025-06-27 16:02:55,498 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1750.449951171875
+2025-06-27 16:02:55,502 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1673.45, P&L: $88.93 (4.40%)
+2025-06-27 16:02:55,820 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:55,835 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1612.60, Shares: 1.25, Size: $2023.34
+2025-06-27 16:02:55,835 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1612.5999755859375
+2025-06-27 16:02:55,836 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1578.40, P&L: $-42.91 (-2.12%)
+2025-06-27 16:02:56,146 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:56,147 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1578.40, Shares: 1.28, Size: $2022.48
+2025-06-27 16:02:56,147 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1578.4000244140625
+2025-06-27 16:02:56,152 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1537.00, P&L: $-53.05 (-2.62%)
+2025-06-27 16:02:56,466 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:56,517 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1725.80, Shares: 1.17, Size: $2021.42
+2025-06-27 16:02:56,517 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1725.800048828125
+2025-06-27 16:02:56,527 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1798.80, P&L: $-85.50 (-4.23%)
+2025-06-27 16:02:56,833 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:56,835 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1889.10, Shares: 1.07, Size: $2019.71
+2025-06-27 16:02:56,835 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1889.0999755859375
+2025-06-27 16:02:56,850 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1808.90, P&L: $85.74 (4.25%)
+2025-06-27 16:02:57,168 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:57,186 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1936.70, Shares: 1.04, Size: $2021.43
+2025-06-27 16:02:57,186 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1936.699951171875
+2025-06-27 16:02:57,188 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $2014.30, P&L: $-80.99 (-4.01%)
+2025-06-27 16:02:57,501 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:57,502 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $2014.30, Shares: 1.00, Size: $2019.81
+2025-06-27 16:02:57,502 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 2014.300048828125
+2025-06-27 16:02:57,504 - src.data.trading_system - INFO - Completed BHARTIARTL.NS: Trades: 13, P&L: $264.75
+2025-06-27 16:02:58,660 - src.data.trading_system - INFO - 
+Performance report generated: None
+2025-06-27 16:02:58,660 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-27 16:02:58,660 - src.data.trading_system - INFO - Period: 2024-06-27 to 2025-06-27
+2025-06-27 16:02:58,662 - src.data.trading_system - INFO - 
+Processing BHARTIARTL.NS...
+2025-06-27 16:02:58,663 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1467.62, P&L: $548.17 (27.14%)
+2025-06-27 16:02:58,981 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:02:58,995 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1506.01, Shares: 1.35, Size: $2030.77
+2025-06-27 16:02:58,995 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1506.00732421875
+2025-06-27 16:02:58,999 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1435.55, P&L: $95.01 (4.68%)
+2025-06-27 16:02:59,478 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1522.75, Shares: 1.33, Size: $2032.67
+2025-06-27 16:02:59,479 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1522.75
+2025-06-27 16:02:59,479 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1556.35, P&L: $-44.85 (-2.21%)
+2025-06-27 16:02:59,901 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1556.35, Shares: 1.31, Size: $2031.77
+2025-06-27 16:02:59,901 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1556.3499755859375
+2025-06-27 16:02:59,902 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1589.05, P&L: $-42.69 (-2.10%)
+2025-06-27 16:03:00,315 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1589.05, Shares: 1.28, Size: $2030.92
+2025-06-27 16:03:00,315 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1589.050048828125
+2025-06-27 16:03:00,329 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1646.75, P&L: $-73.74 (-3.63%)
+2025-06-27 16:03:00,748 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1646.75, Shares: 1.23, Size: $2029.44
+2025-06-27 16:03:00,749 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1646.75
+2025-06-27 16:03:00,752 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1711.75, P&L: $-80.11 (-3.95%)
+2025-06-27 16:03:01,166 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1711.75, Shares: 1.18, Size: $2027.84
+2025-06-27 16:03:01,166 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1711.75
+2025-06-27 16:03:01,166 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1750.45, P&L: $-45.85 (-2.26%)
+2025-06-27 16:03:01,479 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:01,480 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1750.45, Shares: 1.16, Size: $2026.93
+2025-06-27 16:03:01,480 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1750.449951171875
+2025-06-27 16:03:01,485 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1673.45, P&L: $89.16 (4.40%)
+2025-06-27 16:03:01,806 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:01,821 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1612.60, Shares: 1.26, Size: $2028.71
+2025-06-27 16:03:01,822 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1612.5999755859375
+2025-06-27 16:03:01,823 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1578.40, P&L: $-43.02 (-2.12%)
+2025-06-27 16:03:02,134 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:02,135 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1578.40, Shares: 1.28, Size: $2027.85
+2025-06-27 16:03:02,135 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1578.4000244140625
+2025-06-27 16:03:02,140 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1537.00, P&L: $-53.19 (-2.62%)
+2025-06-27 16:03:02,452 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:02,504 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1725.80, Shares: 1.17, Size: $2026.78
+2025-06-27 16:03:02,504 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1725.800048828125
+2025-06-27 16:03:02,514 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1798.80, P&L: $-85.73 (-4.23%)
+2025-06-27 16:03:02,823 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:02,825 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1889.10, Shares: 1.07, Size: $2025.07
+2025-06-27 16:03:02,826 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1889.0999755859375
+2025-06-27 16:03:02,839 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1808.90, P&L: $85.97 (4.25%)
+2025-06-27 16:03:03,168 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:03,201 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1936.70, Shares: 1.05, Size: $2026.79
+2025-06-27 16:03:03,202 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1936.699951171875
+2025-06-27 16:03:03,206 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $2014.30, P&L: $-81.21 (-4.01%)
+2025-06-27 16:03:03,513 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:03,514 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $2014.30, Shares: 1.01, Size: $2025.16
+2025-06-27 16:03:03,514 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 2014.300048828125
+2025-06-27 16:03:03,516 - src.data.trading_system - INFO - Completed BHARTIARTL.NS: Trades: 13, P&L: $267.92
+2025-06-27 16:03:03,516 - src.data.trading_system - INFO - 
+Processing TCS.NS...
+2025-06-27 16:03:03,545 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4391.70, Shares: 0.45, Size: $1984.66
+2025-06-27 16:03:03,545 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4391.70361328125
+2025-06-27 16:03:03,553 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4181.28, P&L: $95.09 (4.79%)
+2025-06-27 16:03:03,864 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:03,865 - src.data.trading_system - INFO - Opened long position in TCS.NS at $4181.28, Shares: 0.48, Size: $1986.56
+2025-06-27 16:03:03,865 - src.data.trading_system - INFO - Opened long position in TCS.NS at 4181.28369140625
+2025-06-27 16:03:03,876 - src.data.trading_system - INFO - Closed long position in TCS.NS at $4038.26, P&L: $-67.95 (-3.42%)
+2025-06-27 16:03:04,307 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3985.46, Shares: 0.50, Size: $1985.20
+2025-06-27 16:03:04,307 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3985.463623046875
+2025-06-27 16:03:04,314 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3871.77, P&L: $-56.63 (-2.85%)
+2025-06-27 16:03:04,747 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4209.97, Shares: 0.47, Size: $1984.07
+2025-06-27 16:03:04,748 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4209.97314453125
+2025-06-27 16:03:04,758 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4355.29, P&L: $-68.49 (-3.45%)
+2025-06-27 16:03:05,191 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3928.63, Shares: 0.50, Size: $1982.70
+2025-06-27 16:03:05,192 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3928.631103515625
+2025-06-27 16:03:05,194 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3839.08, P&L: $-45.20 (-2.28%)
+2025-06-27 16:03:05,614 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3750.76, Shares: 0.53, Size: $1981.80
+2025-06-27 16:03:05,614 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3750.761962890625
+2025-06-27 16:03:05,615 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3643.22, P&L: $-56.82 (-2.87%)
+2025-06-27 16:03:06,048 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3643.22, Shares: 0.54, Size: $1980.66
+2025-06-27 16:03:06,048 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3643.218017578125
+2025-06-27 16:03:06,050 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3452.56, P&L: $-103.65 (-5.23%)
+2025-06-27 16:03:06,358 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:06,359 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3452.56, Shares: 0.57, Size: $1978.59
+2025-06-27 16:03:06,359 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3452.5625
+2025-06-27 16:03:06,370 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3596.98, P&L: $82.76 (4.18%)
+2025-06-27 16:03:06,679 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:06,693 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3285.20, Shares: 0.60, Size: $1980.24
+2025-06-27 16:03:06,693 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3285.199951171875
+2025-06-27 16:03:06,695 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3417.62, P&L: $79.82 (4.03%)
+2025-06-27 16:03:07,023 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:07,034 - src.data.trading_system - INFO - Opened short position in TCS.NS at $3588.50, Shares: 0.55, Size: $1981.84
+2025-06-27 16:03:07,034 - src.data.trading_system - INFO - Opened short position in TCS.NS at 3588.50390625
+2025-06-27 16:03:07,045 - src.data.trading_system - INFO - Closed short position in TCS.NS at $3432.89, P&L: $85.94 (4.34%)
+2025-06-27 16:03:07,351 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:07,366 - src.data.trading_system - INFO - Completed TCS.NS: Trades: 10, P&L: $-55.12
+2025-06-27 16:03:07,366 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-27 16:03:07,432 - src.data.trading_system - INFO - Opened short position in LT.NS at $3910.83, Shares: 0.51, Size: $1983.56
+2025-06-27 16:03:07,432 - src.data.trading_system - INFO - Opened short position in LT.NS at 3910.826416015625
+2025-06-27 16:03:07,436 - src.data.trading_system - INFO - Closed short position in LT.NS at $3723.42, P&L: $95.05 (4.79%)
+2025-06-27 16:03:07,747 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:07,787 - src.data.trading_system - INFO - Opened short position in LT.NS at $3384.39, Shares: 0.59, Size: $1985.46
+2025-06-27 16:03:07,788 - src.data.trading_system - INFO - Opened short position in LT.NS at 3384.385986328125
+2025-06-27 16:03:07,790 - src.data.trading_system - INFO - Closed short position in LT.NS at $3469.24, P&L: $-49.78 (-2.51%)
+2025-06-27 16:03:08,123 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:08,142 - src.data.trading_system - INFO - Opened short position in LT.NS at $3554.05, Shares: 0.56, Size: $1984.46
+2025-06-27 16:03:08,142 - src.data.trading_system - INFO - Opened short position in LT.NS at 3554.0537109375
+2025-06-27 16:03:08,152 - src.data.trading_system - INFO - Closed short position in LT.NS at $3641.14, P&L: $-48.63 (-2.45%)
+2025-06-27 16:03:08,465 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:08,485 - src.data.trading_system - INFO - Completed LT.NS: Trades: 3, P&L: $-3.36
+2025-06-27 16:03:08,486 - src.data.trading_system - INFO - 
+Processing SBIN.NS...
+2025-06-27 16:03:08,503 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $795.67, Shares: 2.49, Size: $1983.49
+2025-06-27 16:03:08,503 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 795.6732788085938
+2025-06-27 16:03:08,518 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $767.10, P&L: $-71.24 (-3.59%)
+2025-06-27 16:03:08,850 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:08,852 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $768.81, Shares: 2.58, Size: $1982.07
+2025-06-27 16:03:08,852 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 768.8125610351562
+2025-06-27 16:03:08,870 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $804.25, P&L: $91.36 (4.61%)
+2025-06-27 16:03:09,196 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:09,253 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $783.91, Shares: 2.53, Size: $1983.89
+2025-06-27 16:03:09,254 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 783.9094848632812
+2025-06-27 16:03:09,259 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $761.12, P&L: $-57.68 (-2.91%)
+2025-06-27 16:03:09,568 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:09,573 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $715.14, Shares: 2.77, Size: $1982.74
+2025-06-27 16:03:09,573 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 715.1403198242188
+2025-06-27 16:03:09,575 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $751.22, P&L: $100.02 (5.04%)
+2025-06-27 16:03:09,880 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:09,910 - src.data.trading_system - INFO - Opened short position in SBIN.NS at $765.43, Shares: 2.59, Size: $1984.74
+2025-06-27 16:03:09,910 - src.data.trading_system - INFO - Opened short position in SBIN.NS at 765.4304809570312
+2025-06-27 16:03:09,915 - src.data.trading_system - INFO - Closed short position in SBIN.NS at $732.20, P&L: $86.17 (4.34%)
+2025-06-27 16:03:10,236 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:10,271 - src.data.trading_system - INFO - Completed SBIN.NS: Trades: 5, P&L: $148.64
+2025-06-27 16:03:10,271 - src.data.trading_system - INFO - 
+Processing INFY.NS...
+2025-06-27 16:03:10,272 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1534.05, P&L: $119.94 (5.95%)
+2025-06-27 16:03:10,601 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:10,653 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1732.87, Shares: 1.17, Size: $2029.18
+2025-06-27 16:03:10,654 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1732.868408203125
+2025-06-27 16:03:10,657 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1804.56, P&L: $83.95 (4.14%)
+2025-06-27 16:03:10,978 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:11,023 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1739.62, Shares: 1.17, Size: $2030.86
+2025-06-27 16:03:11,023 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1739.623291015625
+2025-06-27 16:03:11,025 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1664.28, P&L: $-87.95 (-4.33%)
+2025-06-27 16:03:11,333 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:11,334 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1664.28, Shares: 1.22, Size: $2029.10
+2025-06-27 16:03:11,334 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1664.2833251953125
+2025-06-27 16:03:11,339 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1568.78, P&L: $-116.44 (-5.74%)
+2025-06-27 16:03:11,650 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:11,652 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1568.78, Shares: 1.29, Size: $2026.77
+2025-06-27 16:03:11,652 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1568.777099609375
+2025-06-27 16:03:11,660 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1505.32, P&L: $-81.98 (-4.05%)
+2025-06-27 16:03:11,973 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:11,976 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1377.37, Shares: 1.47, Size: $2025.13
+2025-06-27 16:03:11,977 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1377.3702392578125
+2025-06-27 16:03:11,984 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1454.44, P&L: $113.31 (5.60%)
+2025-06-27 16:03:12,294 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:12,305 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1604.33, Shares: 1.26, Size: $2027.40
+2025-06-27 16:03:12,305 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1604.3270263671875
+2025-06-27 16:03:12,308 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1538.16, P&L: $83.62 (4.12%)
+2025-06-27 16:03:12,619 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:12,632 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1631.10, Shares: 1.24, Size: $2029.07
+2025-06-27 16:03:12,632 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1631.0999755859375
+2025-06-27 16:03:12,641 - src.data.trading_system - INFO - Completed INFY.NS: Trades: 7, P&L: $114.44
+2025-06-27 16:03:12,641 - src.data.trading_system - INFO - 
+Processing RELIANCE.NS...
+2025-06-27 16:03:12,683 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1370.72, Shares: 1.45, Size: $1988.49
+2025-06-27 16:03:12,683 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1370.7249755859375
+2025-06-27 16:03:12,691 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1338.53, P&L: $-46.71 (-2.35%)
+2025-06-27 16:03:13,002 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:13,012 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1283.75, Shares: 1.55, Size: $1987.56
+2025-06-27 16:03:13,012 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1283.75
+2025-06-27 16:03:13,014 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1252.05, P&L: $-49.08 (-2.47%)
+2025-06-27 16:03:13,322 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:13,324 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1252.05, Shares: 1.59, Size: $1986.57
+2025-06-27 16:03:13,324 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1252.050048828125
+2025-06-27 16:03:13,326 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1223.00, P&L: $-46.09 (-2.32%)
+2025-06-27 16:03:13,637 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:13,638 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1223.00, Shares: 1.62, Size: $1985.65
+2025-06-27 16:03:13,638 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1223.0
+2025-06-27 16:03:13,639 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1287.00, P&L: $103.91 (5.23%)
+2025-06-27 16:03:13,966 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:13,981 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1205.30, Shares: 1.65, Size: $1987.73
+2025-06-27 16:03:13,981 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1205.300048828125
+2025-06-27 16:03:13,988 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1265.50, P&L: $99.28 (4.99%)
+2025-06-27 16:03:14,294 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:14,300 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.35, Shares: 1.53, Size: $1989.72
+2025-06-27 16:03:14,300 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.3499755859375
+2025-06-27 16:03:14,304 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1246.30, P&L: $85.63 (4.30%)
+2025-06-27 16:03:14,618 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:14,651 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1171.25, Shares: 1.70, Size: $1991.43
+2025-06-27 16:03:14,652 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1171.25
+2025-06-27 16:03:14,654 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1249.80, P&L: $133.56 (6.71%)
+2025-06-27 16:03:14,966 - src.data.trading_system - WARNING - Failed to log to Google Sheets: APIError: [429]: Quota exceeded for quota metric 'Write requests' and limit 'Write requests per minute per user' of service 'sheets.googleapis.com' for consumer 'project_number:865464599530'.
+2025-06-27 16:03:14,974 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.10, Shares: 1.53, Size: $1994.10
+2025-06-27 16:03:14,974 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.0999755859375
+2025-06-27 16:03:14,980 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1248.70, P&L: $81.78 (4.10%)
+2025-06-27 16:03:15,423 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1368.80, Shares: 1.46, Size: $1995.74
+2025-06-27 16:03:15,423 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1368.800048828125
+2025-06-27 16:03:15,423 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1399.70, P&L: $-45.05 (-2.26%)
+2025-06-27 16:03:15,864 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1399.70, Shares: 1.43, Size: $1994.83
+2025-06-27 16:03:15,864 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1399.699951171875
+2025-06-27 16:03:15,866 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1431.30, P&L: $-45.04 (-2.26%)
+2025-06-27 16:03:16,303 - src.data.trading_system - INFO - Completed RELIANCE.NS: Trades: 10, P&L: $272.18
+2025-06-27 16:03:17,285 - src.data.trading_system - INFO - 
+Performance report generated: None
+2025-06-27 16:03:21,147 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 16:03:21,150 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 16:03:21,153 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.

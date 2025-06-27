@@ -1,0 +1,34 @@
+2025-06-27 12:59:38,028 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 12:59:38,030 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 12:59:38,033 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 12:59:41,580 - __main__ - INFO - Starting trading system in Backtest (Test on Past Data) mode
+2025-06-27 12:59:41,581 - __main__ - INFO - Initial capital: ₹100,000.00
+2025-06-27 12:59:41,587 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-27 12:59:41,588 - src.data.trading_system - INFO - Period: 2025-04-28 to 2025-06-27
+2025-06-27 12:59:42,036 - src.data.trading_system - INFO - 
+Processing SBIN.NS...
+2025-06-27 12:59:42,082 - src.data.trading_system - INFO - Completed SBIN.NS: Trades: 0, P&L: $0.00
+2025-06-27 12:59:42,082 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-27 12:59:42,111 - src.data.trading_system - INFO - Completed LT.NS: Trades: 0, P&L: $0.00
+2025-06-27 12:59:42,112 - src.data.trading_system - INFO - 
+Processing TCS.NS...
+2025-06-27 12:59:42,152 - src.data.trading_system - INFO - Completed TCS.NS: Trades: 0, P&L: $0.00
+2025-06-27 12:59:42,152 - src.data.trading_system - INFO - 
+Processing INFY.NS...
+2025-06-27 12:59:42,185 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1631.10, Shares: 1.23, Size: $2000.00
+2025-06-27 12:59:42,185 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1631.0999755859375
+2025-06-27 12:59:42,200 - src.data.trading_system - INFO - Completed INFY.NS: Trades: 0, P&L: $0.00
+2025-06-27 12:59:42,201 - src.data.trading_system - INFO - 
+Processing BHARTIARTL.NS...
+2025-06-27 12:59:42,245 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1936.70, Shares: 1.01, Size: $1960.00
+2025-06-27 12:59:42,246 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1936.699951171875
+2025-06-27 12:59:42,249 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $2014.30, P&L: $-78.53 (-4.01%)
+2025-06-27 12:59:42,251 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $2014.30, Shares: 0.97, Size: $1958.43
+2025-06-27 12:59:42,252 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 2014.300048828125
+2025-06-27 12:59:42,253 - src.data.trading_system - INFO - Completed BHARTIARTL.NS: Trades: 1, P&L: $-78.53
+2025-06-27 12:59:42,254 - src.data.trading_system - INFO - 
+Processing RELIANCE.NS...
+2025-06-27 12:59:42,309 - src.data.trading_system - INFO - Completed RELIANCE.NS: Trades: 0, P&L: $0.00
+2025-06-27 12:59:42,695 - src.data.trading_system - ERROR - Error in backtest: 'date'

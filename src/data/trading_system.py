@@ -306,7 +306,8 @@ class TradingSystem:
                 symbol_results = {
                     'trades': self.run_strategy(symbol, data, strategy),
                     'metrics': {},
-                    'equity_curve': []
+                    'equity_curve': [],
+                    'history': data  # <-- ADD THIS LINE to store historical DataFrame for ML!
                 }
                 symbol_results['metrics'] = self.calculate_performance_metrics(
                     symbol_results['trades'])

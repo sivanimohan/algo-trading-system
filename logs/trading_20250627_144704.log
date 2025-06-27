@@ -1,0 +1,101 @@
+2025-06-27 14:47:06,265 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:47:06,269 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:47:06,273 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:47:12,065 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:47:12,068 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:47:12,070 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:47:12,770 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:47:12,772 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:47:12,775 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:47:18,365 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:47:18,367 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:47:18,369 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:47:26,507 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:47:26,509 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:47:26,512 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:47:26,541 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:47:26,545 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:47:26,551 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:47:27,818 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:47:27,821 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:47:27,825 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:47:28,604 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:47:28,608 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:47:28,611 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:47:30,003 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:47:30,006 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:47:30,010 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:47:32,104 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:47:32,107 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:47:32,109 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:47:32,587 - __main__ - INFO - Starting trading system in Backtest mode
+2025-06-27 14:47:32,587 - __main__ - INFO - Starting capital: $100,000.00
+2025-06-27 14:47:34,247 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:47:34,250 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:47:34,253 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:47:34,253 - src.data.trading_system - INFO - ✅ Google Sheets logging enabled
+2025-06-27 14:47:34,253 - src.data.trading_system - INFO - Connected to: https://docs.google.com/spreadsheets/d/1yhmCMKFpMsjvsEfRzzXZWXCaU7Mao8bYt1MSK7r-12A
+2025-06-27 14:47:34,254 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-27 14:47:34,255 - src.data.trading_system - INFO - Period: 2025-05-22 to 2025-06-27
+2025-06-27 14:47:34,650 - src.data.trading_system - INFO - 
+Processing RELIANCE.NS...
+2025-06-27 14:47:34,667 - src.data.trading_system - INFO - Completed RELIANCE.NS: Trades: 0, P&L: $0.00
+2025-06-27 14:47:34,668 - src.data.trading_system - INFO - 
+Processing BHARTIARTL.NS...
+2025-06-27 14:47:34,681 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1936.70, Shares: 1.03, Size: $2000.00
+2025-06-27 14:47:34,682 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1936.699951171875
+2025-06-27 14:47:34,684 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $2014.30, P&L: $-80.14 (-4.01%)
+2025-06-27 14:47:35,118 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $2014.30, Shares: 0.99, Size: $1998.40
+2025-06-27 14:47:35,119 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 2014.300048828125
+2025-06-27 14:47:35,120 - src.data.trading_system - INFO - Completed BHARTIARTL.NS: Trades: 1, P&L: $-80.14
+2025-06-27 14:47:35,120 - src.data.trading_system - INFO - 
+Processing TCS.NS...
+2025-06-27 14:47:35,136 - src.data.trading_system - INFO - Completed TCS.NS: Trades: 0, P&L: $0.00
+2025-06-27 14:47:35,136 - src.data.trading_system - INFO - 
+Processing INFY.NS...
+2025-06-27 14:47:35,152 - src.data.trading_system - INFO - Completed INFY.NS: Trades: 0, P&L: $0.00
+2025-06-27 14:47:35,152 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-27 14:47:35,169 - src.data.trading_system - INFO - Completed LT.NS: Trades: 0, P&L: $0.00
+2025-06-27 14:47:35,169 - src.data.trading_system - INFO - 
+Processing SBIN.NS...
+2025-06-27 14:47:35,185 - src.data.trading_system - INFO - Completed SBIN.NS: Trades: 0, P&L: $0.00
+2025-06-27 14:47:35,489 - src.data.trading_system - ERROR - Error in backtest: 'date'
+2025-06-27 14:48:32,843 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:48:32,845 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:48:32,848 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:48:35,525 - __main__ - INFO - Starting trading system in Backtest mode
+2025-06-27 14:48:35,525 - __main__ - INFO - Starting capital: $100,000.00
+2025-06-27 14:48:37,165 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
+2025-06-27 14:48:37,167 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-06-27 14:48:37,169 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
+2025-06-27 14:48:37,169 - src.data.trading_system - INFO - ✅ Google Sheets logging enabled
+2025-06-27 14:48:37,170 - src.data.trading_system - INFO - Connected to: https://docs.google.com/spreadsheets/d/1yhmCMKFpMsjvsEfRzzXZWXCaU7Mao8bYt1MSK7r-12A
+2025-06-27 14:48:37,171 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-27 14:48:37,171 - src.data.trading_system - INFO - Period: 2025-05-22 to 2025-06-27
+2025-06-27 14:48:37,466 - src.data.trading_system - INFO - 
+Processing RELIANCE.NS...
+2025-06-27 14:48:37,489 - src.data.trading_system - INFO - Completed RELIANCE.NS: Trades: 0, P&L: $0.00
+2025-06-27 14:48:37,489 - src.data.trading_system - INFO - 
+Processing INFY.NS...
+2025-06-27 14:48:37,506 - src.data.trading_system - INFO - Completed INFY.NS: Trades: 0, P&L: $0.00
+2025-06-27 14:48:37,506 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-27 14:48:37,522 - src.data.trading_system - INFO - Completed LT.NS: Trades: 0, P&L: $0.00
+2025-06-27 14:48:37,522 - src.data.trading_system - INFO - 
+Processing SBIN.NS...
+2025-06-27 14:48:37,539 - src.data.trading_system - INFO - Completed SBIN.NS: Trades: 0, P&L: $0.00
+2025-06-27 14:48:37,539 - src.data.trading_system - INFO - 
+Processing TCS.NS...
+2025-06-27 14:48:37,555 - src.data.trading_system - INFO - Completed TCS.NS: Trades: 0, P&L: $0.00
+2025-06-27 14:48:37,555 - src.data.trading_system - INFO - 
+Processing BHARTIARTL.NS...
+2025-06-27 14:48:37,570 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1936.70, Shares: 1.03, Size: $2000.00
+2025-06-27 14:48:37,571 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1936.699951171875
+2025-06-27 14:48:37,573 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $2014.30, P&L: $-80.14 (-4.01%)
+2025-06-27 14:48:37,995 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $2014.30, Shares: 0.99, Size: $1998.40
+2025-06-27 14:48:37,995 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 2014.300048828125
+2025-06-27 14:48:37,997 - src.data.trading_system - INFO - Completed BHARTIARTL.NS: Trades: 1, P&L: $-80.14
+2025-06-27 14:48:38,302 - src.data.trading_system - ERROR - Error in backtest: 'date'

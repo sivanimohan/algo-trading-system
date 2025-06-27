@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 import numpy as np
-from typing import Dict, List
+from typing import Dict
 import os
 from datetime import datetime, UTC
 
@@ -17,12 +17,23 @@ class TradingVisualizer:
         self.results_dir = results_dir
         self.figures_dir = os.path.join(results_dir, 'figures')
         os.makedirs(self.figures_dir, exist_ok=True)
-        plt.style.use('default')  # Use a valid matplotlib style
+        plt.style.use('default')
         sns.set_theme()
         sns.set_palette("husl")
 
+    def _find_date_column(self, df: pd.DataFrame):
+        """Return the column name to use as date/time (case-insensitive search)."""
+        for candidate in ['date', 'Date', 'timestamp', 'Timestamp', 'datetime', 'Datetime']:
+            if candidate in df.columns:
+                return candidate
+        # If not found, try a case-insensitive match
+        for col in df.columns:
+            if col.lower() in ['date', 'timestamp', 'datetime']:
+                return col
+        raise KeyError(f"No date/timestamp column found in DataFrame. Columns: {df.columns.tolist()}")
+
     def plot_multi_symbol_performance(self, symbols_results: Dict[str, Dict]):
-        """Plot performance comparison across multiple symbols"""
+        """Bar chart comparing return (%) and win rate (%) for each stock"""
         try:
             plt.figure(figsize=(15, 10))
             symbols = list(symbols_results.keys())
@@ -32,16 +43,16 @@ class TradingVisualizer:
             width = 0.35
             fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(15, 12))
             # Returns plot
-            ax1.bar(x - width/2, returns, width, label='Return %')
-            ax1.set_ylabel('Return %')
-            ax1.set_title('Returns by Symbol')
+            ax1.bar(x - width/2, returns, width, label='Return (%)')
+            ax1.set_ylabel('Return (%)')
+            ax1.set_title('Total Return by Stock')
             ax1.set_xticks(x)
             ax1.set_xticklabels(symbols)
             ax1.legend()
             # Win rates plot
-            ax2.bar(x + width/2, win_rates, width, label='Win Rate %')
-            ax2.set_ylabel('Win Rate %')
-            ax2.set_title('Win Rates by Symbol')
+            ax2.bar(x + width/2, win_rates, width, label='Win Rate (%)')
+            ax2.set_ylabel('Win Rate (%)')
+            ax2.set_title('Winning Trade Percentage by Stock')
             ax2.set_xticks(x)
             ax2.set_xticklabels(symbols)
             ax2.legend()
@@ -52,35 +63,38 @@ class TradingVisualizer:
             raise Exception(f"Error plotting multi-symbol performance: {str(e)}")
 
     def plot_equity_curves(self, symbols_results: Dict[str, Dict]):
-        """Plot equity curves for all symbols"""
+        """Plot equity curve (portfolio value over time) for each stock"""
         plt.figure(figsize=(15, 8))
         for symbol, results in symbols_results.items():
             equity_data = pd.DataFrame(results['equity_curve'])
-            plt.plot(equity_data['date'], equity_data['equity'], label=symbol)
-        plt.title('Portfolio Equity Curves')
+            if equity_data.empty:
+                continue
+            date_col = self._find_date_column(equity_data)
+            plt.plot(equity_data[date_col], equity_data['equity'], label=symbol)
+        plt.title('Equity Curve')
         plt.xlabel('Date')
-        plt.ylabel('Equity ($)')
+        plt.ylabel('Portfolio Value (₹)')
         plt.grid(True)
         plt.legend()
         plt.savefig(os.path.join(self.figures_dir, 'equity_curves.png'))
         plt.close()
 
     def plot_trade_distribution(self, symbols_results: Dict[str, Dict]):
-        """Plot trade P&L distribution for all symbols"""
+        """Show the distribution of profit and loss per trade for all stocks"""
         plt.figure(figsize=(15, 8))
         for symbol, results in symbols_results.items():
             pnl_data = [t['pnl'] for t in results['trades']]
             if len(pnl_data) > 1:
                 sns.kdeplot(data=pnl_data, label=symbol)
         plt.title('Trade P&L Distribution')
-        plt.xlabel('P&L ($)')
-        plt.ylabel('Density')
+        plt.xlabel('Profit / Loss per Trade (₹)')
+        plt.ylabel('Frequency')
         plt.legend()
         plt.savefig(os.path.join(self.figures_dir, 'pnl_distribution.png'))
         plt.close()
 
     def plot_monthly_returns(self, symbols_results: Dict[str, Dict]):
-        """Plot monthly returns heatmap"""
+        """Heatmap of monthly returns for each stock"""
         monthly_returns = {}
         for symbol, results in symbols_results.items():
             trades = results['trades']
@@ -92,97 +106,71 @@ class TradingVisualizer:
         plt.figure(figsize=(15, 8))
         sns.heatmap(returns_df.T, cmap='RdYlGn', center=0, annot=True, fmt='.0f')
         plt.title('Monthly Returns Heatmap')
+        plt.xlabel('Month')
+        plt.ylabel('Stock')
         plt.savefig(os.path.join(self.figures_dir, 'monthly_returns_heatmap.png'))
         plt.close()
 
     def plot_drawdowns(self, symbols_results: Dict[str, Dict]):
-        """Plot drawdown analysis"""
+        """Plot drawdown curves for each stock (max drop from peak equity)"""
         plt.figure(figsize=(15, 8))
         for symbol, results in symbols_results.items():
             equity_data = pd.DataFrame(results['equity_curve'])
+            if equity_data.empty:
+                continue
+            date_col = self._find_date_column(equity_data)
             equity_series = equity_data['equity']
             running_max = equity_series.cummax()
             drawdown = (equity_series - running_max) / running_max * 100
-            plt.plot(equity_data['date'], drawdown, label=symbol)
-        plt.title('Drawdown Analysis')
+            plt.plot(equity_data[date_col], drawdown, label=symbol)
+        plt.title('Drawdown Curve')
         plt.xlabel('Date')
-        plt.ylabel('Drawdown %')
+        plt.ylabel('Drawdown (%)')
         plt.grid(True)
         plt.legend()
         plt.savefig(os.path.join(self.figures_dir, 'drawdowns.png'))
         plt.close()
 
-    def generate_performance_report(self, symbols_results: Dict[str, Dict]):
-        """Generate comprehensive performance report"""
-        report_time = datetime.now(UTC).strftime('%Y%m%d_%H%M%S')
-        report_file = os.path.join(self.figures_dir, f'performance_report_{report_time}.html')
-        html_content = [
-            "<html><head>",
-            "<style>",
-            "body { font-family: Arial, sans-serif; margin: 20px; }",
-            "table { border-collapse: collapse; width: 100%; }",
-            "th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }",
-            "th { background-color: #f2f2f2; }",
-            "img { max-width: 100%; height: auto; margin: 20px 0; }",
-            "</style>",
-            "</head><body>",
-            f"<h1>Trading Performance Report - {report_time}</h1>"
-        ]
-        html_content.extend([
-            "<h2>Performance Metrics</h2>",
-            "<table>",
-            "<tr><th>Symbol</th><th>Total Trades</th><th>Win Rate</th><th>Total P&L</th><th>Return %</th><th>Sharpe Ratio</th></tr>"
-        ])
-        for symbol, results in symbols_results.items():
-            metrics = results['metrics']
-            html_content.append(
-                f"<tr><td>{symbol}</td>"
-                f"<td>{metrics['total_trades']}</td>"
-                f"<td>{metrics['win_rate']:.2%}</td>"
-                f"<td>${metrics['total_pnl']:,.2f}</td>"
-                f"<td>{metrics['return_pct']:.2f}%</td>"
-                f"<td>{metrics['sharpe_ratio']:.2f}</td></tr>"
-            )
-        html_content.append("</table>")
-        charts = [
-            'multi_symbol_performance.png',
-            'equity_curves.png',
-            'pnl_distribution.png',
-            'monthly_returns_heatmap.png',
-            'drawdowns.png'
-        ]
-        for chart in charts:
-            html_content.extend([
-                f"<h2>{chart.replace('.png', '').replace('_', ' ').title()}</h2>",
-                f"<img src='{chart}' alt='{chart}'>"
-            ])
-        html_content.append("</body></html>")
-        with open(report_file, 'w') as f:
-            f.write("\n".join(html_content))
-        return report_file
-
-    def plot_all(self, symbols_results: Dict[str, Dict]):
-        """Generate all plots and report"""
+    def plot_all(self, symbols_results: dict):
+        """
+        Generate all standard charts for stock backtest results and return the path to the performance report HTML file.
+        """
         self.plot_multi_symbol_performance(symbols_results)
         self.plot_equity_curves(symbols_results)
         self.plot_trade_distribution(symbols_results)
         self.plot_monthly_returns(symbols_results)
         self.plot_drawdowns(symbols_results)
-        return self.generate_performance_report(symbols_results)
+        # Optionally: generate a report file if you have that method, or just return None or a summary string
+        if hasattr(self, "generate_performance_report"):
+            return self.generate_performance_report(symbols_results)
+        return None
+    
 
 def plot_performance(symbols_results):
     """
-    Wrapper to plot equity curves for use in Streamlit.
-    Returns a matplotlib figure.
+    Show a simple equity curve (portfolio value over time) for each stock (for Streamlit).
     """
     fig, ax = plt.subplots(figsize=(12, 6))
     for symbol, results in symbols_results.items():
         equity_data = pd.DataFrame(results['equity_curve'])
         if not equity_data.empty:
-            ax.plot(equity_data['date'], equity_data['equity'], label=symbol)
-    ax.set_title('Portfolio Equity Curves')
+            # Robust date column detection
+            date_col = None
+            for candidate in ['date', 'Date', 'timestamp', 'Timestamp', 'datetime', 'Datetime']:
+                if candidate in equity_data.columns:
+                    date_col = candidate
+                    break
+            if not date_col:
+                for col in equity_data.columns:
+                    if col.lower() in ['date', 'timestamp', 'datetime']:
+                        date_col = col
+                        break
+            if not date_col:
+                raise KeyError(f"No date/timestamp column found in DataFrame. Columns: {equity_data.columns.tolist()}")
+            ax.plot(equity_data[date_col], equity_data['equity'], label=symbol)
+    ax.set_title('Equity Curve')
     ax.set_xlabel('Date')
-    ax.set_ylabel('Equity ($)')
+    ax.set_ylabel('Portfolio Value (₹)')
     ax.legend()
     ax.grid(True)
     return fig
