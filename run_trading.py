@@ -1,12 +1,14 @@
 """
 Main Trading System Runner
-Last Updated: 2025-06-26 15:20:01 UTC
+Last Updated: 2025-06-27
 Author: sivanimohan
+ML Automation Extension
 """
 
 import logging
 from datetime import datetime, timedelta, UTC
 import os
+import pandas as pd
 import sys
 from typing import Dict, List
 import argparse
@@ -19,6 +21,7 @@ from src.data.constants import (
     SYMBOLS, DEFAULT_INITIAL_CAPITAL, DEFAULT_POSITION_SIZE_PCT,
     DEFAULT_STOP_LOSS_PCT, DEFAULT_TAKE_PROFIT_PCT
 )
+from src.data.ml_automation import MLAutomation
 
 def setup_logging() -> None:
     """Setup logging configuration"""
@@ -65,10 +68,14 @@ def save_results(results: Dict, output_dir: str) -> None:
             
             for symbol, result in results.items():
                 f.write(f"\nResults for {symbol}:\n")
-                f.write(f"Total Trades: {result['metrics']['total_trades']}\n")
-                f.write(f"Win Rate: {result['metrics']['win_rate']:.2%}\n")
-                f.write(f"Total P&L: ${result['metrics']['total_pnl']:,.2f}\n")
-                f.write(f"Return: {result['metrics']['return_pct']:.2f}%\n")
+                metrics = result.get("metrics")
+                if metrics is None:
+                    f.write("No metrics found for this symbol!\n")
+                    continue
+                f.write(f"Total Trades: {metrics.get('total_trades', 'N/A')}\n")
+                f.write(f"Win Rate: {metrics.get('win_rate', 0):.2%}\n")
+                f.write(f"Total P&L: ${metrics.get('total_pnl', 0):,.2f}\n")
+                f.write(f"Return: {metrics.get('return_pct', 0):.2f}%\n")
                 f.write("-----------------------------\n")
         
         logging.info(f"Results saved to {output_dir}")
@@ -111,19 +118,51 @@ def run_backtest(args: argparse.Namespace) -> None:
         
         for symbol, result in results.items():
             print(f"\n{symbol}:")
-            print(f"Trades: {result['metrics']['total_trades']}")
-            print(f"Win Rate: {result['metrics']['win_rate']:.2%}")
-            print(f"P&L: ${result['metrics']['total_pnl']:,.2f}")
-            print(f"Return: {result['metrics']['return_pct']:.2f}%")
+            metrics = result.get("metrics", {})
+            print(f"Trades: {metrics.get('total_trades', 0)}")
+            print(f"Win Rate: {metrics.get('win_rate', 0):.2%}")
+            print(f"P&L: ${metrics.get('total_pnl', 0):,.2f}")
+            print(f"Return: {metrics.get('return_pct', 0):.2f}%")
             
-            total_pnl += result['metrics']['total_pnl']
-            total_trades += result['metrics']['total_trades']
+            total_pnl += metrics.get('total_pnl', 0)
+            total_trades += metrics.get('total_trades', 0)
         
         print("\nOverall Performance:")
         print(f"Total Trades: {total_trades}")
         print(f"Total P&L: ${total_pnl:,.2f}")
         print(f"Return on Capital: {(total_pnl / args.capital) * 100:.2f}%")
-        
+
+        # ML Automation Section
+        if args.ml:
+            print("\n[ML Automation] Running ML-based analytics...")
+            model_type = args.ml_model
+            ml_results = {}
+            for symbol, result in results.items():
+                # The following assumes you have a 'history' key with a DataFrame or list of dicts in result.
+                # This may need to be adapted based on your TradingSystem's output structure.
+                df = None
+                if isinstance(result.get("history"), pd.DataFrame):
+                    df = result["history"]
+                elif isinstance(result.get("history"), list):
+                    df = pd.DataFrame(result["history"])
+                if df is not None and not df.empty:
+                    ml = MLAutomation(model_type=model_type)
+                    try:
+                        acc = ml.train(df)
+                        signal = ml.generate_signal(df)
+                        print(f"\nML ({model_type}) for {symbol}:")
+                        print(f"  - Prediction Accuracy: {acc:.2%}")
+                        print(f"  - Signal for next day: {signal.upper()}")
+                        ml_results[symbol] = {
+                            "accuracy": acc,
+                            "signal": signal
+                        }
+                    except Exception as ml_e:
+                        print(f"  [ML] Unable to run ML on {symbol}: {ml_e}")
+                else:
+                    print(f"  [ML] No historical data for {symbol} to run ML.")
+            # Optionally, save or further process ml_results
+
     except Exception as e:
         logging.error(f"Error in backtest: {e}")
         sys.exit(1)
@@ -192,7 +231,13 @@ def parse_arguments() -> argparse.Namespace:
     
     # Configuration
     parser.add_argument('--config', help='Path to configuration file')
-    
+
+    # ML Automation
+    parser.add_argument('--ml', action='store_true',
+                      help='Enable ML automation and analytics')
+    parser.add_argument('--ml-model', choices=['decision_tree', 'logistic_regression'],
+                      default='decision_tree', help='ML model type for automation (default: decision_tree)')
+
     return parser.parse_args()
 
 def main() -> None:

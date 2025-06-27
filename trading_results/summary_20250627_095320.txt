@@ -1,0 +1,10 @@
+Trading System Results Summary
+=============================
+
+
+Results for INFY.NS:
+Total Trades: 6
+Win Rate: 50.00%
+Total P&L: $-5.32
+Return: -0.01%
+-----------------------------

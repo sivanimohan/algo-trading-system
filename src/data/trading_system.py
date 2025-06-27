@@ -1,10 +1,10 @@
 """
 Main Trading System Module
-Last Updated: 2025-06-26 15:05:23 UTC
+Last Updated: 2025-06-27 09:35:00 UTC
 Author: sivanimohan
 """
 
-from typing import Dict, List, Optional, Union, Tuple, Any
+from typing import Dict, List, Optional, Any
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta, UTC
@@ -34,29 +34,25 @@ class TradingSystem:
                  use_sheets: bool = True):
         
         self.logger = logging.getLogger(__name__)
-        
-        # Initialize parameters
         self.initial_capital = initial_capital
         self.current_capital = initial_capital
         self.position_size_pct = position_size_pct
         self.stop_loss_pct = stop_loss_pct
         self.take_profit_pct = take_profit_pct
-        
-        # Initialize components
+
+        # Core components
         self.stock_data = StockDataFetcher()
         self.indicators = TechnicalIndicators()
         self.strategies = TradingStrategies()
         self.positions: Dict[str, List[Dict]] = {symbol: [] for symbol in SYMBOLS}
         self.trades_history: Dict[str, List[Dict]] = {symbol: [] for symbol in SYMBOLS}
-        
-        # Create results directory
+
+        # Results and visualization
         self.results_dir = os.path.join(os.getcwd(), 'trading_results')
         os.makedirs(self.results_dir, exist_ok=True)
-        
-        # Initialize visualization
         self.visualizer = TradingVisualizer(self.results_dir)
-        
-        # Initialize Google Sheets logging
+
+        # Google Sheets logging
         self.sheets_logger = None
         if use_sheets:
             try:
@@ -257,82 +253,77 @@ class TradingSystem:
                 symbol: str, 
                 data: pd.DataFrame,
                 strategy: str = 'combined') -> List[Dict]:
-     trades = []
-    # --- FIX: Check for empty/short DataFrame ---
-     if data is None or data.empty:
-        self.logger.error(f"No data for {symbol} in run_strategy, skipping.")
-        return trades
-     if len(data) < 2:
-        self.logger.error(f"Not enough data for {symbol} (rows: {len(data)}), skipping.")
-        return trades
-    # --------------------------------------
-     for index, row in data.iterrows():
-        for position in self.positions[symbol][:]:
-            current_price = row['Close']
-            if (position['direction'] == 'long' and current_price <= position['stop_loss']) or \
-               (position['direction'] == 'short' and current_price >= position['stop_loss']):
-                closed_position = self.close_position(
-                    position, current_price, index, 'stop_loss')
-                trades.append(closed_position)
-            elif (position['direction'] == 'long' and current_price >= position['take_profit']) or \
-                 (position['direction'] == 'short' and current_price <= position['take_profit']):
-                closed_position = self.close_position(
-                    position, current_price, index, 'take_profit')
-                trades.append(closed_position)
+        trades = []
+        # Check for empty/short DataFrame
+        if data is None or data.empty:
+            self.logger.error(f"No data for {symbol} in run_strategy, skipping.")
+            return trades
+        if len(data) < 2:
+            self.logger.error(f"Not enough data for {symbol} (rows: {len(data)}), skipping.")
+            return trades
+        for index, row in data.iterrows():
+            for position in self.positions[symbol][:]:
+                current_price = row['Close']
+                if (position['direction'] == 'long' and current_price <= position['stop_loss']) or \
+                   (position['direction'] == 'short' and current_price >= position['stop_loss']):
+                    closed_position = self.close_position(
+                        position, current_price, index, 'stop_loss')
+                    trades.append(closed_position)
+                elif (position['direction'] == 'long' and current_price >= position['take_profit']) or \
+                     (position['direction'] == 'short' and current_price <= position['take_profit']):
+                    closed_position = self.close_position(
+                        position, current_price, index, 'take_profit')
+                    trades.append(closed_position)
 
-        signal = self.get_signal(data.loc[:index], strategy)
-        if signal == 'buy' and not self.positions[symbol]:
-            position = self.open_position(symbol, row['Close'], index)
-            if position:
-                self.logger.info(f"Opened long position in {symbol} at {row['Close']}")
-        elif signal == 'sell' and not self.positions[symbol]:
-            position = self.open_position(symbol, row['Close'], index, 'short')
-            if position:
-                self.logger.info(f"Opened short position in {symbol} at {row['Close']}")
-     return trades
+            signal = self.get_signal(data.loc[:index], strategy)
+            if signal == 'buy' and not self.positions[symbol]:
+                position = self.open_position(symbol, row['Close'], index)
+                if position:
+                    self.logger.info(f"Opened long position in {symbol} at {row['Close']}")
+            elif signal == 'sell' and not self.positions[symbol]:
+                position = self.open_position(symbol, row['Close'], index, 'short')
+                if position:
+                    self.logger.info(f"Opened short position in {symbol} at {row['Close']}")
+        return trades
 
     def run_backtest(self, 
                 start_date: datetime,
                 end_date: datetime,
                 strategy: str = 'combined') -> Dict[str, Dict]:
-      self.logger.info(f"\nStarting backtest for all symbols")
-      self.logger.info(f"Period: {start_date.strftime('%Y-%m-%d')} to {end_date.strftime('%Y-%m-%d')}")
-      try:
-        data_dict = self.fetch_all_data(start_date, end_date)
-        results = {}
-        for symbol, data in data_dict.items():
-            self.logger.info(f"\nProcessing {symbol}...")
-
-            # --- FIX: Skip processing if DataFrame is empty or too short ---
-            if data is None or data.empty:
-                self.logger.error(f"No data for {symbol}, skipping.")
-                continue
-            if len(data) < 2:
-                self.logger.error(f"Not enough data for {symbol} (rows: {len(data)}), skipping.")
-                continue
-            # ---
-
-            symbol_results = {
-                'trades': self.run_strategy(symbol, data, strategy),
-                'metrics': {},
-                'equity_curve': []
-            }
-            symbol_results['metrics'] = self.calculate_performance_metrics(
-                symbol_results['trades'])
-            symbol_results['equity_curve'] = self.calculate_equity_curve(
-                symbol_results['trades'])
-            results[symbol] = symbol_results
-            self.logger.info(
-                f"Completed {symbol}: "
-                f"Trades: {len(symbol_results['trades'])}, "
-                f"P&L: ${symbol_results['metrics']['total_pnl']:,.2f}"
-            )
-        report_file = self.visualizer.plot_all(results)
-        self.logger.info(f"\nPerformance report generated: {report_file}")
-        return results
-      except Exception as e:
-        self.logger.error(f"Error in backtest: {e}")
-        raise
+        self.logger.info(f"\nStarting backtest for all symbols")
+        self.logger.info(f"Period: {start_date.strftime('%Y-%m-%d')} to {end_date.strftime('%Y-%m-%d')}")
+        try:
+            data_dict = self.fetch_all_data(start_date, end_date)
+            results = {}
+            for symbol, data in data_dict.items():
+                self.logger.info(f"\nProcessing {symbol}...")
+                if data is None or data.empty:
+                    self.logger.error(f"No data for {symbol}, skipping.")
+                    continue
+                if len(data) < 2:
+                    self.logger.error(f"Not enough data for {symbol} (rows: {len(data)}), skipping.")
+                    continue
+                symbol_results = {
+                    'trades': self.run_strategy(symbol, data, strategy),
+                    'metrics': {},
+                    'equity_curve': []
+                }
+                symbol_results['metrics'] = self.calculate_performance_metrics(
+                    symbol_results['trades'])
+                symbol_results['equity_curve'] = self.calculate_equity_curve(
+                    symbol_results['trades'])
+                results[symbol] = symbol_results
+                self.logger.info(
+                    f"Completed {symbol}: "
+                    f"Trades: {len(symbol_results['trades'])}, "
+                    f"P&L: ${symbol_results['metrics']['total_pnl']:,.2f}"
+                )
+            report_file = self.visualizer.plot_all(results)
+            self.logger.info(f"\nPerformance report generated: {report_file}")
+            return results
+        except Exception as e:
+            self.logger.error(f"Error in backtest: {e}")
+            raise
 
     def calculate_performance_metrics(self, trades: List[Dict]) -> Dict:
         if not trades:
@@ -447,13 +438,27 @@ class TradingSystem:
         self.logger.info(f"{report_type.capitalize()} report saved to {filepath}")
 
     def _calculate_period_pnl(self, days: int) -> float:
-        # Placeholder; real calculation would use trade dates
-        return np.random.uniform(-1000, 1000)
+        # This should calculate realized P&L over the last 'days' days
+        cutoff = datetime.now(UTC) - timedelta(days=days)
+        pnl = 0.0
+        for trades in self.trades_history.values():
+            for t in trades:
+                if 'exit_date' in t and isinstance(t['exit_date'], (pd.Timestamp, datetime)) and t['exit_date'] >= cutoff:
+                    pnl += t.get('pnl', 0.0)
+        return pnl
 
     def _calculate_period_trades(self, days: int) -> int:
-        # Placeholder; real calculation would use trade dates
-        return np.random.randint(5, 15)
+        cutoff = datetime.now(UTC) - timedelta(days=days)
+        count = 0
+        for trades in self.trades_history.values():
+            for t in trades:
+                if 'exit_date' in t and isinstance(t['exit_date'], (pd.Timestamp, datetime)) and t['exit_date'] >= cutoff:
+                    count += 1
+        return count
 
     def _calculate_performance_metrics(self, days: int) -> Dict:
-        # Placeholder for metrics like Sharpe, Sortino, etc.
-        return {"sharpe": np.random.uniform(0, 2), "sortino": np.random.uniform(0, 2)}
+        cutoff = datetime.now(UTC) - timedelta(days=days)
+        trades = []
+        for symbol_trades in self.trades_history.values():
+            trades.extend([t for t in symbol_trades if 'exit_date' in t and isinstance(t['exit_date'], (pd.Timestamp, datetime)) and t['exit_date'] >= cutoff])
+        return self.calculate_performance_metrics(trades)

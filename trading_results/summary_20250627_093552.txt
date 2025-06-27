@@ -1,0 +1,10 @@
+Trading System Results Summary
+=============================
+
+
+Results for RELIANCE.NS:
+Total Trades: 10
+Win Rate: 50.00%
+Total P&L: $267.54
+Return: 0.27%
+-----------------------------

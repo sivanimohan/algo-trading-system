@@ -1,12 +1,12 @@
 """
 Technical Indicators Module
-Last Updated: 2025-06-26 14:34:21 UTC
+Last Updated: 2025-06-27 09:25:34 UTC
 Author: sivanimohan
 """
 
 import pandas as pd
 import numpy as np
-from typing import Tuple
+from typing import Tuple, List
 from .constants import (
     RSI_PERIOD, MACD_FAST, MACD_SLOW, 
     MACD_SIGNAL, BOLLINGER_WINDOW, BOLLINGER_STD
@@ -78,87 +78,90 @@ class TechnicalIndicators:
             # Add momentum indicators
             data['ROC'] = data['Close'].pct_change(periods=10) * 100
             data['MOM'] = data['Close'].diff(periods=10)
-            
+
+            # Optionally, fill NaN values for Streamlit/ML use
+            data = data.fillna(method='bfill').fillna(method='ffill')
+
             return data
             
         except Exception as e:
             raise Exception(f"Error adding indicators: {str(e)}")
 
     def get_signal(self, data: pd.DataFrame) -> str:
-     """
-     Generate trading signals based on technical indicators
-     Returns: 'buy', 'sell', or 'hold'
-    """
-     try:
-        # Ensure enough data for indicators and to safely use iloc[-2]
-        if data is None or len(data) < 50:
-            return 'hold'
-        if len(data) < 2:
-            # Not enough rows for current and previous
-            return 'hold'
-        
-        # Get latest data point
-        current = data.iloc[-1]
-        previous = data.iloc[-2]
-        
-        # Initialize signal counters
-        buy_signals = 0
-        sell_signals = 0
-        
-        # 1. RSI Signals
-        if current['RSI'] < 30:
-            buy_signals += 1
-        elif current['RSI'] > 70:
-            sell_signals += 1
+        """
+        Generate trading signals based on technical indicators
+        Returns: 'buy', 'sell', or 'hold'
+        """
+        try:
+            # Ensure enough data for indicators and to safely use iloc[-2]
+            if data is None or len(data) < 50:
+                return 'hold'
+            if len(data) < 2:
+                return 'hold'
             
-        # 2. MACD Crossover
-        if (current['MACD'] > current['Signal_Line'] and 
-            previous['MACD'] <= previous['Signal_Line']):
-            buy_signals += 1
-        elif (current['MACD'] < current['Signal_Line'] and 
-              previous['MACD'] >= previous['Signal_Line']):
-            sell_signals += 1
+            # Get latest data point
+            current = data.iloc[-1]
+            previous = data.iloc[-2]
             
-        # 3. Bollinger Bands
-        if current['Close'] <= current['Lower_Band']:
-            buy_signals += 1
-        elif current['Close'] >= current['Upper_Band']:
-            sell_signals += 1
+            # Initialize signal counters
+            buy_signals = 0
+            sell_signals = 0
             
-        # 4. Moving Average Crossovers
-        if (current['MA20'] > current['MA50'] and 
-            previous['MA20'] <= previous['MA50']):
-            buy_signals += 1
-        elif (current['MA20'] < current['MA50'] and 
-              previous['MA20'] >= previous['MA50']):
-            sell_signals += 1
-            
-        # 5. Volume Confirmation
-        if len(data['Volume']) >= 20:  # Ensure enough for rolling mean
-            vol_sma = data['Volume'].rolling(20).mean().iloc[-1]
-            if not np.isnan(vol_sma):
-                if current['Volume'] > vol_sma * 1.5:
-                    if current['Close'] > previous['Close']:
-                        buy_signals += 1
-                    else:
-                        sell_signals += 1
+            # 1. RSI Signals
+            if current['RSI'] < 30:
+                buy_signals += 1
+            elif current['RSI'] > 70:
+                sell_signals += 1
+                
+            # 2. MACD Crossover
+            if (current['MACD'] > current['Signal_Line'] and 
+                previous['MACD'] <= previous['Signal_Line']):
+                buy_signals += 1
+            elif (current['MACD'] < current['Signal_Line'] and 
+                  previous['MACD'] >= previous['Signal_Line']):
+                sell_signals += 1
+                
+            # 3. Bollinger Bands
+            if current['Close'] <= current['Lower_Band']:
+                buy_signals += 1
+            elif current['Close'] >= current['Upper_Band']:
+                sell_signals += 1
+                
+            # 4. Moving Average Crossovers
+            if (current['MA20'] > current['MA50'] and 
+                previous['MA20'] <= previous['MA50']):
+                buy_signals += 1
+            elif (current['MA20'] < current['MA50'] and 
+                  previous['MA20'] >= previous['MA50']):
+                sell_signals += 1
+
+            # 5. Volume Confirmation
+            if len(data['Volume']) >= 20:  # Ensure enough for rolling mean
+                vol_sma = data['Volume'].rolling(20).mean().iloc[-1]
+                if not np.isnan(vol_sma):
+                    if current['Volume'] > vol_sma * 1.5:
+                        if current['Close'] > previous['Close']:
+                            buy_signals += 1
+                        else:
+                            sell_signals += 1
                     
-        # 6. Momentum
-        if current['ROC'] > 0 and current['MOM'] > 0:
-            buy_signals += 1
-        elif current['ROC'] < 0 and current['MOM'] < 0:
-            sell_signals += 1
-        
-        # Decision making
-        if buy_signals >= 3:
-            return 'buy'
-        elif sell_signals >= 3:
-            return 'sell'
-        return 'hold'
-        
-     except Exception as e:
-        raise Exception(f"Error generating signal: {str(e)}")
-available_indicators = [
+            # 6. Momentum
+            if current['ROC'] > 0 and current['MOM'] > 0:
+                buy_signals += 1
+            elif current['ROC'] < 0 and current['MOM'] < 0:
+                sell_signals += 1
+            
+            # Decision making
+            if buy_signals >= 3:
+                return 'buy'
+            elif sell_signals >= 3:
+                return 'sell'
+            return 'hold'
+            
+        except Exception as e:
+            raise Exception(f"Error generating signal: {str(e)}")
+
+available_indicators: List[str] = [
     "RSI",
     "MACD",
     "MACD_Histogram",

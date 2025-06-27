@@ -1,0 +1,45 @@
+Trading System Results Summary
+=============================
+
+
+Results for RELIANCE.NS:
+Total Trades: 10
+Win Rate: 50.00%
+Total P&L: $273.76
+Return: 0.27%
+-----------------------------
+
+Results for INFY.NS:
+Total Trades: 7
+Win Rate: 57.14%
+Total P&L: $113.99
+Return: 0.11%
+-----------------------------
+
+Results for TCS.NS:
+Total Trades: 10
+Win Rate: 40.00%
+Total P&L: $-54.09
+Return: -0.05%
+-----------------------------
+
+Results for LT.NS:
+Total Trades: 3
+Win Rate: 33.33%
+Total P&L: $-3.31
+Return: -0.00%
+-----------------------------
+
+Results for SBIN.NS:
+Total Trades: 5
+Win Rate: 60.00%
+Total P&L: $147.74
+Return: 0.15%
+-----------------------------
+
+Results for BHARTIARTL.NS:
+Total Trades: 13
+Win Rate: 30.77%
+Total P&L: $266.66
+Return: 0.27%
+-----------------------------

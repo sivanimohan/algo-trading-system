@@ -1,6 +1,6 @@
 """
 Trading Strategies Module
-Last Updated: 2025-06-26 14:37:23 UTC
+Last Updated: 2025-06-27 09:28:32 UTC
 Author: sivanimohan
 """
 
@@ -14,9 +14,9 @@ class TradingStrategies:
         """RSI-based trading strategy"""
         if 'RSI' not in data.columns or len(data) < 14:
             return 'hold'
-        if len(data) < 1:
-            return 'hold'
         last_rsi = data['RSI'].iloc[-1]
+        if pd.isna(last_rsi):
+            return 'hold'
         if last_rsi < 30:
             return 'buy'
         elif last_rsi > 70:
@@ -32,6 +32,8 @@ class TradingStrategies:
             return 'hold'
         current = data.iloc[-1]
         previous = data.iloc[-2]
+        if pd.isna(current['MACD']) or pd.isna(current['Signal_Line']) or pd.isna(previous['MACD']) or pd.isna(previous['Signal_Line']):
+            return 'hold'
         if (current['MACD'] > current['Signal_Line'] and 
             previous['MACD'] <= previous['Signal_Line']):
             return 'buy'
@@ -48,6 +50,8 @@ class TradingStrategies:
         if len(data) < 1:
             return 'hold'
         current = data.iloc[-1]
+        if pd.isna(current['Close']) or pd.isna(current['Upper_Band']) or pd.isna(current['Lower_Band']):
+            return 'hold'
         if current['Close'] <= current['Lower_Band']:
             return 'buy'
         elif current['Close'] >= current['Upper_Band']:
@@ -63,6 +67,8 @@ class TradingStrategies:
             return 'hold'
         current = data.iloc[-1]
         previous = data.iloc[-2]
+        if pd.isna(current['MA20']) or pd.isna(current['MA50']) or pd.isna(previous['MA20']) or pd.isna(previous['MA50']):
+            return 'hold'
         if (current['MA20'] > current['MA50'] and 
             previous['MA20'] <= previous['MA50']):
             return 'buy'
@@ -74,17 +80,14 @@ class TradingStrategies:
     @staticmethod
     def combined_strategy(data: pd.DataFrame) -> str:
         """Combined strategy using multiple indicators"""
-        strategies = TradingStrategies()
         signals = [
-            strategies.rsi_strategy(data),
-            strategies.macd_strategy(data),
-            strategies.bollinger_strategy(data),
-            strategies.moving_average_strategy(data)
+            TradingStrategies.rsi_strategy(data),
+            TradingStrategies.macd_strategy(data),
+            TradingStrategies.bollinger_strategy(data),
+            TradingStrategies.moving_average_strategy(data)
         ]
-        
         buy_count = signals.count('buy')
         sell_count = signals.count('sell')
-        
         if buy_count >= 2:
             return 'buy'
         elif sell_count >= 2:
