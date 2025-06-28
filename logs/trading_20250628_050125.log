@@ -1,0 +1,336 @@
+2025-06-28 05:01:56,539 - __main__ - INFO - Starting trading system in Backtest mode
+2025-06-28 05:01:56,539 - __main__ - INFO - Starting capital: $100,000.00
+2025-06-28 05:01:56,544 - src.data.trading_system - ERROR - Failed to initialize Google Sheets logging: SPREADSHEET_ID not found in .env file.
+2025-06-28 05:01:56,544 - src.data.trading_system - INFO - Continuing with local logging only
+2025-06-28 05:01:56,546 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-28 05:01:56,546 - src.data.trading_system - INFO - Period: 2024-06-28 to 2025-06-28
+2025-06-28 05:01:57,038 - src.data.trading_system - INFO - 
+Processing INFY.NS...
+2025-06-28 05:01:57,094 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1732.87, Shares: 1.15, Size: $2000.00
+2025-06-28 05:01:57,094 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1732.868408203125
+2025-06-28 05:01:57,098 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1804.56, P&L: $82.74 (4.14%)
+2025-06-28 05:01:57,145 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1739.62, Shares: 1.15, Size: $2001.65
+2025-06-28 05:01:57,145 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1739.623291015625
+2025-06-28 05:01:57,147 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1664.28, P&L: $-86.69 (-4.33%)
+2025-06-28 05:01:57,148 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1664.28, Shares: 1.20, Size: $1999.92
+2025-06-28 05:01:57,148 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1664.2833251953125
+2025-06-28 05:01:57,152 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1568.78, P&L: $-114.77 (-5.74%)
+2025-06-28 05:01:57,154 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1568.78, Shares: 1.27, Size: $1997.63
+2025-06-28 05:01:57,154 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1568.777099609375
+2025-06-28 05:01:57,163 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1505.32, P&L: $-80.80 (-4.05%)
+2025-06-28 05:01:57,167 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1377.37, Shares: 1.45, Size: $1996.01
+2025-06-28 05:01:57,167 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1377.3702392578125
+2025-06-28 05:01:57,174 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1454.44, P&L: $111.68 (5.60%)
+2025-06-28 05:01:57,189 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1604.33, Shares: 1.25, Size: $1998.24
+2025-06-28 05:01:57,189 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1604.3270263671875
+2025-06-28 05:01:57,192 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1538.16, P&L: $82.42 (4.12%)
+2025-06-28 05:01:57,204 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1631.10, Shares: 1.23, Size: $1999.89
+2025-06-28 05:01:57,205 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1631.0999755859375
+2025-06-28 05:01:57,214 - src.data.trading_system - INFO - Completed INFY.NS: Trades: 6, P&L: $-5.42
+2025-06-28 05:01:57,214 - src.data.trading_system - INFO - 
+Processing RELIANCE.NS...
+2025-06-28 05:01:57,255 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1370.72, Shares: 1.43, Size: $1959.89
+2025-06-28 05:01:57,256 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1370.7249755859375
+2025-06-28 05:01:57,265 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1338.53, P&L: $-46.04 (-2.35%)
+2025-06-28 05:01:57,275 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1283.75, Shares: 1.53, Size: $1958.97
+2025-06-28 05:01:57,275 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1283.75
+2025-06-28 05:01:57,277 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1252.05, P&L: $-48.37 (-2.47%)
+2025-06-28 05:01:57,277 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1252.05, Shares: 1.56, Size: $1958.01
+2025-06-28 05:01:57,278 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1252.050048828125
+2025-06-28 05:01:57,280 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1223.00, P&L: $-45.43 (-2.32%)
+2025-06-28 05:01:57,281 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1223.00, Shares: 1.60, Size: $1957.10
+2025-06-28 05:01:57,281 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1223.0
+2025-06-28 05:01:57,282 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1287.00, P&L: $102.42 (5.23%)
+2025-06-28 05:01:57,299 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1205.30, Shares: 1.63, Size: $1959.15
+2025-06-28 05:01:57,299 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1205.300048828125
+2025-06-28 05:01:57,306 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1265.50, P&L: $97.85 (4.99%)
+2025-06-28 05:01:57,312 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.35, Shares: 1.51, Size: $1961.10
+2025-06-28 05:01:57,312 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.3499755859375
+2025-06-28 05:01:57,316 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1246.30, P&L: $84.40 (4.30%)
+2025-06-28 05:01:57,333 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1171.25, Shares: 1.68, Size: $1962.79
+2025-06-28 05:01:57,333 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1171.25
+2025-06-28 05:01:57,335 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1249.80, P&L: $131.63 (6.71%)
+2025-06-28 05:01:57,344 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.10, Shares: 1.51, Size: $1965.42
+2025-06-28 05:01:57,344 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.0999755859375
+2025-06-28 05:01:57,348 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1248.70, P&L: $80.60 (4.10%)
+2025-06-28 05:01:57,358 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1368.80, Shares: 1.44, Size: $1967.04
+2025-06-28 05:01:57,359 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1368.800048828125
+2025-06-28 05:01:57,359 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1399.70, P&L: $-44.40 (-2.26%)
+2025-06-28 05:01:57,360 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1399.70, Shares: 1.40, Size: $1966.15
+2025-06-28 05:01:57,360 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1399.699951171875
+2025-06-28 05:01:57,362 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1431.30, P&L: $-44.39 (-2.26%)
+2025-06-28 05:01:57,389 - src.data.trading_system - INFO - Completed RELIANCE.NS: Trades: 10, P&L: $268.27
+2025-06-28 05:01:57,390 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-28 05:01:57,453 - src.data.trading_system - INFO - Opened short position in LT.NS at $3910.83, Shares: 0.50, Size: $1965.26
+2025-06-28 05:01:57,454 - src.data.trading_system - INFO - Opened short position in LT.NS at 3910.826416015625
+2025-06-28 05:01:57,457 - src.data.trading_system - INFO - Closed short position in LT.NS at $3723.42, P&L: $94.17 (4.79%)
+2025-06-28 05:01:57,497 - src.data.trading_system - INFO - Opened short position in LT.NS at $3384.39, Shares: 0.58, Size: $1967.14
+2025-06-28 05:01:57,497 - src.data.trading_system - INFO - Opened short position in LT.NS at 3384.385986328125
+2025-06-28 05:01:57,499 - src.data.trading_system - INFO - Closed short position in LT.NS at $3469.24, P&L: $-49.32 (-2.51%)
+2025-06-28 05:01:57,519 - src.data.trading_system - INFO - Opened short position in LT.NS at $3554.05, Shares: 0.55, Size: $1966.16
+2025-06-28 05:01:57,520 - src.data.trading_system - INFO - Opened short position in LT.NS at 3554.0537109375
+2025-06-28 05:01:57,529 - src.data.trading_system - INFO - Closed short position in LT.NS at $3641.14, P&L: $-48.18 (-2.45%)
+2025-06-28 05:01:57,546 - src.data.trading_system - INFO - Completed LT.NS: Trades: 3, P&L: $-3.33
+2025-06-28 05:01:57,547 - src.data.trading_system - INFO - 
+Processing SBIN.NS...
+2025-06-28 05:01:57,573 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $795.67, Shares: 2.47, Size: $1965.19
+2025-06-28 05:01:57,573 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 795.6732788085938
+2025-06-28 05:01:57,587 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $767.10, P&L: $-70.58 (-3.59%)
+2025-06-28 05:01:57,589 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $768.81, Shares: 2.55, Size: $1963.78
+2025-06-28 05:01:57,589 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 768.8125610351562
+2025-06-28 05:01:57,608 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $804.25, P&L: $90.52 (4.61%)
+2025-06-28 05:01:57,650 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $783.91, Shares: 2.51, Size: $1965.59
+2025-06-28 05:01:57,650 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 783.9094848632812
+2025-06-28 05:01:57,661 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $761.12, P&L: $-57.15 (-2.91%)
+2025-06-28 05:01:57,669 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $715.14, Shares: 2.75, Size: $1964.45
+2025-06-28 05:01:57,669 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 715.1403198242188
+2025-06-28 05:01:57,672 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $751.22, P&L: $99.10 (5.04%)
+2025-06-28 05:01:57,732 - src.data.trading_system - INFO - Opened short position in SBIN.NS at $765.43, Shares: 2.57, Size: $1966.43
+2025-06-28 05:01:57,733 - src.data.trading_system - INFO - Opened short position in SBIN.NS at 765.4304809570312
+2025-06-28 05:01:57,742 - src.data.trading_system - INFO - Closed short position in SBIN.NS at $732.20, P&L: $85.38 (4.34%)
+2025-06-28 05:01:57,785 - src.data.trading_system - INFO - Completed SBIN.NS: Trades: 5, P&L: $147.27
+2025-06-28 05:01:57,785 - src.data.trading_system - INFO - 
+Processing TCS.NS...
+2025-06-28 05:01:57,813 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4391.70, Shares: 0.45, Size: $1968.14
+2025-06-28 05:01:57,814 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4391.7041015625
+2025-06-28 05:01:57,821 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4181.28, P&L: $94.30 (4.79%)
+2025-06-28 05:01:57,822 - src.data.trading_system - INFO - Opened long position in TCS.NS at $4181.28, Shares: 0.47, Size: $1970.02
+2025-06-28 05:01:57,823 - src.data.trading_system - INFO - Opened long position in TCS.NS at 4181.2841796875
+2025-06-28 05:01:57,833 - src.data.trading_system - INFO - Closed long position in TCS.NS at $4038.26, P&L: $-67.38 (-3.42%)
+2025-06-28 05:01:57,836 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3985.46, Shares: 0.49, Size: $1968.68
+2025-06-28 05:01:57,836 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3985.463623046875
+2025-06-28 05:01:57,851 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3871.77, P&L: $-56.16 (-2.85%)
+2025-06-28 05:01:57,863 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4209.97, Shares: 0.47, Size: $1967.55
+2025-06-28 05:01:57,864 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4209.97314453125
+2025-06-28 05:01:57,868 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4355.29, P&L: $-67.92 (-3.45%)
+2025-06-28 05:01:57,900 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3928.63, Shares: 0.50, Size: $1966.19
+2025-06-28 05:01:57,901 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3928.631103515625
+2025-06-28 05:01:57,905 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3839.08, P&L: $-44.82 (-2.28%)
+2025-06-28 05:01:57,907 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3750.76, Shares: 0.52, Size: $1965.30
+2025-06-28 05:01:57,908 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3750.761962890625
+2025-06-28 05:01:57,911 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3643.22, P&L: $-56.35 (-2.87%)
+2025-06-28 05:01:57,912 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3643.22, Shares: 0.54, Size: $1964.17
+2025-06-28 05:01:57,913 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3643.218017578125
+2025-06-28 05:01:57,916 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3452.56, P&L: $-102.79 (-5.23%)
+2025-06-28 05:01:57,919 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3452.56, Shares: 0.57, Size: $1962.12
+2025-06-28 05:01:57,919 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3452.5625
+2025-06-28 05:01:57,929 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3596.98, P&L: $82.07 (4.18%)
+2025-06-28 05:01:57,941 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3285.20, Shares: 0.60, Size: $1963.76
+2025-06-28 05:01:57,941 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3285.199951171875
+2025-06-28 05:01:57,943 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3417.62, P&L: $79.16 (4.03%)
+2025-06-28 05:01:57,950 - src.data.trading_system - INFO - Opened short position in TCS.NS at $3588.50, Shares: 0.55, Size: $1965.34
+2025-06-28 05:01:57,951 - src.data.trading_system - INFO - Opened short position in TCS.NS at 3588.50390625
+2025-06-28 05:01:57,960 - src.data.trading_system - INFO - Closed short position in TCS.NS at $3432.89, P&L: $85.23 (4.34%)
+2025-06-28 05:01:57,974 - src.data.trading_system - INFO - Completed TCS.NS: Trades: 10, P&L: $-54.66
+2025-06-28 05:01:57,974 - src.data.trading_system - INFO - 
+Processing BHARTIARTL.NS...
+2025-06-28 05:01:57,987 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1506.01, Shares: 1.31, Size: $1967.04
+2025-06-28 05:01:57,987 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1506.00732421875
+2025-06-28 05:01:57,991 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1435.55, P&L: $92.03 (4.68%)
+2025-06-28 05:01:58,001 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1522.75, Shares: 1.29, Size: $1968.89
+2025-06-28 05:01:58,001 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1522.75
+2025-06-28 05:01:58,002 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1556.35, P&L: $-43.44 (-2.21%)
+2025-06-28 05:01:58,003 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1556.35, Shares: 1.26, Size: $1968.02
+2025-06-28 05:01:58,003 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1556.3499755859375
+2025-06-28 05:01:58,004 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1589.05, P&L: $-41.35 (-2.10%)
+2025-06-28 05:01:58,005 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1589.05, Shares: 1.24, Size: $1967.19
+2025-06-28 05:01:58,005 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1589.050048828125
+2025-06-28 05:01:58,012 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1646.75, P&L: $-71.43 (-3.63%)
+2025-06-28 05:01:58,013 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1646.75, Shares: 1.19, Size: $1965.76
+2025-06-28 05:01:58,013 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1646.75
+2025-06-28 05:01:58,016 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1711.75, P&L: $-77.59 (-3.95%)
+2025-06-28 05:01:58,017 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1711.75, Shares: 1.15, Size: $1964.21
+2025-06-28 05:01:58,018 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1711.75
+2025-06-28 05:01:58,018 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1750.45, P&L: $-44.41 (-2.26%)
+2025-06-28 05:01:58,019 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1750.45, Shares: 1.12, Size: $1963.32
+2025-06-28 05:01:58,019 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1750.449951171875
+2025-06-28 05:01:58,024 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1673.45, P&L: $86.36 (4.40%)
+2025-06-28 05:01:58,039 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1612.60, Shares: 1.22, Size: $1965.05
+2025-06-28 05:01:58,039 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1612.5999755859375
+2025-06-28 05:01:58,040 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1578.40, P&L: $-41.67 (-2.12%)
+2025-06-28 05:01:58,041 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1578.40, Shares: 1.24, Size: $1964.21
+2025-06-28 05:01:58,041 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1578.4000244140625
+2025-06-28 05:01:58,046 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1537.00, P&L: $-51.52 (-2.62%)
+2025-06-28 05:01:58,098 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1725.80, Shares: 1.14, Size: $1963.18
+2025-06-28 05:01:58,099 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1725.800048828125
+2025-06-28 05:01:58,107 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1798.80, P&L: $-83.04 (-4.23%)
+2025-06-28 05:01:58,110 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1889.10, Shares: 1.04, Size: $1961.52
+2025-06-28 05:01:58,110 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1889.0999755859375
+2025-06-28 05:01:58,123 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1808.90, P&L: $83.27 (4.25%)
+2025-06-28 05:01:58,139 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1936.70, Shares: 1.01, Size: $1963.19
+2025-06-28 05:01:58,139 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1936.699951171875
+2025-06-28 05:01:58,141 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $2014.30, P&L: $-78.66 (-4.01%)
+2025-06-28 05:01:58,142 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $2014.30, Shares: 0.97, Size: $1961.62
+2025-06-28 05:01:58,142 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 2014.300048828125
+2025-06-28 05:01:58,144 - src.data.trading_system - INFO - Completed BHARTIARTL.NS: Trades: 12, P&L: $-271.46
+2025-06-28 05:01:59,208 - src.data.trading_system - INFO - 
+Performance report generated: None
+2025-06-28 05:01:59,208 - src.data.trading_system - INFO - 
+Starting backtest for all symbols
+2025-06-28 05:01:59,208 - src.data.trading_system - INFO - Period: 2024-06-28 to 2025-06-28
+2025-06-28 05:01:59,210 - src.data.trading_system - INFO - 
+Processing TCS.NS...
+2025-06-28 05:01:59,239 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4391.70, Shares: 0.44, Size: $1922.38
+2025-06-28 05:01:59,239 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4391.7041015625
+2025-06-28 05:01:59,247 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4181.28, P&L: $92.11 (4.79%)
+2025-06-28 05:01:59,248 - src.data.trading_system - INFO - Opened long position in TCS.NS at $4181.28, Shares: 0.46, Size: $1924.23
+2025-06-28 05:01:59,248 - src.data.trading_system - INFO - Opened long position in TCS.NS at 4181.2841796875
+2025-06-28 05:01:59,258 - src.data.trading_system - INFO - Closed long position in TCS.NS at $4038.26, P&L: $-65.82 (-3.42%)
+2025-06-28 05:01:59,261 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3985.46, Shares: 0.48, Size: $1922.91
+2025-06-28 05:01:59,261 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3985.463623046875
+2025-06-28 05:01:59,269 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3871.77, P&L: $-54.86 (-2.85%)
+2025-06-28 05:01:59,284 - src.data.trading_system - INFO - Opened short position in TCS.NS at $4209.97, Shares: 0.46, Size: $1921.81
+2025-06-28 05:01:59,285 - src.data.trading_system - INFO - Opened short position in TCS.NS at 4209.97314453125
+2025-06-28 05:01:59,295 - src.data.trading_system - INFO - Closed short position in TCS.NS at $4355.29, P&L: $-66.34 (-3.45%)
+2025-06-28 05:01:59,328 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3928.63, Shares: 0.49, Size: $1920.49
+2025-06-28 05:01:59,328 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3928.631103515625
+2025-06-28 05:01:59,331 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3839.08, P&L: $-43.78 (-2.28%)
+2025-06-28 05:01:59,332 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3750.76, Shares: 0.51, Size: $1919.61
+2025-06-28 05:01:59,332 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3750.761962890625
+2025-06-28 05:01:59,334 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3643.22, P&L: $-55.04 (-2.87%)
+2025-06-28 05:01:59,335 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3643.22, Shares: 0.53, Size: $1918.51
+2025-06-28 05:01:59,336 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3643.218017578125
+2025-06-28 05:01:59,338 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3452.56, P&L: $-100.40 (-5.23%)
+2025-06-28 05:01:59,339 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3452.56, Shares: 0.56, Size: $1916.50
+2025-06-28 05:01:59,339 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3452.5625
+2025-06-28 05:01:59,350 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3596.98, P&L: $80.16 (4.18%)
+2025-06-28 05:01:59,362 - src.data.trading_system - INFO - Opened long position in TCS.NS at $3285.20, Shares: 0.58, Size: $1918.10
+2025-06-28 05:01:59,363 - src.data.trading_system - INFO - Opened long position in TCS.NS at 3285.199951171875
+2025-06-28 05:01:59,364 - src.data.trading_system - INFO - Closed long position in TCS.NS at $3417.62, P&L: $77.32 (4.03%)
+2025-06-28 05:01:59,372 - src.data.trading_system - INFO - Opened short position in TCS.NS at $3588.50, Shares: 0.53, Size: $1919.65
+2025-06-28 05:01:59,372 - src.data.trading_system - INFO - Opened short position in TCS.NS at 3588.50390625
+2025-06-28 05:01:59,381 - src.data.trading_system - INFO - Closed short position in TCS.NS at $3432.89, P&L: $83.25 (4.34%)
+2025-06-28 05:01:59,395 - src.data.trading_system - INFO - Completed TCS.NS: Trades: 10, P&L: $-53.39
+2025-06-28 05:01:59,395 - src.data.trading_system - INFO - 
+Processing RELIANCE.NS...
+2025-06-28 05:01:59,435 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1370.72, Shares: 1.40, Size: $1921.32
+2025-06-28 05:01:59,435 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1370.7249755859375
+2025-06-28 05:01:59,443 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1338.53, P&L: $-45.13 (-2.35%)
+2025-06-28 05:01:59,453 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1283.75, Shares: 1.50, Size: $1920.41
+2025-06-28 05:01:59,453 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1283.75
+2025-06-28 05:01:59,455 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1252.05, P&L: $-47.42 (-2.47%)
+2025-06-28 05:01:59,455 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1252.05, Shares: 1.53, Size: $1919.46
+2025-06-28 05:01:59,456 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1252.050048828125
+2025-06-28 05:01:59,458 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1223.00, P&L: $-44.54 (-2.32%)
+2025-06-28 05:01:59,459 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1223.00, Shares: 1.57, Size: $1918.57
+2025-06-28 05:01:59,459 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1223.0
+2025-06-28 05:01:59,460 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1287.00, P&L: $100.40 (5.23%)
+2025-06-28 05:01:59,475 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1205.30, Shares: 1.59, Size: $1920.58
+2025-06-28 05:01:59,475 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1205.300048828125
+2025-06-28 05:01:59,485 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1265.50, P&L: $95.93 (4.99%)
+2025-06-28 05:01:59,490 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.35, Shares: 1.48, Size: $1922.50
+2025-06-28 05:01:59,490 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.3499755859375
+2025-06-28 05:01:59,494 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1246.30, P&L: $82.74 (4.30%)
+2025-06-28 05:01:59,511 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at $1171.25, Shares: 1.64, Size: $1924.15
+2025-06-28 05:01:59,512 - src.data.trading_system - INFO - Opened long position in RELIANCE.NS at 1171.25
+2025-06-28 05:01:59,514 - src.data.trading_system - INFO - Closed long position in RELIANCE.NS at $1249.80, P&L: $129.04 (6.71%)
+2025-06-28 05:01:59,522 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1302.10, Shares: 1.48, Size: $1926.74
+2025-06-28 05:01:59,522 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1302.0999755859375
+2025-06-28 05:01:59,526 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1248.70, P&L: $79.02 (4.10%)
+2025-06-28 05:01:59,537 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1368.80, Shares: 1.41, Size: $1928.32
+2025-06-28 05:01:59,537 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1368.800048828125
+2025-06-28 05:01:59,537 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1399.70, P&L: $-43.53 (-2.26%)
+2025-06-28 05:01:59,538 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at $1399.70, Shares: 1.38, Size: $1927.45
+2025-06-28 05:01:59,538 - src.data.trading_system - INFO - Opened short position in RELIANCE.NS at 1399.699951171875
+2025-06-28 05:01:59,540 - src.data.trading_system - INFO - Closed short position in RELIANCE.NS at $1431.30, P&L: $-43.51 (-2.26%)
+2025-06-28 05:01:59,565 - src.data.trading_system - INFO - Completed RELIANCE.NS: Trades: 10, P&L: $262.99
+2025-06-28 05:01:59,565 - src.data.trading_system - INFO - 
+Processing INFY.NS...
+2025-06-28 05:01:59,566 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1527.62, P&L: $126.88 (6.34%)
+2025-06-28 05:01:59,617 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1732.87, Shares: 1.14, Size: $1969.11
+2025-06-28 05:01:59,617 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1732.868408203125
+2025-06-28 05:01:59,621 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1804.56, P&L: $81.46 (4.14%)
+2025-06-28 05:01:59,667 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1739.62, Shares: 1.13, Size: $1970.74
+2025-06-28 05:01:59,667 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1739.623291015625
+2025-06-28 05:01:59,669 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1664.28, P&L: $-85.35 (-4.33%)
+2025-06-28 05:01:59,669 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1664.28, Shares: 1.18, Size: $1969.03
+2025-06-28 05:01:59,670 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1664.2833251953125
+2025-06-28 05:01:59,674 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1568.78, P&L: $-112.99 (-5.74%)
+2025-06-28 05:01:59,675 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1568.78, Shares: 1.25, Size: $1966.77
+2025-06-28 05:01:59,676 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1568.777099609375
+2025-06-28 05:01:59,686 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1505.32, P&L: $-79.56 (-4.05%)
+2025-06-28 05:01:59,691 - src.data.trading_system - INFO - Opened long position in INFY.NS at $1377.37, Shares: 1.43, Size: $1965.18
+2025-06-28 05:01:59,691 - src.data.trading_system - INFO - Opened long position in INFY.NS at 1377.3702392578125
+2025-06-28 05:01:59,699 - src.data.trading_system - INFO - Closed long position in INFY.NS at $1454.44, P&L: $109.95 (5.60%)
+2025-06-28 05:01:59,709 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1604.33, Shares: 1.23, Size: $1967.38
+2025-06-28 05:01:59,709 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1604.3270263671875
+2025-06-28 05:01:59,712 - src.data.trading_system - INFO - Closed short position in INFY.NS at $1538.16, P&L: $81.14 (4.12%)
+2025-06-28 05:01:59,728 - src.data.trading_system - INFO - Opened short position in INFY.NS at $1631.10, Shares: 1.21, Size: $1969.00
+2025-06-28 05:01:59,728 - src.data.trading_system - INFO - Opened short position in INFY.NS at 1631.0999755859375
+2025-06-28 05:01:59,742 - src.data.trading_system - INFO - Completed INFY.NS: Trades: 7, P&L: $121.54
+2025-06-28 05:01:59,743 - src.data.trading_system - INFO - 
+Processing SBIN.NS...
+2025-06-28 05:01:59,772 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $795.67, Shares: 2.43, Size: $1929.62
+2025-06-28 05:01:59,773 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 795.6732788085938
+2025-06-28 05:01:59,796 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $767.10, P&L: $-69.30 (-3.59%)
+2025-06-28 05:01:59,798 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $768.81, Shares: 2.51, Size: $1928.24
+2025-06-28 05:01:59,798 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 768.8125610351562
+2025-06-28 05:01:59,816 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $804.25, P&L: $88.88 (4.61%)
+2025-06-28 05:01:59,845 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $783.91, Shares: 2.46, Size: $1930.02
+2025-06-28 05:01:59,845 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 783.9094848632812
+2025-06-28 05:01:59,848 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $761.12, P&L: $-56.12 (-2.91%)
+2025-06-28 05:01:59,853 - src.data.trading_system - INFO - Opened long position in SBIN.NS at $715.14, Shares: 2.70, Size: $1928.89
+2025-06-28 05:01:59,853 - src.data.trading_system - INFO - Opened long position in SBIN.NS at 715.1403198242188
+2025-06-28 05:01:59,855 - src.data.trading_system - INFO - Closed long position in SBIN.NS at $751.22, P&L: $97.30 (5.04%)
+2025-06-28 05:01:59,884 - src.data.trading_system - INFO - Opened short position in SBIN.NS at $765.43, Shares: 2.52, Size: $1930.84
+2025-06-28 05:01:59,885 - src.data.trading_system - INFO - Opened short position in SBIN.NS at 765.4304809570312
+2025-06-28 05:01:59,890 - src.data.trading_system - INFO - Closed short position in SBIN.NS at $732.20, P&L: $83.83 (4.34%)
+2025-06-28 05:01:59,924 - src.data.trading_system - INFO - Completed SBIN.NS: Trades: 5, P&L: $144.60
+2025-06-28 05:01:59,924 - src.data.trading_system - INFO - 
+Processing LT.NS...
+2025-06-28 05:02:00,015 - src.data.trading_system - INFO - Opened short position in LT.NS at $3910.83, Shares: 0.49, Size: $1932.52
+2025-06-28 05:02:00,016 - src.data.trading_system - INFO - Opened short position in LT.NS at 3910.826416015625
+2025-06-28 05:02:00,029 - src.data.trading_system - INFO - Closed short position in LT.NS at $3723.42, P&L: $92.60 (4.79%)
+2025-06-28 05:02:00,078 - src.data.trading_system - INFO - Opened short position in LT.NS at $3384.39, Shares: 0.57, Size: $1934.37
+2025-06-28 05:02:00,078 - src.data.trading_system - INFO - Opened short position in LT.NS at 3384.385986328125
+2025-06-28 05:02:00,082 - src.data.trading_system - INFO - Closed short position in LT.NS at $3469.24, P&L: $-48.50 (-2.51%)
+2025-06-28 05:02:00,099 - src.data.trading_system - INFO - Opened short position in LT.NS at $3554.05, Shares: 0.54, Size: $1933.40
+2025-06-28 05:02:00,100 - src.data.trading_system - INFO - Opened short position in LT.NS at 3554.0537109375
+2025-06-28 05:02:00,109 - src.data.trading_system - INFO - Closed short position in LT.NS at $3641.14, P&L: $-47.38 (-2.45%)
+2025-06-28 05:02:00,124 - src.data.trading_system - INFO - Completed LT.NS: Trades: 3, P&L: $-3.27
+2025-06-28 05:02:00,124 - src.data.trading_system - INFO - 
+Processing BHARTIARTL.NS...
+2025-06-28 05:02:00,125 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1436.05, P&L: $563.13 (28.71%)
+2025-06-28 05:02:00,138 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1506.01, Shares: 1.32, Size: $1982.95
+2025-06-28 05:02:00,138 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1506.00732421875
+2025-06-28 05:02:00,142 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1435.55, P&L: $92.77 (4.68%)
+2025-06-28 05:02:00,153 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1522.75, Shares: 1.30, Size: $1984.80
+2025-06-28 05:02:00,153 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1522.75
+2025-06-28 05:02:00,153 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1556.35, P&L: $-43.80 (-2.21%)
+2025-06-28 05:02:00,155 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1556.35, Shares: 1.27, Size: $1983.92
+2025-06-28 05:02:00,155 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1556.3499755859375
+2025-06-28 05:02:00,156 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1589.05, P&L: $-41.68 (-2.10%)
+2025-06-28 05:02:00,157 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1589.05, Shares: 1.25, Size: $1983.09
+2025-06-28 05:02:00,157 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1589.050048828125
+2025-06-28 05:02:00,164 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1646.75, P&L: $-72.01 (-3.63%)
+2025-06-28 05:02:00,164 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1646.75, Shares: 1.20, Size: $1981.65
+2025-06-28 05:02:00,165 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1646.75
+2025-06-28 05:02:00,169 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1711.75, P&L: $-78.22 (-3.95%)
+2025-06-28 05:02:00,170 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1711.75, Shares: 1.16, Size: $1980.09
+2025-06-28 05:02:00,171 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1711.75
+2025-06-28 05:02:00,171 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1750.45, P&L: $-44.77 (-2.26%)
+2025-06-28 05:02:00,172 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1750.45, Shares: 1.13, Size: $1979.19
+2025-06-28 05:02:00,172 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1750.449951171875
+2025-06-28 05:02:00,179 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1673.45, P&L: $87.06 (4.40%)
+2025-06-28 05:02:00,192 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1612.60, Shares: 1.23, Size: $1980.93
+2025-06-28 05:02:00,193 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1612.5999755859375
+2025-06-28 05:02:00,194 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1578.40, P&L: $-42.01 (-2.12%)
+2025-06-28 05:02:00,195 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at $1578.40, Shares: 1.25, Size: $1980.09
+2025-06-28 05:02:00,195 - src.data.trading_system - INFO - Opened long position in BHARTIARTL.NS at 1578.4000244140625
+2025-06-28 05:02:00,200 - src.data.trading_system - INFO - Closed long position in BHARTIARTL.NS at $1537.00, P&L: $-51.94 (-2.62%)
+2025-06-28 05:02:00,252 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1725.80, Shares: 1.15, Size: $1979.05
+2025-06-28 05:02:00,252 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1725.800048828125
+2025-06-28 05:02:00,264 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1798.80, P&L: $-83.71 (-4.23%)
+2025-06-28 05:02:00,267 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1889.10, Shares: 1.05, Size: $1977.38
+2025-06-28 05:02:00,268 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1889.0999755859375
+2025-06-28 05:02:00,290 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $1808.90, P&L: $83.95 (4.25%)
+2025-06-28 05:02:00,306 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $1936.70, Shares: 1.02, Size: $1979.06
+2025-06-28 05:02:00,306 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 1936.699951171875
+2025-06-28 05:02:00,308 - src.data.trading_system - INFO - Closed short position in BHARTIARTL.NS at $2014.30, P&L: $-79.30 (-4.01%)
+2025-06-28 05:02:00,309 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at $2014.30, Shares: 0.98, Size: $1977.47
+2025-06-28 05:02:00,309 - src.data.trading_system - INFO - Opened short position in BHARTIARTL.NS at 2014.300048828125
+2025-06-28 05:02:00,311 - src.data.trading_system - INFO - Completed BHARTIARTL.NS: Trades: 13, P&L: $289.48
+2025-06-28 05:02:01,455 - src.data.trading_system - INFO - 
+Performance report generated: None
