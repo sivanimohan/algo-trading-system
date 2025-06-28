@@ -6,6 +6,7 @@ Author: sivanimohan
 
 from typing import Dict, List, Optional, Any
 import pandas as pd
+
 import numpy as np
 from datetime import datetime, timedelta, UTC
 import logging
@@ -13,6 +14,8 @@ import os
 import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from functools import lru_cache
+import os
+from dotenv import load_dotenv
 
 from src.data.stock_data import StockDataFetcher
 from src.data.technical_indicators import TechnicalIndicators
@@ -56,7 +59,7 @@ class TradingSystem:
         self.sheets_logger = None
         if use_sheets:
             try:
-                credentials_path = os.path.join(os.path.dirname(__file__), 'credentials.json')
+                credentials_path =  os.getenv("GOOGLE_CREDENTIALS_PATH")
                 self.sheets_logger = GoogleSheetsLogger(credentials_path)
                 self.logger.info("✅ Google Sheets logging enabled")
                 self.logger.info(f"Connected to: {self.sheets_logger.get_spreadsheet_url()}")

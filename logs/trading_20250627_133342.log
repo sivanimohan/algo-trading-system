@@ -1,4 +1,0 @@
-2025-06-27 13:33:44,716 - src.data.google_sheets_logger - INFO - gspread worksheet opened successfully.
-2025-06-27 13:33:44,720 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-06-27 13:33:44,724 - src.data.google_sheets_logger - INFO - Google Sheets API service initialized.
-2025-06-27 13:50:49,126 - src.data.google_sheets_logger - ERROR - gspread initialization failed: APIError: [503]: The service is currently unavailable.

@@ -2,7 +2,7 @@
 .env
 
 # Google API credentials
-credentials.json
+src/data/credentials.json
 
 # Python
 __pycache__/

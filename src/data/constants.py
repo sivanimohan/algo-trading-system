@@ -2,7 +2,12 @@
 Trading System Constants
 Last Updated: 2025-06-26 15:46:30 UTC
 Author: sivanimohan
+
 """
+import os
+from dotenv import load_dotenv
+
+load_dotenv() 
 
 # Trading symbols (10 popular Nifty 50 stocks, Yahoo Finance format)
 SYMBOLS = [
@@ -37,7 +42,7 @@ MARKET_TIMEZONE = 'Asia/Kolkata'
 
 # Google Sheets configuration
 SPREADSHEET_ID = '1yhmCMKFpMsjvsEfRzzXZWXCaU7Mao8bYt1MSK7r-12A'
-CREDENTIALS_PATH = 'credentials.json'
+CREDENTIALS_PATH = os.getenv("GOOGLE_CREDENTIALS_PATH")
 
 # Logging configuration
 LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'

@@ -6,6 +6,8 @@ Author: sivanimohan
 
 import streamlit as st
 import pandas as pd
+import os
+from dotenv import load_dotenv
 import json
 import os
 import getpass
@@ -363,7 +365,7 @@ if st.button(f"🚦 Run {mode}", help="Run Backtest or Live Trading including ML
 with st.expander("🗒️ Preview Google Sheets Trade Log (if enabled)"):
     try:
         from src.data.google_sheets_logger import GoogleSheetsLogger
-        creds_path = "src/data/credentials.json"
+        creds_path = os.getenv("GOOGLE_CREDENTIALS_PATH")
         logger = GoogleSheetsLogger(creds_path)
         sheet_records = logger.sheet.get_all_records()
         st.write(pd.DataFrame(sheet_records))
